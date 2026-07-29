@@ -31,7 +31,17 @@ main.container { padding-top: 34px; }
   color: var(--ink-soft);
   margin-bottom: 10px;
 }
-.modul-bas::after { content: ''; flex: 1; height: 1px; background: var(--line); }
+.modul-ad { flex-shrink: 0; }
+.modul-bas::after { content: ''; flex: 1; height: 1px; background: var(--line); order: 2; }
+.modul-say {
+  order: 3;
+  font-size: 10.5px;
+  font-weight: 600;
+  letter-spacing: .04em;
+  text-transform: none;
+  color: var(--muted);
+  white-space: nowrap;
+}
 .modul-kod {
   background: var(--red);
   color: var(--white);
@@ -41,12 +51,17 @@ main.container { padding-top: 34px; }
   letter-spacing: .06em;
 }
 
-.hazirlanan {
-  font-size: 12px;
-  color: var(--muted);
-  line-height: 1.6;
-  margin-top: 8px;
+.deste-card.bos {
+  background: transparent;
+  border-style: dashed;
+  border-color: var(--line);
+  opacity: .72;
 }
+.deste-card.bos:hover { border-color: var(--line); }
+.deste-card.bos .deste-icon { background: transparent; border: 1px dashed var(--line-strong); color: var(--line-strong); }
+.deste-card.bos .deste-kod { color: var(--muted); }
+.deste-card.bos h3 { font-weight: 600; color: var(--ink-soft); }
+.deste-card.bos .deste-check { opacity: .3; }
 
 .deste-kod {
   display: inline-block;

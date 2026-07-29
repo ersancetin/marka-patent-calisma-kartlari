@@ -6,7 +6,7 @@
 
 <p align="center">
   Marka ve Patent Vekilliği Sınavı'na hazırlananlar için <strong>%100 tarayıcıda çalışan</strong>,
-  ücretsiz ve açık kaynak soru–cevap kartları.<br>
+  ücretsiz ve açık kaynak <strong>753 soru–cevap kartı</strong>.<br>
   Üyelik yok, çerez yok, veri toplanmaz.
 </p>
 
@@ -45,36 +45,70 @@ ve aynı ilkeyi paylaşır: **her şey kullanıcının tarayıcısında çalış
 İçerik, **Marka & Patent Vekilliği Sınavı konu taksonomisine** göre düzenlenmiştir:
 `Modül (A–E) → Konu (A1, D3, E1 …) → Kart (alt konu kodlu)`
 
-| Modül | Kapsam | Durum |
-|---|---|---|
-| **A** Genel Hukuk | A1 Türk Ticaret Kanunu · A2 Türk Medeni Kanunu · A3 Türk Borçlar Kanunu | **A1 hazır (208 kart)** |
-| **B** Kurum ve Uluslararası Çerçeve | B1 TÜRKPATENT · B2 Vekillik Mevzuatı · B3 Uluslararası Anlaşmalar | hazırlanıyor |
-| **C** Tasarım Hukuku | C1–C6 | hazırlanıyor |
-| **D** Marka Hukuku | D1–D12 | hazırlanıyor |
-| **E** Patent Hukuku | E1–E11 | hazırlanıyor |
+Toplam **753 kart**, **5 modül**, **35 konu**.
 
-Kartı olmayan konular sitede "Hazırlanıyor" satırında listelenir; ilk kart eklendiğinde
-kendiliğinden çalışılabilir hâle gelir.
+### Modül A — Genel Hukuk (288 kart)
 
-### A1 — Türk Ticaret Kanunu (208 kart)
-
-| Alt konu | Kart |
+| Konu | Kart |
 |---|---|
-| A1.1 Ticari işletme kavramı ve unsurları | 12 |
-| A1.2 Tacir sıfatı ve tacir olmanın sonuçları | 35 |
-| A1.3 Ticari iş, ticari hüküm, ticari davalar | 16 |
-| A1.4 Ticaret unvanı — seçimi ve ekler | 14 |
-| A1.5 Ticaret unvanının korunması ve devri | 9 |
-| A1.6 İşletme adı | 6 |
-| A1.7 Unvan ↔ işletme adı ↔ marka ayrımı | 7 |
-| A1.8 Haksız rekabet — genel hüküm ve özel haller | 17 |
-| A1.9 Haksız rekabette davalar ve zamanaşımı | 17 |
-| A1.10 Ticari işletmenin devri ve rehni | 15 |
-| A1.11 Ticaret sicili ve tescilin etkileri | 25 |
-| A1.12 Diğer TTK hükümleri (acente, cari hesap, kıymetli evrak, şirketler) | 35 |
+| **A1** Türk Ticaret Kanunu | 208 |
+| **A2** Türk Medeni Kanunu | 46 |
+| **A3** Türk Borçlar Kanunu | 34 |
 
-> **Not:** Kartlar bir çalışma aracıdır; hukuki görüş veya güncel mevzuat metni yerine geçmez.
-> Mevzuat değişebilir — atıfları güncel metinden doğrulayınız.
+### Modül B — Kurum ve Uluslararası Çerçeve (49 kart)
+
+| Konu | Kart |
+|---|---|
+| **B1** TÜRKPATENT | 12 |
+| **B2** Vekillik Mevzuatı | 14 |
+| **B3** Uluslararası Anlaşmalar | 23 |
+
+### Modül C — Tasarım Hukuku (71 kart)
+
+| Konu | Kart |
+|---|---|
+| **C1** Temel Kavramlar | 12 |
+| **C2** Koruma Şartları | 16 |
+| **C3** Başvuru ve Tescil Süreci | 17 |
+| **C4** Süreler ve Hak Kaybı | 7 |
+| **C5** Hak Sahipliği ve İhlal | 13 |
+| **C6** Lahey Sistemi | 6 |
+
+### Modül D — Marka Hukuku (185 kart)
+
+| Konu | Kart |
+|---|---|
+| **D1** Marka Kavramı ve Türleri | 17 |
+| **D2** Başvuru Süreçleri ve Şekli Şartlar | 16 |
+| **D3** Mutlak Ret Nedenleri (m.5) | 21 |
+| **D4** Nispi Ret Nedenleri (m.6) | 24 |
+| **D5** İtiraz ve İnceleme Süreçleri | 12 |
+| **D6** Tescil Sonrası İşlemler | 13 |
+| **D7** Marka Hakkının Kapsamı ve Sınırları | 11 |
+| **D8** Markanın Kullanılması ve İptal | 14 |
+| **D9** Hükümsüzlük ve Sona Erme | 12 |
+| **D10** Marka Hakkına Tecavüz | 13 |
+| **D11** Madrid Protokolü | 14 |
+| **D12** Coğrafi İşaret ve Geleneksel Ürün Adı | 18 |
+
+### Modül E — Patent Hukuku (160 kart)
+
+| Konu | Kart |
+|---|---|
+| **E1** Patentlenebilirlik Kriterleri | 25 |
+| **E2** Araştırma Raporu ve Doküman Kategorileri | 12 |
+| **E3** Başvuru, Şekli Şartlar ve Belgeler | 21 |
+| **E4** İnceleme ve Belgelendirme | 11 |
+| **E5** Faydalı Model | 11 |
+| **E6** Ücretler ve Hakların Yeniden Tesisi | 14 |
+| **E7** Uluslararası Başvurular (PCT, EPC) | 14 |
+| **E8** Hak Sahipliği ve Çalışan Buluşları | 17 |
+| **E9** Tecavüz ve Hükümsüzlük | 16 |
+| **E10** Lisans ve Zorunlu Lisans | 13 |
+| **E11** Entegre Devre Topoğrafyaları | 6 |
+
+> **Not:** Kartlar bir çalışma aracıdır; hukuki görüş veya güncel mevzuat metni yerine
+> geçmez. Mevzuat değişebilir — atıfları güncel metinden doğrulayınız.
 
 ## Veri güvenliği ve KVKK
 

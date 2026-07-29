@@ -96,33 +96,26 @@
     kap.innerHTML = '';
     moduller.forEach(function (mo) {
       var konular = mo.konular || [];
-      var dolu = konular.filter(function (k) { return (k.kartlar || []).length > 0; });
-      var bos = konular.filter(function (k) { return !(k.kartlar || []).length; });
       if (!konular.length) return;
+
+      var hazir = konular.filter(function (k) { return (k.kartlar || []).length > 0; }).length;
+      var kartSayisi = konular.reduce(function (n, k) { return n + (k.kartlar || []).length; }, 0);
 
       var bolum = document.createElement('section');
       bolum.className = 'modul';
 
-      var bas = document.createElement('h2');
+      var bas = document.createElement('div');
       bas.className = 'modul-bas';
-      bas.innerHTML = '<span class="modul-kod">' + mo.kod + '</span>' + mo.ad;
+      bas.innerHTML =
+        '<span class="modul-kod">' + mo.kod + '</span>' +
+        '<span class="modul-ad">' + mo.ad + '</span>' +
+        '<span class="modul-say">' + hazir + '/' + konular.length + ' konu · ' + kartSayisi + ' kart</span>';
       bolum.appendChild(bas);
 
-      if (dolu.length) {
-        var izgara = document.createElement('div');
-        izgara.className = 'deste-grid';
-        dolu.forEach(function (k) { izgara.appendChild(desteKarti(k, mo)); });
-        bolum.appendChild(izgara);
-      }
-
-      if (bos.length) {
-        var not = document.createElement('p');
-        not.className = 'hazirlanan';
-        not.textContent = 'Hazırlanıyor: ' + bos.map(function (k) {
-          return k.kod + ' ' + k.ad;
-        }).join(' · ');
-        bolum.appendChild(not);
-      }
+      var izgara = document.createElement('div');
+      izgara.className = 'deste-grid';
+      konular.forEach(function (k) { izgara.appendChild(desteKarti(k)); });
+      bolum.appendChild(izgara);
 
       kap.appendChild(bolum);
     });
@@ -130,24 +123,25 @@
     secimGuncelle();
   }
 
-  function desteKarti(k, mo) {
+  function desteKarti(k) {
     var adet = (k.kartlar || []).length;
     var btn = document.createElement('button');
     btn.type = 'button';
-    btn.className = 'deste-card';
+    btn.className = 'deste-card' + (adet ? '' : ' bos');
     btn.dataset.id = k.kod;
+    btn.disabled = adet === 0;
     btn.setAttribute('aria-pressed', 'false');
     btn.innerHTML =
       '<span class="deste-icon">' + ikonSvg(k.ikon, 19) + '</span>' +
       '<span class="deste-body">' +
         '<h3><span class="deste-kod">' + k.kod + '</span>' + k.ad + '</h3>' +
-        '<span class="deste-meta">' + adet + ' kart</span>' +
+        '<span class="deste-meta">' + (adet ? adet + ' kart' : 'hazırlanıyor') + '</span>' +
       '</span>' +
       '<span class="deste-check">' +
         '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.4" ' +
         'stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5l5 5L20 6.5"/></svg>' +
       '</span>';
-    btn.addEventListener('click', function () { desteSec(k.kod, btn); });
+    if (adet) btn.addEventListener('click', function () { desteSec(k.kod, btn); });
     return btn;
   }
 
