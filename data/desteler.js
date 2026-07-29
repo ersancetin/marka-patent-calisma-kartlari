@@ -343,7 +343,29 @@ window.KARTLAR = {
         { alt: "A2.8", soru: "Marka hukukunda kötüniyet iddiası hangi genel ilkeyle bağlantılıdır?", cevap: "<b>Dürüstlük kuralı</b> ve hakkın kötüye kullanılması yasağıyla; SMK m.6/9 kötüniyetli başvuruyu nispi ret nedeni sayar.", kaynak: "TMK m.2; SMK m.6/9" },
         { alt: "A2.8", soru: "İspat yükü kural olarak kime aittir?", cevap: "Kanunda aksine bir hüküm bulunmadıkça, taraflardan her biri <b>hakkını dayandırdığı olguların varlığını ispatla</b> yükümlüdür.", kaynak: "TMK m.6" },
         { alt: "A2.8", soru: "Kanunda uygulanabilir hüküm yoksa hâkim nasıl karar verir?", cevap: "Önce <b>örf ve âdet hukukuna</b> göre; o da yoksa <b>kendisi kanun koyucu olsaydı nasıl bir kural koyacak idiyse</b> ona göre karar verir. Bunu yaparken bilimsel görüşlerden ve yargı kararlarından yararlanır.", kaynak: "TMK m.1" },
-        { alt: "A2.8", soru: "Hâkimin takdir yetkisini kullanırken gözeteceği ölçüt nedir?", cevap: "<b>Hukuka ve hakkaniyete</b> göre karar verir.", kaynak: "TMK m.4" }
+        { alt: "A2.8", soru: "Hâkimin takdir yetkisini kullanırken gözeteceği ölçüt nedir?", cevap: "<b>Hukuka ve hakkaniyete</b> göre karar verir.", kaynak: "TMK m.4" },
+        { alt: "A2.1", soru: "Hak ehliyetinin “eşitlik” ilkesi ne anlama gelir?", cevap: "Bütün insanların, hukuk düzeninin sınırları içinde <b>haklara ve borçlara ehil olmada eşit</b> olmasıdır; ehliyet cinsiyet, din, ırk ayrımı gözetmez.", kaynak: "TMK m.8" },
+        { alt: "A2.1", soru: "Ölüm karinesi hangi hâlde uygulanır?", cevap: "Bir kimse, ölümüne kesin gözle bakılmayı gerektiren durumlar içinde <b>kaybolursa</b>, cesedi bulunamamış olsa bile <b>ölmüş sayılır</b>.", kaynak: "TMK m.31" },
+        { alt: "A2.1", soru: "Birlikte ölüm karinesi nedir?", cevap: "Birden çok kişiden hangisinin önce veya sonra öldüğü ispat edilemezse, hepsi <b>aynı anda ölmüş sayılır</b>.", kaynak: "TMK m.29/2" },
+        { alt: "A2.2", soru: "Ayırt etme gücü bulunmayan kişinin yaptığı sözleşmenin akıbeti nedir?", cevap: "<b>Kesin hükümsüzdür</b>; sonradan icazetle geçerli hâle gelmez.", kaynak: "TMK m.15" },
+        { alt: "A2.2", soru: "Sınırlı ehliyetsizin yasal temsilci rızası olmadan yaptığı işlem hangi hukuki durumdadır?", cevap: "<b>Askıda hükümsüzdür</b>; yasal temsilcinin icazetiyle geçerli, icazet verilmezse kesin hükümsüz hâle gelir.", kaynak: "TMK m.16; TBK m.'ler" },
+        { alt: "A2.2", soru: "Ayırt etme gücüne sahip küçüğün haksız fiilden sorumluluğu var mıdır?", cevap: "<b>Evet.</b> Ayırt etme gücüne sahip küçükler ve kısıtlılar, haksız fiillerinden sorumludur.", kaynak: "TMK m.16/2" },
+        { alt: "A2.2", soru: "Kısıtlama sebepleri nelerdir?", cevap: "<b>Akıl hastalığı veya akıl zayıflığı</b>, <b>savurganlık, alkol veya uyuşturucu bağımlılığı, kötü yaşama tarzı, kötü yönetim</b>, <b>özgürlüğü bağlayıcı ceza</b> ve kişinin <b>kendi isteği</b>.", kaynak: "TMK m.405-408" },
+        { alt: "A2.2", soru: "Evlenme ile ergin olan kişi boşanırsa erginliği devam eder mi?", cevap: "<b>Evet</b>, evlenmeyle kazanılan erginlik boşanma hâlinde de devam eder.", kaynak: "TMK m.11" },
+        { alt: "A2.3", soru: "Kişilik hakkı hangi değerleri kapsar?", cevap: "<b>Yaşam, sağlık, vücut bütünlüğü, özgürlük, şeref ve haysiyet, isim, resim, özel hayatın gizliliği</b> ve ekonomik kişilik değerleri.", kaynak: "TMK m.23-25" },
+        { alt: "A2.3", soru: "Kişilik hakkının ihlalinde “tespit davası”nın şartı nedir?", cevap: "Saldırının sona ermiş olmasına rağmen <b>etkisinin devam etmesi</b>.", kaynak: "TMK m.25/1" },
+        { alt: "A2.3", soru: "Tüzel kişiler kişilik hakkına sahip midir?", cevap: "<b>Evet</b>, yaradılış gereği insana özgü olanlar dışında kişilik hakları vardır; ticari itibar ve unvanları korunur.", kaynak: "TMK m.48, m.24" },
+        { alt: "A2.4", soru: "Ticaret unvanı ile isim hakkı arasındaki ilişki nedir?", cevap: "Ticaret unvanı, gerçek kişide ad ve soyadına dayanır; <b>ad üzerindeki kişilik hakkı</b> ile ticaret unvanı koruması birbirini tamamlar.", kaynak: "TMK m.26; TTK m.41" },
+        { alt: "A2.4", soru: "Kendi adını marka olarak tescil ettirmek isteyen kişi hangi engelle karşılaşabilir?", cevap: "Aynı ad daha önce başkası adına marka olarak tescilliyse <b>m.5/1-ç veya m.6/1</b>; ayrıca ad başkasının kişilik hakkına aitse <b>m.6/6</b>.", kaynak: "SMK m.5/1-ç, m.6/1, m.6/6" },
+        { alt: "A2.5", soru: "Gaiplik kararı verilmezse mirasçılar ne yapabilir?", cevap: "Gaipliğine karar verilmemiş kişinin malvarlığı için <b>kayyım</b> atanması istenebilir; miras açılmaz.", kaynak: "TMK m.427 vd." },
+        { alt: "A2.5", soru: "Gaiplik kararı sonrası mirasçılara mal teslimi hangi şarta bağlıdır?", cevap: "Mirasçılar, <b>teminat göstermek</b> zorundadır; gaip dönerse malvarlığını iade yükümlülüğü doğar.", kaynak: "TMK m.584 vd." },
+        { alt: "A2.5", soru: "Gaiplik kararı evliliği kendiliğinden sona erdirir mi?", cevap: "<b>Hayır.</b> Evliliğin feshi için ayrıca mahkemeden karar istenmesi gerekir.", kaynak: "TMK m.131" },
+        { alt: "A2.6", soru: "Tüzel kişilerin ehliyeti hangi ilkeyle sınırlandırılmıştır?", cevap: "<b>Yaradılış gereği insana özgü</b> haklar dışında bütün haklara ehildirler; ayrıca amaç ve faaliyet konularıyla sınırlı hareket ederler.", kaynak: "TMK m.48" },
+        { alt: "A2.6", soru: "Tüzel kişinin organı ile temsilcisi arasındaki fark nedir?", cevap: "<b>Organ</b> tüzel kişinin iradesini oluşturur ve fiilleri doğrudan tüzel kişiye aittir. <b>Temsilci</b> ise ayrı bir kişi olarak temsil yetkisiyle işlem yapar.", kaynak: "TMK m.49, m.50" },
+        { alt: "A2.7", soru: "Dernek ve vakıf arasındaki temel fark nedir?", cevap: "<b>Dernek</b> bir <b>kişi topluluğu</b>, <b>vakıf</b> ise belirli amaca özgülenmiş bir <b>mal topluluğudur</b>.", kaynak: "TMK m.56, m.101" },
+        { alt: "A2.7", soru: "Kamu yararına çalışan dernek statüsü nasıl kazanılır?", cevap: "İlgili bakanlığın görüşü alınarak <b>Cumhurbaşkanı kararıyla</b> verilir.", kaynak: "TMK m.'ler; Dernekler K." },
+        { alt: "A2.8", soru: "Dürüstlük kuralı sözleşmelerin yorumunda nasıl işlev görür?", cevap: "Tarafların iradelerinin <b>dürüstlük kuralına göre anlaşılması gereken anlamı</b> esas alınır; boşluklar bu kurala göre doldurulur.", kaynak: "TMK m.2; TBK m.19" },
+        { alt: "A2.8", soru: "Hakkın kötüye kullanılmasına marka hukukundan bir örnek veriniz.", cevap: "Kullanma niyeti olmaksızın, yalnızca üçüncü kişileri <b>engellemek</b> veya <b>bedel talep etmek</b> için yapılan marka başvuruları (marka yığma / kötüniyet).", kaynak: "TMK m.2; SMK m.6/9" }
       ]
     },
     {
@@ -382,7 +404,25 @@ window.KARTLAR = {
         { alt: "A3.6", soru: "Alacaklarda genel zamanaşımı süresi nedir?", cevap: "Kanunda aksine bir hüküm yoksa <b>on yıl</b>.", kaynak: "TBK m.146" },
         { alt: "A3.6", soru: "Beş yıllık zamanaşımına tabi alacaklara örnek veriniz.", cevap: "Kira bedelleri, faiz ve diğer dönemsel edimler; vekâlet, komisyon, simsarlık sözleşmelerinden doğan alacaklar; iş görme sözleşmelerinden doğan alacaklar.", kaynak: "TBK m.147" },
         { alt: "A3.6", soru: "Manevi tazminata hangi hâlde hükmedilir?", cevap: "<b>Kişilik hakkının zedelenmesinden</b> zarar gören, uğradığı manevi zarara karşılık manevi tazminat isteyebilir; hâkim tazminat yerine başka bir giderim biçimine de karar verebilir.", kaynak: "TBK m.58" },
-        { alt: "A3.6", soru: "Tazminatın belirlenmesinde hâkim neleri gözetir?", cevap: "<b>Durumun gereğini</b> ve özellikle <b>kusurun ağırlığını</b>; zarar görenin rızası veya kusuru tazminattan indirim sebebi olabilir.", kaynak: "TBK m.51, m.52" }
+        { alt: "A3.6", soru: "Tazminatın belirlenmesinde hâkim neleri gözetir?", cevap: "<b>Durumun gereğini</b> ve özellikle <b>kusurun ağırlığını</b>; zarar görenin rızası veya kusuru tazminattan indirim sebebi olabilir.", kaynak: "TBK m.51, m.52" },
+        { alt: "A3.1", soru: "Vekâlet sözleşmesi ile hizmet sözleşmesi arasındaki temel fark nedir?", cevap: "<b>Vekâlette</b> vekil bağımsızdır ve <b>sonuç değil özenli çaba</b> borcu vardır. <b>Hizmet sözleşmesinde</b> işçi işverene bağımlıdır ve emeğini zamana göre sunar.", kaynak: "TBK m.393, m.502" },
+        { alt: "A3.1", soru: "Vekâlet ile eser sözleşmesi arasındaki fark nedir?", cevap: "<b>Eser sözleşmesinde</b> yüklenici bir <b>sonucu (eseri)</b> meydana getirmeyi borçlanır; vekâlette ise sonuç değil <b>özenli iş görme</b> borcu vardır.", kaynak: "TBK m.470, m.502" },
+        { alt: "A3.1", soru: "Vekâlet sözleşmesi ücretsiz olabilir mi?", cevap: "<b>Evet.</b> Ücret ancak sözleşme veya teamül varsa istenebilir; vekâlet kural olarak ücret unsuruna bağlı değildir.", kaynak: "TBK m.502/3" },
+        { alt: "A3.2", soru: "Vekilin sadakat borcu neyi gerektirir?", cevap: "Vekâlet verenin <b>menfaatlerini gözetmek</b>, çıkar çatışmasından kaçınmak ve öğrendiği sırları saklamak.", kaynak: "TBK m.506/2" },
+        { alt: "A3.2", soru: "Vekil, alt vekilin fiillerinden hangi ölçüde sorumludur?", cevap: "Yetkisiz olarak alt vekil kullanırsa <b>onun fiilinden kendi fiili gibi</b> sorumlu olur; yetkiliyse yalnızca <b>seçim ve talimatta özen</b> göstermemekten sorumludur.", kaynak: "TBK m.507" },
+        { alt: "A3.2", soru: "Birden çok vekilin sorumluluğu nasıldır?", cevap: "Vekâlet birlikte verilmişse vekiller <b>müteselsilen</b> sorumludur; ayrı ayrı verilmişse her biri kendi işinden sorumludur.", kaynak: "TBK m.509" },
+        { alt: "A3.2", soru: "Vekâlet verenin borçları nelerdir?", cevap: "Kararlaştırılmışsa <b>ücret ödemek</b>, vekilin yaptığı <b>giderleri ve avansları faiziyle</b> ödemek, üstlendiği borçlardan <b>kurtarmak</b> ve kusursuz zararı <b>gidermek</b>.", kaynak: "TBK m.510" },
+        { alt: "A3.3", soru: "Vekilin istifası hangi hâlde haksız sayılır?", cevap: "Vekâlet verenin işlerini <b>tehlikeye düşürecek uygunsuz bir zamanda</b> istifa edilmesi hâlinde; vekil bu yüzden doğan zararı gidermekle yükümlüdür.", kaynak: "TBK m.512/2" },
+        { alt: "A3.3", soru: "Azil hakkından önceden feragat edilebilir mi?", cevap: "<b>Hayır</b>; azil ve istifa hakkı sözleşmeyle tamamen ortadan kaldırılamaz (kural olarak emredicidir).", kaynak: "TBK m.512" },
+        { alt: "A3.3", soru: "Vekâlet verenin ölümü hâlinde vekilin yaptığı işlemler geçerli midir?", cevap: "Vekil, sona ermeyi <b>bilmeden</b> yapmışsa işlem geçerli sayılır; iyiniyetli üçüncü kişiler korunur.", kaynak: "TBK m.513/2" },
+        { alt: "A3.4", soru: "Temsil yetkisi hangi yollarla verilebilir?", cevap: "<b>Açık veya örtülü</b> irade beyanıyla; kanundan veya mahkeme kararından da doğabilir.", kaynak: "TBK m.40, m.41" },
+        { alt: "A3.4", soru: "Temsil yetkisinin kapsamı nasıl belirlenir?", cevap: "Yetkiyi verenin <b>iradesine</b> göre; işlemin niteliği ve durumun gereklerine bakılır. Bazı işlemler <b>özel yetki</b> gerektirir.", kaynak: "TBK m.40, m.504/3" },
+        { alt: "A3.4", soru: "Yetkisiz temsilde karşı taraf ne yapabilir?", cevap: "Temsil olunana <b>uygun bir süre</b> vererek onay isteyebilir; süre içinde onaylanmazsa işlemle bağlı olmaktan kurtulur.", kaynak: "TBK m.46/2" },
+        { alt: "A3.5", soru: "Sözleşmenin konusu bakımından geçersizlik sebepleri nelerdir?", cevap: "<b>Kanunun emredici hükümlerine, ahlaka, kamu düzenine, kişilik haklarına aykırılık</b> veya konunun <b>imkânsız</b> olması.", kaynak: "TBK m.27" },
+        { alt: "A3.5", soru: "Kısmi butlan nedir?", cevap: "Sözleşmenin yalnızca bir kısmının geçersiz olmasıdır; geçersizlik sözleşmenin tamamını etkilemez — <b>o kısım olmaksızın sözleşme yapılmayacağı</b> açıkça anlaşılmadıkça.", kaynak: "TBK m.27/2" },
+        { alt: "A3.5", soru: "Genel işlem koşullarında “yazılmamış sayılma” yaptırımı nedir?", cevap: "Karşı tarafın menfaatine aykırı, beklenmeyen nitelikteki genel işlem koşulları <b>yazılmamış sayılır</b>; sözleşmenin geri kalanı geçerliliğini korur.", kaynak: "TBK m.21, m.22" },
+        { alt: "A3.6", soru: "Zamanaşımı ile hak düşürücü süre arasındaki fark nedir?", cevap: "<b>Zamanaşımı</b> def'i olarak ileri sürülmelidir, durur ve kesilir. <b>Hak düşürücü süre</b> resen dikkate alınır, durmaz ve kesilmez.", kaynak: "TBK m.'ler; genel hükümler" },
+        { alt: "A3.6", soru: "Zamanaşımı süresi sözleşmeyle değiştirilebilir mi?", cevap: "<b>Hayır.</b> Kanunda öngörülen zamanaşımı süreleri sözleşmeyle değiştirilemez.", kaynak: "TBK m.148" }
       ]
     }
 
@@ -410,7 +450,17 @@ window.KARTLAR = {
         { alt: "B1.4", soru: "Kurum kararlarına karşı YİDK nezdinde itiraz süresi nedir?", cevap: "Kararın <b>bildirim tarihinden itibaren iki ay</b>.", kaynak: "SMK m.20" },
         { alt: "B1.4", soru: "YİDK kararlarına karşı dava hangi mahkemede ve hangi sürede açılır?", cevap: "Kararın bildiriminden itibaren <b>iki ay</b> içinde <b>Ankara Fikri ve Sınai Haklar Hukuk Mahkemesinde</b>.", kaynak: "SMK m.172" },
         { alt: "B1.4", soru: "YİDK kararına karşı açılan davada davalı kimdir?", cevap: "<b>TÜRKPATENT</b>; kararın karşı tarafı olan üçüncü kişi de davaya dâhil edilir.", kaynak: "SMK m.172" },
-        { alt: "B1.4", soru: "Kurum kararlarına karşı açılan davalarda görevli ve yetkili mahkeme neden Ankara'dır?", cevap: "Kurumun merkezi Ankara'da bulunduğundan; SMK, Kurum kararlarına karşı açılacak davalarda <b>Ankara FSHHM'yi</b> görevli ve yetkili kılmıştır.", kaynak: "SMK m.156, m.172" }
+        { alt: "B1.4", soru: "Kurum kararlarına karşı açılan davalarda görevli ve yetkili mahkeme neden Ankara'dır?", cevap: "Kurumun merkezi Ankara'da bulunduğundan; SMK, Kurum kararlarına karşı açılacak davalarda <b>Ankara FSHHM'yi</b> görevli ve yetkili kılmıştır.", kaynak: "SMK m.156, m.172" },
+        { alt: "B1.1", soru: "TÜRKPATENT hangi bakanlıkla ilişkilidir?", cevap: "<b>Sanayi ve Teknoloji Bakanlığı</b> ile ilişkili bir kuruluştur.", kaynak: "4 sayılı CBK" },
+        { alt: "B1.1", soru: "TÜRKPATENT'in gelirleri nelerdir?", cevap: "Başta <b>tescil, yenileme, itiraz ve diğer işlem ücretleri</b> olmak üzere mevzuatta öngörülen gelirler.", kaynak: "4 sayılı CBK" },
+        { alt: "B1.2", soru: "Kurum sınai mülkiyet hakları dışında hangi alanda görev yapar?", cevap: "Bilgi ve dokümantasyon hizmetleri, <b>teknoloji transferi</b>, patent bilgisinin yaygınlaştırılması ve <b>bilirkişilik/eğitim</b> faaliyetleri.", kaynak: "4 sayılı CBK" },
+        { alt: "B1.2", soru: "Kurum, tescil ettiği bir hakkın geçerliliğini garanti eder mi?", cevap: "<b>Hayır.</b> Tescil, hakkın geçerliliğini garanti etmez; hükümsüzlük her zaman ileri sürülebilir.", kaynak: "SMK m.25, m.138" },
+        { alt: "B1.3", soru: "YİDK kaç üyeden oluşur ve kimler görev yapar?", cevap: "Kurul, <b>Başkan tarafından görevlendirilen uzman üyelerden</b> oluşur; itiraza konu kararda görev almış olan personel <b>Kurulda yer alamaz</b>.", kaynak: "4 sayılı CBK" },
+        { alt: "B1.3", soru: "Aynı kararı veren uzman YİDK'da o itirazı inceleyebilir mi?", cevap: "<b>Hayır</b>; tarafsızlığı sağlamak için itiraza konu kararı veren kişi Kurulda görev alamaz.", kaynak: "4 sayılı CBK" },
+        { alt: "B1.4", soru: "YİDK kararına karşı açılan davada süre kaçırılırsa ne olur?", cevap: "Karar <b>kesinleşir</b>; iki aylık süre <b>hak düşürücü</b> niteliktedir.", kaynak: "SMK m.172" },
+        { alt: "B1.4", soru: "Mahkeme YİDK kararını iptal ederse Kurum ne yapar?", cevap: "Kesinleşen mahkeme kararı <b>Kurum tarafından uygulanır</b>; sicil ve işlemler karara göre düzeltilir.", kaynak: "SMK m.172" },
+        { alt: "B1.4", soru: "Kurumun nihai olmayan (ara) kararlarına karşı doğrudan dava açılabilir mi?", cevap: "<b>Hayır</b>; dava yolu ancak <b>YİDK'nın nihai kararı</b> üzerine açılır.", kaynak: "SMK m.20, m.172" },
+        { alt: "B1.4", soru: "Sicil kayıtlarındaki maddi hataların düzeltilmesi nasıl istenir?", cevap: "<b>Kuruma başvurularak</b> düzeltme talep edilir; Kurum resen de düzeltme yapabilir.", kaynak: "SMK; Yönetmelik" }
       ]
     },
       {
@@ -429,7 +479,19 @@ window.KARTLAR = {
         { alt: "B2.4", soru: "Kurum nezdindeki işlemlerde vekâletname ne zaman aranır?", cevap: "Vekil aracılığıyla yapılan işlemlerde, Kurum tarafından istenmesi hâlinde <b>vekâletname</b> sunulur; belirli işlemlerde (örn. başvurudan vazgeçme) özel yetki aranabilir.", kaynak: "SMK m.160; Yönetmelik" },
         { alt: "B2.4", soru: "Yerleşim yeri yurt dışında bulunanlar Kurum nezdindeki işlemlerini nasıl yürütür?", cevap: "<b>Zorunlu olarak vekil aracılığıyla</b> yürütürler.", kaynak: "SMK m.160/3" },
         { alt: "B2.4", soru: "Bir işlemde birden fazla vekil atanabilir mi?", cevap: "<b>Evet</b>, ancak Kurum ile yazışmalar kural olarak <b>tek bir vekille</b> yürütülür.", kaynak: "Yönetmelik" },
-        { alt: "B2.4", soru: "Vekilin azli Kuruma bildirilmeli midir?", cevap: "<b>Evet.</b> Vekâletin sona ermesi Kuruma bildirilmedikçe Kurum, işlemleri mevcut vekille yürütmeye devam eder.", kaynak: "Yönetmelik" }
+        { alt: "B2.4", soru: "Vekilin azli Kuruma bildirilmeli midir?", cevap: "<b>Evet.</b> Vekâletin sona ermesi Kuruma bildirilmedikçe Kurum, işlemleri mevcut vekille yürütmeye devam eder.", kaynak: "Yönetmelik" },
+        { alt: "B2.1", soru: "Vekillik sınavını kim düzenler?", cevap: "<b>TÜRKPATENT</b>; sınav, ilgili yönetmelikte belirlenen usul ve konulara göre yapılır.", kaynak: "Vekillik Yönetmeliği" },
+        { alt: "B2.1", soru: "Vekillik sicilinde kalabilmenin yıllık şartı nedir?", cevap: "Her yıl <b>sicil kayıt ücretinin ödenmesi</b> ve mevzuatta öngörülen belgelerin (örn. mesleki sorumluluk sigortası) güncel tutulması.", kaynak: "Vekillik Yönetmeliği" },
+        { alt: "B2.1", soru: "Sicil kayıt yükümlülüğü yerine getirilmezse ne olur?", cevap: "Vekilin <b>sicil kaydı askıya alınır</b> veya silinir; bu süre içinde vekillik yapılamaz.", kaynak: "Vekillik Yönetmeliği" },
+        { alt: "B2.1", soru: "Tüzel kişiler vekil olabilir mi?", cevap: "Vekillik faaliyeti <b>gerçek kişi vekiller</b> üzerinden yürütülür; tüzel kişiler ancak sicile kayıtlı vekiller aracılığıyla hizmet verebilir.", kaynak: "SMK m.180; Yönetmelik" },
+        { alt: "B2.2", soru: "Vekilin müvekkilini bilgilendirme yükümlülüğü neyi kapsar?", cevap: "Süreleri, Kurum bildirimlerini, itiraz imkânlarını ve hak kaybı risklerini <b>zamanında ve anlaşılır</b> biçimde bildirmek.", kaynak: "Vekillik Yönetmeliği" },
+        { alt: "B2.2", soru: "Vekil, çıkarları çatışan iki müvekkili aynı işte temsil edebilir mi?", cevap: "<b>Hayır</b>; çıkar çatışması meslek kurallarına aykırıdır ve disiplin sorumluluğu doğurur.", kaynak: "Vekillik Yönetmeliği" },
+        { alt: "B2.2", soru: "Vekil, Kurum tarafından yapılan bildirimleri müvekkiline iletmezse sorumluluğu nedir?", cevap: "Hak kaybına yol açması hâlinde <b>hukuki</b> (tazminat) ve <b>disiplin</b> sorumluluğu doğar.", kaynak: "Vekillik Yönetmeliği; TBK m.506" },
+        { alt: "B2.3", soru: "Uyarma cezası hangi hâllerde verilir?", cevap: "Meslek kurallarına aykırılığın <b>hafif</b> nitelikte olduğu ve vekilin dikkatinin çekilmesinin yeterli görüldüğü hâllerde.", kaynak: "Vekillik Yönetmeliği" },
+        { alt: "B2.3", soru: "Geçici olarak vekillikten alıkoyma cezasının sonucu nedir?", cevap: "Belirlenen süre boyunca vekil, Kurum nezdinde <b>hiçbir işlem yapamaz</b>; dosyalarının devri gerekir.", kaynak: "Vekillik Yönetmeliği" },
+        { alt: "B2.3", soru: "Disiplin soruşturmasını kim yürütür?", cevap: "<b>Disiplin Kurulu</b>; soruşturma sonucunda cezaya veya cezasızlığa karar verir.", kaynak: "Vekillik Yönetmeliği" },
+        { alt: "B2.4", soru: "Vekâletname olmadan yapılan işlemin akıbeti nedir?", cevap: "Kurum <b>süre vererek</b> vekâletnamenin sunulmasını ister; sunulmazsa işlem <b>yapılmamış sayılır</b>.", kaynak: "Yönetmelik" },
+        { alt: "B2.4", soru: "Vekilin yetkisi hangi işlemler için özel olarak belirtilmelidir?", cevap: "<b>Başvurudan vazgeçme</b>, haktan feragat, itirazın geri çekilmesi gibi hak kaybına yol açabilecek işlemler için.", kaynak: "Yönetmelik" }
       ]
     },
       {
@@ -457,7 +519,22 @@ window.KARTLAR = {
         { alt: "B3.6", soru: "Budapeşte Anlaşması neyi düzenler?", cevap: "Patent işlemlerinde <b>mikroorganizmaların tevdiinin</b> uluslararası kabulünü.", kaynak: "Budapeşte Anlaşması" },
         { alt: "B3.6", soru: "Marka, patent ve tasarımın uluslararası tescil sistemleri hangileridir?", cevap: "<b>Marka → Madrid</b>, <b>Patent → PCT</b>, <b>Tasarım → Lahey</b>.", kaynak: "Madrid / PCT / Lahey" },
         { alt: "B3.6", soru: "Avrupa Patent Sözleşmesi (EPC) hangi kurumu kurar?", cevap: "<b>Avrupa Patent Ofisi'ni (EPO)</b>; tek başvuruyla üye ülkelerde geçerli olabilecek Avrupa patenti verilmesini sağlar.", kaynak: "EPC" },
-        { alt: "B3.6", soru: "UPOV Sözleşmesi neyi korur?", cevap: "<b>Yeni bitki çeşitlerini</b>; patent korumasından ayrı bir sui generis koruma rejimidir.", kaynak: "UPOV" }
+        { alt: "B3.6", soru: "UPOV Sözleşmesi neyi korur?", cevap: "<b>Yeni bitki çeşitlerini</b>; patent korumasından ayrı bir sui generis koruma rejimidir.", kaynak: "UPOV" },
+        { alt: "B3.1", soru: "Paris Sözleşmesi'nin koruduğu sınai mülkiyet konuları nelerdir?", cevap: "<b>Patentler, faydalı modeller, endüstriyel tasarımlar, markalar, hizmet markaları, ticaret unvanları, menşe işaretleri</b> ve <b>haksız rekabetin önlenmesi</b>.", kaynak: "Paris Söz. m.1" },
+        { alt: "B3.1", soru: "Paris Sözleşmesi'ne üye olmayan ülke vatandaşları korumadan yararlanabilir mi?", cevap: "<b>Evet</b>, bir üye ülkede <b>yerleşim yeri veya gerçek ve etkin ticari işletmesi</b> varsa üye ülke vatandaşı gibi işlem görürler.", kaynak: "Paris Söz. m.3" },
+        { alt: "B3.2", soru: "Rüçhan hakkına dayanan başvuru, rüçhan süresi içinde yapılan açıklamalardan etkilenir mi?", cevap: "<b>Hayır.</b> Rüçhan süresi içinde gerçekleşen fiiller (üçüncü kişi başvurusu, yayım, kullanım) sonraki başvurunun geçerliliğini etkilemez.", kaynak: "Paris Söz. m.4/B" },
+        { alt: "B3.2", soru: "Bir başvuruda birden fazla rüçhan talep edilebilir mi?", cevap: "<b>Evet</b>, farklı ülkelerde yapılmış birden çok başvuruya dayanılarak <b>çoklu rüçhan</b> talep edilebilir.", kaynak: "Paris Söz. m.4/F" },
+        { alt: "B3.2", soru: "Kısmi rüçhan mümkün müdür?", cevap: "<b>Evet</b>; başvurunun yalnızca rüçhana konu unsurları için rüçhan tarihi, diğerleri için başvuru tarihi esas alınır.", kaynak: "Paris Söz. m.4/F" },
+        { alt: "B3.3", soru: "Telle quelle (olduğu gibi) ilkesi nedir?", cevap: "Menşe ülkede usulüne uygun tescil edilmiş bir markanın, diğer üye ülkelerde <b>olduğu gibi</b> kabul edilip korunmasıdır; sınırlı ret sebepleri saklıdır.", kaynak: "Paris Söz. m.6quinquies" },
+        { alt: "B3.3", soru: "Ülkesellik ilkesinin pratik sonucu nedir?", cevap: "Her ülkede <b>ayrı başvuru ve ayrı koruma</b> gerekir; bir ülkedeki tescil kendiliğinden diğer ülkelerde hak doğurmaz.", kaynak: "Paris Söz. m.6" },
+        { alt: "B3.4", soru: "Tanınmış marka koruması için Türkiye'de tescil şart mıdır?", cevap: "<b>Hayır.</b> Paris m.6bis kapsamında tanınmış markalar tescilsiz de korunur.", kaynak: "Paris Söz. m.6bis; SMK m.6/4" },
+        { alt: "B3.4", soru: "Paris m.6bis'e dayalı hükümsüzlük talebi için süre var mıdır?", cevap: "Kural olarak <b>beş yıl</b>; ancak <b>kötüniyetli</b> tescillerde süre sınırı uygulanmaz.", kaynak: "Paris Söz. m.6bis" },
+        { alt: "B3.5", soru: "TRIPS'in marka koruması bakımından öngördüğü asgari süre nedir?", cevap: "İlk tescil ve her yenileme için <b>en az yedi yıl</b>; süresiz olarak yenilenebilir olmalıdır.", kaynak: "TRIPS m.18" },
+        { alt: "B3.5", soru: "TRIPS'in patent koruması için öngördüğü asgari süre nedir?", cevap: "Başvuru tarihinden itibaren <b>en az yirmi yıl</b>.", kaynak: "TRIPS m.33" },
+        { alt: "B3.5", soru: "TRIPS'e göre patent verilebilirlik hangi ayrımcılığa kapalıdır?", cevap: "Buluşun <b>teknoloji alanına</b>, ürünün <b>yerli veya ithal</b> olmasına ve <b>üretim yerine</b> göre ayrım yapılamaz.", kaynak: "TRIPS m.27" },
+        { alt: "B3.6", soru: "Nice Sınıflandırması'nda mal ve hizmet sınıfları hangi aralıklardadır?", cevap: "<b>1–34 mallar</b>, <b>35–45 hizmetler</b>; toplam 45 sınıf.", kaynak: "Nice Anlaşması" },
+        { alt: "B3.6", soru: "Sınıflandırma anlaşmaları hakkın kapsamını belirler mi?", cevap: "<b>Hayır</b>, sınıflandırmalar <b>idari amaçlıdır</b>; koruma kapsamını doğrudan belirlemez.", kaynak: "SMK m.11/3" },
+        { alt: "B3.6", soru: "WIPO'nun temel işlevi nedir?", cevap: "Fikri mülkiyet alanındaki uluslararası anlaşmaları yönetmek, <b>Madrid, PCT ve Lahey</b> gibi uluslararası tescil sistemlerini işletmek ve üye ülkeler arasında iş birliği sağlamak.", kaynak: "WIPO" }
       ]
     }
     ]
@@ -484,7 +561,15 @@ window.KARTLAR = {
         { alt: "C1.3", soru: "AYRIM: Tescilli ve tescilsiz tasarım koruması arasındaki temel fark nedir?", cevap: "<b>Tescilli tasarım</b> aynı veya benzer her kullanıma karşı korunur. <b>Tescilsiz tasarım</b> yalnızca <b>kopyalanmaya (taklit edilmeye)</b> karşı korur.", kaynak: "SMK m.59" },
         { alt: "C1.3", soru: "Tescilsiz tasarımda bağımsız geliştirme savunması mümkün müdür?", cevap: "<b>Evet.</b> Tasarımın, önceki tasarımdan haberdar olmadan bağımsız olarak geliştirildiği kanıtlanırsa <b>kopyalanmış sayılmaz</b>.", kaynak: "SMK m.59/3" },
         { alt: "C1.3", soru: "Tescilsiz tasarım koruması nasıl doğar?", cevap: "Tasarımın <b>ilk kez Türkiye'de kamuya sunulmasıyla</b>, kendiliğinden doğar; tescil gerekmez.", kaynak: "SMK m.56/1" },
-        { alt: "C1.3", soru: "AYRIM: Tescilli ve tescilsiz tasarımın koruma süreleri nedir?", cevap: "<b>Tescilli</b>: başvuru tarihinden itibaren 5 yıl, yenilenerek en çok 25 yıl. <b>Tescilsiz</b>: kamuya ilk sunulduğu tarihten itibaren <b>3 yıl</b> (yenilenemez).", kaynak: "SMK m.69" }
+        { alt: "C1.3", soru: "AYRIM: Tescilli ve tescilsiz tasarımın koruma süreleri nedir?", cevap: "<b>Tescilli</b>: başvuru tarihinden itibaren 5 yıl, yenilenerek en çok 25 yıl. <b>Tescilsiz</b>: kamuya ilk sunulduğu tarihten itibaren <b>3 yıl</b> (yenilenemez).", kaynak: "SMK m.69" },
+        { alt: "C1.1", soru: "Tasarım koruması ile telif hakkı koruması bir arada bulunabilir mi?", cevap: "<b>Evet</b>, kümülatif koruma mümkündür; estetik nitelikteki bir tasarım aynı zamanda <b>FSEK</b> kapsamında eser olarak korunabilir.", kaynak: "SMK m.58/3; FSEK" },
+        { alt: "C1.1", soru: "Tipografik karakterler tasarım olarak korunabilir mi?", cevap: "<b>Evet</b>, ürün tanımına dâhildir.", kaynak: "SMK m.55/1" },
+        { alt: "C1.1", soru: "Bir ürünün yalnızca süslemesi tasarım olarak korunabilir mi?", cevap: "<b>Evet</b>; tasarım tanımı ürünün üzerindeki <b>süslemeyi</b> de kapsar.", kaynak: "SMK m.55/1" },
+        { alt: "C1.2", soru: "Bileşik ürüne örnek veriniz.", cevap: "<b>Otomobil</b> (kaput, far, tampon gibi sökülüp takılabilir parçalardan oluşur).", kaynak: "SMK m.55/2" },
+        { alt: "C1.2", soru: "Görünürlük şartı hangi tasarımlar için aranır?", cevap: "Yalnızca <b>bileşik ürünün parçası</b> niteliğindeki tasarımlar için.", kaynak: "SMK m.56/4" },
+        { alt: "C1.3", soru: "Tescilsiz tasarımda ispat yükü kimdedir?", cevap: "<b>Hak sahibindedir</b>; kamuya ilk sunum tarihini ve kopyalandığını ispatlamalıdır.", kaynak: "SMK m.59" },
+        { alt: "C1.3", soru: "AYRIM: Tescilli tasarımda kopyalama ispatı gerekir mi?", cevap: "<b>Hayır.</b> Tescilli tasarımda, bağımsız geliştirme savunması geçerli değildir; benzerlik yeterlidir.", kaynak: "SMK m.59" },
+        { alt: "C1.3", soru: "Tescilsiz tasarımın süresi dolduktan sonra tescil ettirilebilir mi?", cevap: "<b>Hayır.</b> Kamuya sunumdan itibaren on iki aylık başvuru süresi geçmişse yenilik ortadan kalkar.", kaynak: "SMK m.57/2, m.69" }
       ]
     },
       {
@@ -505,7 +590,19 @@ window.KARTLAR = {
         { alt: "C2.5", soru: "Teknik fonksiyonun zorunlu kıldığı görünüm özellikleri korunur mu?", cevap: "<b>Hayır</b>, tasarım koruması sağlanmaz.", kaynak: "SMK m.58/4-a" },
         { alt: "C2.5", soru: "“Zorunlu biçim (ara bağlantı)” istisnası nedir?", cevap: "Başka bir ürüne <b>mekanik olarak monte edilmek veya bağlanmak</b> için belirli biçim ve boyutlarda üretilmesi zorunlu ürünlerin görünüm özellikleri korunmaz.", kaynak: "SMK m.58/4-b" },
         { alt: "C2.5", soru: "Modüler ürünlerde ara bağlantı istisnası nasıl uygulanır?", cevap: "<b>İstisnadan muaftır</b>: modüler bir sistemde birbirine çoklu biçimde monte edilebilen ürünlerin tasarımları koruma kapsamındadır.", kaynak: "SMK m.58/5" },
-        { alt: "C2.5", soru: "Kamu düzenine veya genel ahlaka aykırı tasarımlar tescil edilebilir mi?", cevap: "<b>Hayır</b>, koruma sağlanmaz; Kurum bu yönü resen inceler.", kaynak: "SMK m.58/4-c, m.64" }
+        { alt: "C2.5", soru: "Kamu düzenine veya genel ahlaka aykırı tasarımlar tescil edilebilir mi?", cevap: "<b>Hayır</b>, koruma sağlanmaz; Kurum bu yönü resen inceler.", kaynak: "SMK m.58/4-c, m.64" },
+        { alt: "C2.1", soru: "Yenilik değerlendirmesinde “küçük ayrıntı” ölçütü nasıl uygulanır?", cevap: "Farklılıklar önemsiz ve dikkat çekmeyen nitelikteyse tasarımlar <b>aynı</b> sayılır ve yenilik bulunmaz.", kaynak: "SMK m.56/2" },
+        { alt: "C2.1", soru: "Kendi önceki tasarımı, sonraki başvurunun yeniliğini ortadan kaldırır mı?", cevap: "<b>Evet</b>, on iki aylık süre dışında kamuya sunulmuşsa kendi açıklaması da yeniliği ortadan kaldırır.", kaynak: "SMK m.56, m.57/2" },
+        { alt: "C2.2", soru: "Ayırt edici nitelik değerlendirmesinde hangi tasarımlar karşılaştırılır?", cevap: "Başvuru veya rüçhan tarihinden önce <b>kamuya sunulmuş</b> tasarımlarla.", kaynak: "SMK m.56/3" },
+        { alt: "C2.2", soru: "Bilgilenmiş kullanıcı ile ortalama tüketici arasındaki fark nedir?", cevap: "<b>Bilgilenmiş kullanıcı</b> (tasarım) ürün hakkında belirli bilgiye sahiptir ve daha dikkatlidir. <b>Ortalama tüketici</b> (marka) makul düzeyde bilgili ve dikkatlidir, markayı bütün olarak algılar.", kaynak: "SMK m.56/3; Marka Kılavuzu" },
+        { alt: "C2.2", soru: "Seçenek özgürlüğü geniş olduğunda ayırt edicilik değerlendirmesi nasıl etkilenir?", cevap: "Seçenek özgürlüğü genişse, tasarımların <b>daha belirgin farklılık</b> taşıması beklenir; küçük farklar ayırt ediciliği sağlamaz.", kaynak: "SMK m.56/3" },
+        { alt: "C2.3", soru: "Kamuya sunma tarihi nasıl ispatlanır?", cevap: "Katalog, fatura, fuar belgeleri, internet arşivleri, basın yayınları gibi <b>tarihli belgelerle</b>.", kaynak: "SMK m.57" },
+        { alt: "C2.3", soru: "Kamuya sunmanın ilgili sektörde bilinir olması ölçütü nedir?", cevap: "Açıklamanın, Türkiye'de o sektörde faaliyet gösteren çevrelerce <b>makul olarak öğrenilebilir</b> olması aranır.", kaynak: "SMK m.57/1" },
+        { alt: "C2.4", soru: "On iki aylık açıklama süresi rüçhan hakkını uzatır mı?", cevap: "<b>Hayır.</b> Süre yalnızca yenilik ve ayırt edicilik değerlendirmesini etkiler; rüçhan süresi ayrıca <b>altı aydır</b>.", kaynak: "SMK m.57/2, m.60" },
+        { alt: "C2.4", soru: "Kötüniyetli üçüncü kişi açıklaması tasarımcının aleyhine sonuç doğurur mu?", cevap: "<b>Hayır.</b> Tasarımcıya karşı kötüye kullanım sonucu yapılan açıklamalar da on iki aylık koruma kapsamındadır.", kaynak: "SMK m.57/2" },
+        { alt: "C2.5", soru: "Teknik zorunluluk istisnasında hangi test uygulanır?", cevap: "Görünüm özelliğinin <b>yalnızca teknik işlevle</b> belirlenip belirlenmediği; tasarımcının estetik tercih yapabildiği hâllerde istisna uygulanmaz.", kaynak: "SMK m.58/4-a" },
+        { alt: "C2.5", soru: "Yedek parçalarda onarım amaçlı kullanım (must-match) nasıl düzenlenmiştir?", cevap: "Bileşik ürünün <b>orijinal görünümünü yeniden sağlamaya</b> yönelik onarım amaçlı parça kullanımı, belirli şartlarla tasarım hakkının kapsamı dışındadır.", kaynak: "SMK m.59/4, m.60" },
+        { alt: "C2.5", soru: "Kamu düzeni/genel ahlak incelemesini Kurum ne zaman yapar?", cevap: "Başvuru aşamasında <b>resen</b>.", kaynak: "SMK m.64" }
       ]
     },
       {
@@ -527,7 +624,19 @@ window.KARTLAR = {
         { alt: "C3.6", soru: "SMK ile tasarım tescilinde getirilen önemli yenilik nedir?", cevap: "TÜRKPATENT'in tasarım başvurularında <b>resen yenilik incelemesi</b> yapmaya başlamasıdır.", kaynak: "SMK m.64" },
         { alt: "C3.7", soru: "Tasarımın yayımına itiraz süresi nedir?", cevap: "Bültende yayımdan itibaren <b>üç ay</b>.", kaynak: "SMK m.67/2" },
         { alt: "C3.7", soru: "Tasarım yayımına hangi gerekçelerle itiraz edilebilir?", cevap: "Tasarım ve ürün tanımına uymama, <b>yenilik ve ayırt edici nitelik</b> eksikliği, koruma dışı hâller, <b>gerçek hak sahipliği</b>, kamu düzeni/genel ahlaka aykırılık ve önceki tarihli fikrî mülkiyet hakları.", kaynak: "SMK m.67, m.77" },
-        { alt: "C3.7", soru: "Tasarım tesciline itirazı kim inceler?", cevap: "<b>Kurum</b>; itiraz üzerine verilen karara karşı <b>YİDK'ya</b> itiraz edilebilir.", kaynak: "SMK m.67, m.20" }
+        { alt: "C3.7", soru: "Tasarım tesciline itirazı kim inceler?", cevap: "<b>Kurum</b>; itiraz üzerine verilen karara karşı <b>YİDK'ya</b> itiraz edilebilir.", kaynak: "SMK m.67, m.20" },
+        { alt: "C3.1", soru: "Tasarım başvurusunda görsel anlatım hangi biçimlerde sunulabilir?", cevap: "<b>Resim, çizim, grafik, fotoğraf</b> veya benzeri biçimlerde; yüzey süslemesinde ürün örneği de verilebilir.", kaynak: "SMK m.61; Yönetmelik" },
+        { alt: "C3.1", soru: "Görsel anlatımda birden fazla görünüm verilebilir mi?", cevap: "<b>Evet</b>, tasarımın farklı görünümleri sunulabilir; ancak hepsi <b>aynı tasarıma</b> ait olmalıdır.", kaynak: "Yönetmelik" },
+        { alt: "C3.2", soru: "Çoklu başvuruda tasarımların sayısı sınırsız mıdır?", cevap: "Yönetmelikte belirlenen <b>üst sınıra</b> tabidir; sınıflandırma şartı da aranır.", kaynak: "SMK m.61/4; Yönetmelik" },
+        { alt: "C3.2", soru: "Çoklu başvuruda bir tasarımın reddi diğerlerini etkiler mi?", cevap: "<b>Hayır</b>, her tasarım <b>bağımsız</b> değerlendirilir.", kaynak: "SMK m.61/4" },
+        { alt: "C3.3", soru: "Rüçhan hakkı kimler tarafından kullanılabilir?", cevap: "<b>İlk başvuru sahibi</b> veya onun <b>hukuki halefleri</b>.", kaynak: "SMK m.60; Paris Söz. m.4" },
+        { alt: "C3.4", soru: "Yayım ertelemesi talep edilen tasarım bu sürede korunur mu?", cevap: "<b>Evet</b>, tescil edilmiştir ve koruma başlamıştır; yalnızca <b>yayımı</b> ertelenmiştir.", kaynak: "SMK m.65" },
+        { alt: "C3.4", soru: "Yayım erteleme süresi sonunda ne yapılmalıdır?", cevap: "Süre sonunda <b>yayım ücreti</b> ödenerek yayım talep edilmelidir; aksi hâlde tasarım hakkı <b>doğmamış sayılır</b>.", kaynak: "SMK m.65/3" },
+        { alt: "C3.5", soru: "Bültende yayımlanan tasarımın hangi bilgisi koruma kapsamını belirler?", cevap: "<b>Görsel anlatım</b>; ürün adı ve sınıf bilgisi koruma kapsamını genişletmez.", kaynak: "SMK m.61, m.70" },
+        { alt: "C3.6", soru: "Kurum, yenilik incelemesinde hangi kaynakları kullanır?", cevap: "Kendi <b>tasarım sicili</b> ve erişilebilir <b>veri tabanları</b> üzerinden araştırma yapar.", kaynak: "SMK m.64" },
+        { alt: "C3.6", soru: "Yenilik incelemesi sonucu başvuru reddedilirse ne yapılabilir?", cevap: "Karara karşı <b>iki ay</b> içinde YİDK'ya itiraz edilebilir.", kaynak: "SMK m.20, m.67" },
+        { alt: "C3.7", soru: "Tasarım tesciline itiraz edenler kimlerdir?", cevap: "<b>Menfaati olanlar</b> ile gerçek hak sahibi olduğunu iddia edenler.", kaynak: "SMK m.67" },
+        { alt: "C3.7", soru: "Tasarımda itiraz üzerine verilen karara karşı dava süresi nedir?", cevap: "Kararın bildiriminden itibaren <b>iki ay</b> içinde Ankara FSHHM'de.", kaynak: "SMK m.172" }
       ]
     },
       {
@@ -539,7 +648,15 @@ window.KARTLAR = {
         { alt: "C4.2", soru: "Yenileme yapılmazsa tasarım hakkı ne olur?", cevap: "Koruma süresinin bitimiyle tasarım hakkı <b>sona erer</b> ve tasarım kamuya mal olur.", kaynak: "SMK m.69, m.79" },
         { alt: "C4.2", soru: "Çoklu tescilde kısmi yenileme mümkün müdür?", cevap: "<b>Evet</b>, çoklu tescildeki tasarımların bir kısmı için yenileme yapılabilir.", kaynak: "SMK m.69" },
         { alt: "C4.3", soru: "Tescil ücreti ödenmezse başvurunun akıbeti ne olur?", cevap: "Süresi içinde ödenmeyen başvuru <b>geri çekilmiş sayılır</b> veya işlemden kaldırılır.", kaynak: "SMK m.64; Yönetmelik" },
-        { alt: "C4.3", soru: "Yenileme ek süresinde ödenen ücretin farkı nedir?", cevap: "Normal ücrete ilaveten <b>ek ücret</b> ödenmesi gerekir.", kaynak: "SMK m.69/3" }
+        { alt: "C4.3", soru: "Yenileme ek süresinde ödenen ücretin farkı nedir?", cevap: "Normal ücrete ilaveten <b>ek ücret</b> ödenmesi gerekir.", kaynak: "SMK m.69/3" },
+        { alt: "C4.1", soru: "Tasarımda koruma süresi hangi tarihten başlar?", cevap: "<b>Başvuru tarihinden</b>; tescil tarihinden değil.", kaynak: "SMK m.69/1" },
+        { alt: "C4.1", soru: "Tasarımın azami koruma süresi kaç yenileme ile elde edilir?", cevap: "<b>Dört yenileme</b> ile (5 + 5×4 = 25 yıl).", kaynak: "SMK m.69/1" },
+        { alt: "C4.2", soru: "Yenileme talebi kim tarafından yapılabilir?", cevap: "<b>Tasarım sahibi</b> veya <b>vekili</b>; sicilde kayıtlı hak sahiplerinin talebi de değerlendirilir.", kaynak: "SMK m.69; Yönetmelik" },
+        { alt: "C4.2", soru: "Yenileme, tasarımın koruma kapsamını değiştirebilir mi?", cevap: "<b>Hayır</b>; yenileme yalnızca süreyi uzatır, tasarımın içeriği değiştirilemez.", kaynak: "SMK m.69" },
+        { alt: "C4.3", soru: "Yayım ücreti ödenmezse tasarım hakkı ne olur?", cevap: "Yayım gerçekleşmez ve tasarım hakkı <b>doğmamış sayılır</b>.", kaynak: "SMK m.65/3" },
+        { alt: "C4.3", soru: "Tasarım hakkı sona erdikten sonra yeniden tescil edilebilir mi?", cevap: "<b>Hayır.</b> Tasarım kamuya mal olduğundan yenilik şartı sağlanamaz.", kaynak: "SMK m.56, m.69" },
+        { alt: "C4.3", soru: "Tasarımda hakların yeniden tesisi mümkün müdür?", cevap: "<b>Evet</b>, sınai mülkiyet haklarına ilişkin genel hükümler çerçevesinde m.107 uygulanabilir.", kaynak: "SMK m.107" },
+        { alt: "C4.3", soru: "Tasarım başvurusundan vazgeçilebilir mi?", cevap: "<b>Evet</b>, tescil işlemleri tamamlanana kadar kısmen veya tamamen vazgeçilebilir; vazgeçme sicile kaydedilir.", kaynak: "SMK m.79; Yönetmelik" }
       ]
     },
       {
@@ -557,7 +674,17 @@ window.KARTLAR = {
         { alt: "C5.3", soru: "Tasarımda kısmi hükümsüzlük mümkün müdür?", cevap: "<b>Evet</b>; hükümsüzlük hâlleri tasarımın bir kısmına ilişkinse, o kısım için kısmi hükümsüzlüğe karar verilebilir. Ancak kalan kısmın <b>koruma şartlarını taşıması</b> ve tasarım kimliğini koruması gerekir.", kaynak: "SMK m.77/5" },
         { alt: "C5.4", soru: "Tasarım hakkına tecavüz sayılan fiiller nelerdir?", cevap: "Tasarımın izinsiz <b>üretimi</b>, piyasaya sürülmesi, satılması, ithal/ihracı, ticari amaçla elde bulundurulması veya kullanılması; hakkı gasp etmek ve tecavüz edenlerle iş birliği yapmak.", kaynak: "SMK m.81" },
         { alt: "C5.4", soru: "Tasarım hakkına tecavüz cezai yaptırıma tabi midir?", cevap: "<b>Hayır.</b> SMK'da yalnızca <b>marka hakkına</b> tecavüz için suç düzenlenmiştir; tasarımda hukuki yaptırımlar uygulanır.", kaynak: "SMK m.30" },
-        { alt: "C5.4", soru: "Tasarım hakkına tecavüz davalarında görevli mahkeme hangisidir?", cevap: "<b>Fikri ve Sınai Haklar Hukuk Mahkemesi</b>.", kaynak: "SMK m.156" }
+        { alt: "C5.4", soru: "Tasarım hakkına tecavüz davalarında görevli mahkeme hangisidir?", cevap: "<b>Fikri ve Sınai Haklar Hukuk Mahkemesi</b>.", kaynak: "SMK m.156" },
+        { alt: "C5.1", soru: "Tasarımcı kimdir?", cevap: "Tasarımı <b>gerçekleştiren gerçek kişidir</b>; birden çok kişi varsa hepsi tasarımcıdır.", kaynak: "SMK m.3, m.70" },
+        { alt: "C5.1", soru: "Tasarım başvurusunda tasarımcının belirtilmesi zorunlu mudur?", cevap: "<b>Evet</b>, başvuruda tasarımcı bilgisi yer almalıdır; tasarımcı adının belirtilmesini isteme hakkına sahiptir.", kaynak: "SMK m.61, m.70/2" },
+        { alt: "C5.2", soru: "Çalışan tasarımlarında bedel talebi mümkün müdür?", cevap: "<b>Evet</b>, hizmet buluşlarına ilişkin hükümler kıyasen uygulandığından çalışan <b>bedel</b> talep edebilir.", kaynak: "SMK m.73" },
+        { alt: "C5.3", soru: "Tasarımın hükümsüzlüğü davası hangi mahkemede açılır?", cevap: "<b>Fikri ve Sınai Haklar Hukuk Mahkemesinde</b>.", kaynak: "SMK m.156" },
+        { alt: "C5.3", soru: "Tasarımda hükümsüzlük davası ne kadar süre içinde açılabilir?", cevap: "<b>Koruma süresi boyunca</b>; hakkın sona ermesinden sonra da menfaati olanlar dava açabilir (genel hükümler saklıdır).", kaynak: "SMK m.78" },
+        { alt: "C5.3", soru: "Tescilsiz tasarım için hükümsüzlük davası açılabilir mi?", cevap: "Tescil bulunmadığından teknik olarak hükümsüzlük değil, <b>koruma şartlarının bulunmadığının tespiti</b> savunma olarak ileri sürülür.", kaynak: "SMK m.77, m.59" },
+        { alt: "C5.4", soru: "Tasarım hakkına tecavüz hâlinde hangi talepler ileri sürülebilir?", cevap: "Tespit, önleme, durdurma, <b>tazminat</b>, ürünlere el koyma, mülkiyet hakkı tanınması, <b>imha</b> ve kararın ilanı.", kaynak: "SMK m.149, m.81" },
+        { alt: "C5.4", soru: "Tasarım tecavüzünde gümrükte el koyma mümkün müdür?", cevap: "<b>Evet</b>, hak sahibinin talebi üzerine gümrük idarelerince <b>durdurma</b> uygulanabilir.", kaynak: "SMK m.159; Gümrük mevzuatı" },
+        { alt: "C5.4", soru: "Tasarım hakkı tükenir mi?", cevap: "<b>Evet</b>, hak sahibi veya izniyle Türkiye'de piyasaya sunulan ürünlerle ilgili fiiller hakkın kapsamı dışındadır.", kaynak: "SMK m.152" },
+        { alt: "C5.4", soru: "Tasarım hakkının kapsamı dışında kalan kullanımlar nelerdir?", cevap: "<b>Kişisel ve ticari olmayan</b> amaçlı fiiller, <b>deneme</b> amaçlı fiiller ve <b>eğitim/atıf</b> amacıyla çoğaltmalar (kaynak gösterilmesi ve dürüstlük kuralına uyulması şartıyla).", kaynak: "SMK m.59/4" }
       ]
     },
       {
@@ -568,7 +695,13 @@ window.KARTLAR = {
         { alt: "C6.1", soru: "AYRIM: Madrid ve Lahey sistemleri arasındaki temel fark nedir?", cevap: "<b>Madrid</b> bir <b>esas başvuru/tescile</b> dayanmayı gerektirir. <b>Lahey</b>'de böyle bir şart yoktur; doğrudan uluslararası başvuru yapılabilir.", kaynak: "Madrid Prot. m.2; Lahey Anlaşması" },
         { alt: "C6.2", soru: "Lahey sisteminde koruma dönemleri nasıldır?", cevap: "Uluslararası tescil <b>beş yıllık</b> dönemler hâlindedir ve yenilenebilir; her akit tarafta koruma, o ülkenin mevzuatındaki azami süreye kadar (Cenevre Metni'nde en az on beş yıl) sürer.", kaynak: "Lahey Anlaşması" },
         { alt: "C6.2", soru: "Lahey başvurusunda çoklu tasarım mümkün müdür?", cevap: "<b>Evet</b>, tek uluslararası başvuruda birden çok tasarım yer alabilir (Locarno sınıflandırmasına göre şartlar saklıdır).", kaynak: "Lahey Anlaşması" },
-        { alt: "C6.2", soru: "Belirlenen ofis uluslararası tescili reddedebilir mi?", cevap: "<b>Evet</b>, kendi mevzuatına göre inceleyip belirlenen süre içinde <b>ret bildiriminde</b> bulunabilir; reddedilmezse koruma o ülkede geçerli olur.", kaynak: "Lahey Anlaşması" }
+        { alt: "C6.2", soru: "Belirlenen ofis uluslararası tescili reddedebilir mi?", cevap: "<b>Evet</b>, kendi mevzuatına göre inceleyip belirlenen süre içinde <b>ret bildiriminde</b> bulunabilir; reddedilmezse koruma o ülkede geçerli olur.", kaynak: "Lahey Anlaşması" },
+        { alt: "C6.1", soru: "Lahey Sistemi'ne kimler başvurabilir?", cevap: "Akit taraflardan birinin <b>vatandaşı</b> olan, o ülkede <b>yerleşim yeri</b> ya da <b>gerçek ve etkin ticari işletmesi</b> bulunan kişiler.", kaynak: "Lahey Anlaşması" },
+        { alt: "C6.1", soru: "Lahey başvurusu hangi dillerde yapılır?", cevap: "<b>İngilizce, Fransızca veya İspanyolca</b>.", kaynak: "Lahey Yönetmeliği" },
+        { alt: "C6.1", soru: "Türkiye Lahey Sistemi'ne taraf mıdır?", cevap: "<b>Evet</b>, Türkiye Lahey Anlaşması'nın <b>Cenevre Metni</b>'ne taraftır.", kaynak: "Lahey Anlaşması" },
+        { alt: "C6.2", soru: "Lahey'de uluslararası tescilin yayımı ertelenebilir mi?", cevap: "<b>Evet</b>, akit tarafların beyanları çerçevesinde <b>yayım ertelemesi</b> talep edilebilir.", kaynak: "Lahey Anlaşması" },
+        { alt: "C6.2", soru: "Lahey tescilinde ret bildirimi süresi nedir?", cevap: "Kural olarak <b>altı ay</b>; inceleme yapan ofisler için beyanla <b>on iki aya</b> çıkabilir.", kaynak: "Lahey Anlaşması" },
+        { alt: "C6.2", soru: "Lahey tescili merkezi saldırıya açık mıdır?", cevap: "<b>Hayır.</b> Madrid'deki gibi esas tescile bağımlılık bulunmadığından merkezi saldırı riski yoktur.", kaynak: "Lahey Anlaşması; Madrid Prot. m.6" }
       ]
     }
     ]
@@ -600,7 +733,19 @@ window.KARTLAR = {
         { alt: "D1.7", soru: "Garanti markası nedir?", cevap: "Marka sahibinin kontrolü altında, birçok işletme tarafından o işletmelerin <b>ortak özelliklerini, üretim usullerini, coğrafi menşelerini ve kalitesini garanti etmeye</b> yarayan işarettir.", kaynak: "SMK m.31" },
         { alt: "D1.7", soru: "AYRIM: Garanti markası ile ortak marka arasındaki temel fark nedir?", cevap: "<b>Garanti markası</b>, marka sahibinin <b>kendi işletmesinde kullanılamaz</b> (bağımsızlık ilkesi) ve şartları sağlayan herkesin kullanımına açıktır. <b>Ortak marka</b> ise belirli bir gruba aittir ve grup üyelerince kullanılır.", kaynak: "SMK m.31, m.32" },
         { alt: "D1.7", soru: "Garanti markası sahibi markayı kendi mal ve hizmetlerinde kullanabilir mi?", cevap: "<b>Hayır.</b> Marka sahibinin veya ona ekonomik olarak bağlı işletmelerin kullanımı yasaktır.", kaynak: "SMK m.31/2" },
-        { alt: "D1.7", soru: "Ortak ve garanti markası için teknik şartname sunulmazsa ne olur?", cevap: "Başvuru <b>reddedilir</b>; teknik şartname zorunlu unsurdur.", kaynak: "SMK m.32" }
+        { alt: "D1.7", soru: "Ortak ve garanti markası için teknik şartname sunulmazsa ne olur?", cevap: "Başvuru <b>reddedilir</b>; teknik şartname zorunlu unsurdur.", kaynak: "SMK m.32" },
+        { alt: "D1.1", soru: "Marka “ayırt edicilik” işlevi dışında hangi işlevleri görür?", cevap: "<b>Kaynak gösterme</b>, <b>kalite/garanti</b>, <b>reklam</b> ve <b>yatırım</b> işlevleri.", kaynak: "SMK m.4; Marka Kılavuzu" },
+        { alt: "D1.1", soru: "Renk kombinasyonu marka olarak tescil edilebilir mi?", cevap: "<b>Evet</b>, renklerin <b>sistematik ve önceden belirlenmiş</b> biçimde bir araya getirildiği ve sicilde açıkça gösterildiği hâllerde.", kaynak: "SMK m.4" },
+        { alt: "D1.1", soru: "Koku markası Türkiye'de tescil edilebilir mi?", cevap: "Uygulamada <b>sicilde açık ve kesin gösterim</b> şartı sağlanamadığından kabul edilmemektedir.", kaynak: "SMK m.4" },
+        { alt: "D1.3", soru: "Kelime markasında koruma yazı karakterini kapsar mı?", cevap: "Kelime (standart karakterli) markada koruma <b>kelimenin kendisine</b> ilişkindir; özel yazı biçimi korunmak isteniyorsa şekil markası olarak başvurulmalıdır.", kaynak: "SMK m.4; Marka Kılavuzu" },
+        { alt: "D1.3", soru: "Üç boyutlu markada ürünün şekli tek başına ayırt edici midir?", cevap: "<b>Kural olarak hayır</b>; tüketici ürün şeklini kaynak göstergesi olarak algılamaz. Sektör normlarından <b>önemli ölçüde ayrılan</b> şekiller ayırt edici olabilir.", kaynak: "SMK m.5/1-b; Marka Kılavuzu" },
+        { alt: "D1.4", soru: "Ses markasında müzikal olmayan sesler tescil edilebilir mi?", cevap: "<b>Evet</b>, ayırt edicilik ve sicilde gösterilebilirlik şartlarını sağlamak kaydıyla (örn. karakteristik bir motor sesi).", kaynak: "SMK m.4" },
+        { alt: "D1.5", soru: "Hologram markası nedir?", cevap: "Bakış açısına göre <b>farklı görüntüler</b> veren işaretlerdir; başvuruda bu değişimi gösteren görünümler sunulur.", kaynak: "SMK m.4; Yönetmelik" },
+        { alt: "D1.5", soru: "Tek rengin marka olarak tescilinde neden kullanım ispatı istenir?", cevap: "Renklerin <b>sınırlı sayıda</b> olması ve rakiplerin serbestçe kullanabilmesi gerektiğinden; kamu yararı gereği tek renk ancak <b>kullanımla ayırt edicilik</b> kazanmışsa tescil edilir.", kaynak: "SMK m.5/1-b, m.5/2" },
+        { alt: "D1.6", soru: "Ortak markanın sahibi kimdir?", cevap: "Markayı kullanacak <b>grup</b> adına hareket eden tüzel kişi ya da birlik; kullanım hakkı gruba dâhil işletmelere aittir.", kaynak: "SMK m.31" },
+        { alt: "D1.6", soru: "Teknik şartnamede hangi bilgiler yer alır?", cevap: "Markayı kullanmaya yetkili kişiler, <b>kullanım şartları</b>, markanın kullanımının denetimi ve <b>yaptırımlar</b>.", kaynak: "SMK m.32" },
+        { alt: "D1.7", soru: "Garanti markası sahibinin denetim yükümlülüğü nedir?", cevap: "Teknik şartnameye uygunluğu <b>denetlemek</b> ve aykırılık hâlinde gerekli yaptırımları uygulamak; aksi hâlde marka <b>iptal</b> edilebilir.", kaynak: "SMK m.26/1-ç, m.32" },
+        { alt: "D1.7", soru: "Teknik şartnamede değişiklik yapılabilir mi?", cevap: "<b>Evet</b>, değişiklik Kuruma bildirilir ve onaylanırsa sicile kaydedilerek yayımlanır.", kaynak: "SMK m.32/3" }
       ]
     },
       {
@@ -621,7 +766,21 @@ window.KARTLAR = {
         { alt: "D2.9", soru: "Başvurunun bölünmesinin pratik faydası nedir?", cevap: "İtiraza konu olmayan mal/hizmetler için tescilin <b>gecikmeden tamamlanmasını</b> sağlar.", kaynak: "SMK m.11/4" },
         { alt: "D2.10", soru: "Marka başvurusu devredilebilir mi?", cevap: "<b>Evet.</b> Başvuru da tescilli marka gibi devir, lisans, rehin ve haciz işlemlerine konu olabilir; devir <b>yazılı ve noter onaylı</b> olmalıdır.", kaynak: "SMK m.148" },
         { alt: "D2.10", soru: "Devir sicile kaydedilmezse sonucu ne olur?", cevap: "Devir <b>iyiniyetli üçüncü kişilere karşı ileri sürülemez</b>.", kaynak: "SMK m.148/5" },
-        { alt: "D2.10", soru: "Marka başvurusundan vazgeçme mümkün müdür?", cevap: "<b>Evet</b>, tescil işlemleri tamamlanana kadar başvurudan kısmen veya tamamen vazgeçilebilir; vazgeçme <b>geri alınamaz</b>.", kaynak: "SMK m.10, m.28" }
+        { alt: "D2.10", soru: "Marka başvurusundan vazgeçme mümkün müdür?", cevap: "<b>Evet</b>, tescil işlemleri tamamlanana kadar başvurudan kısmen veya tamamen vazgeçilebilir; vazgeçme <b>geri alınamaz</b>.", kaynak: "SMK m.10, m.28" },
+        { alt: "D2.1", soru: "Marka başvurusu birden fazla kişi adına yapılabilir mi?", cevap: "<b>Evet</b>, birlikte hak sahipliği mümkündür; paylar üzerinde tasarruf genel hükümlere tabidir.", kaynak: "SMK m.11, m.148" },
+        { alt: "D2.1", soru: "Marka örneği ile mal/hizmet listesi arasında bağ nasıl kurulur?", cevap: "Koruma, <b>marka örneği</b> ile <b>listedeki mal/hizmetler</b> bakımından doğar; ikisi birlikte hakkın kapsamını belirler.", kaynak: "SMK m.7, m.11" },
+        { alt: "D2.2", soru: "Başvuru tarihi kesinleştikten sonra marka örneği değiştirilebilir mi?", cevap: "<b>Hayır.</b> Marka örneğinde esaslı değişiklik yapılamaz; ancak <b>ayırt edici karakteri değiştirmeyen</b> düzeltmeler kabul edilebilir.", kaynak: "SMK m.11; Yönetmelik" },
+        { alt: "D2.2", soru: "Mal/hizmet listesi sonradan genişletilebilir mi?", cevap: "<b>Hayır</b>, liste yalnızca <b>daraltılabilir</b>; genişletme yeni başvuru gerektirir.", kaynak: "SMK m.11" },
+        { alt: "D2.3", soru: "Şekli eksiklik ile mutlak ret nedeni arasındaki fark nedir?", cevap: "<b>Şekli eksiklik</b> giderilebilir nitelikte usuli bir eksikliktir. <b>Mutlak ret nedeni</b> işaretin kendisine ilişkindir ve giderilemez (kullanım sonucu ayırt edicilik hâli saklıdır).", kaynak: "SMK m.15, m.5" },
+        { alt: "D2.4", soru: "Sınıf başlığı (class heading) kullanmanın riski nedir?", cevap: "Sınıf başlığı, o sınıftaki <b>tüm malları kapsamaz</b>; koruma kapsamı belirsizleşebileceğinden <b>açık ve kesin</b> mal/hizmet ifadeleri tercih edilmelidir.", kaynak: "SMK m.11; Marka Kılavuzu" },
+        { alt: "D2.5", soru: "Kurum, mal/hizmet listesini resen düzeltebilir mi?", cevap: "Kurum, sınıflandırmaya uygunluk yönünden inceleme yapar ve <b>düzeltme</b> ister; talebe uyulmazsa başvuru o kısım için işlemden kaldırılabilir.", kaynak: "SMK m.11/3, m.15" },
+        { alt: "D2.6", soru: "Rüçhan hakkına dayanılan ilk başvuru geri çekilirse rüçhan geçerli kalır mı?", cevap: "İlk başvuru <b>hüküm doğurmadan</b> geri çekilmiş ve yerine yenisi yapılmışsa, şartları varsa rüçhan sonraki başvuruya dayandırılabilir.", kaynak: "Paris Söz. m.4/C" },
+        { alt: "D2.7", soru: "Sergi rüçhanı ile başvuru rüçhanı birlikte kullanılabilir mi?", cevap: "Süreler <b>birbirini uzatmaz</b>; sergi rüçhanı, Paris rüçhan süresinin başlangıcını değiştirmez.", kaynak: "Paris Söz. m.11; SMK m.13" },
+        { alt: "D2.8", soru: "Rüçhan belgesinin çevirisi istenir mi?", cevap: "Kurum gerekli gördüğünde belgenin <b>Türkçe çevirisini</b> talep edebilir.", kaynak: "Yönetmelik" },
+        { alt: "D2.9", soru: "Bölünme talebi hangi aşamaya kadar yapılabilir?", cevap: "<b>Tescil işlemleri tamamlanıncaya kadar</b>.", kaynak: "SMK m.11/4" },
+        { alt: "D2.9", soru: "Bölünen başvurular hangi tarihi korur?", cevap: "<b>İlk başvurunun tarihini</b> ve varsa rüçhan hakkını.", kaynak: "SMK m.11/4" },
+        { alt: "D2.10", soru: "Marka devri kısmen yapıldığında ne olur?", cevap: "Devredilen mal/hizmetler için <b>yeni bir tescil numarası</b> oluşturulur; devir sicile kaydedilip yayımlanır.", kaynak: "SMK m.148; Yönetmelik" },
+        { alt: "D2.10", soru: "Devir talebine hangi belgeler eklenir?", cevap: "<b>Noter onaylı devir sözleşmesi</b> veya devri gösteren belge, talep formu ve <b>ücret</b>.", kaynak: "SMK m.148; Yönetmelik" }
       ]
     },
       {
@@ -647,7 +806,29 @@ window.KARTLAR = {
         { alt: "D3.14", soru: "Muvafakatname (m.5/3) hangi ret nedenini aşmak için kullanılır?", cevap: "Yalnızca <b>m.5/1-ç</b> kapsamındaki reddi aşmak için; önceki marka sahibinin başvurunun tesciline açıkça muvafakat ettiğini gösteren belgedir.", kaynak: "SMK m.5/3" },
         { alt: "D3.14", soru: "Muvafakatnamenin şekil şartı nedir?", cevap: "<b>Noter onaylı</b> olarak düzenlenmesi ve başvuru ile birlikte ya da karara itiraz aşamasında Kuruma sunulması gerekir.", kaynak: "SMK m.5/3; Yönetmelik" },
         { alt: "D3.14", soru: "Muvafakatname geri alınabilir mi?", cevap: "<b>Hayır</b>, muvafakat <b>geri alınamaz</b> niteliktedir.", kaynak: "SMK m.5/3" },
-        { alt: "D3.14", soru: "Muvafakatname şarta bağlı olarak verilebilir mi?", cevap: "<b>Hayır</b>; muvafakat kayıtsız ve şartsız olmalıdır.", kaynak: "SMK m.5/3; Yönetmelik" }
+        { alt: "D3.14", soru: "Muvafakatname şarta bağlı olarak verilebilir mi?", cevap: "<b>Hayır</b>; muvafakat kayıtsız ve şartsız olmalıdır.", kaynak: "SMK m.5/3; Yönetmelik" },
+        { alt: "D3.1", soru: "Mutlak ret nedenleri kim tarafından ve ne zaman incelenir?", cevap: "<b>Kurum tarafından resen</b>, başvurunun incelenmesi aşamasında.", kaynak: "SMK m.16" },
+        { alt: "D3.1", soru: "Mutlak ret nedenleri hükümsüzlük sebebi olur mu?", cevap: "<b>Evet</b>, m.5'teki nedenlerden biri varsa marka hükümsüz kılınabilir.", kaynak: "SMK m.25/1" },
+        { alt: "D3.2", soru: "Ayırt edicilik değerlendirmesi hangi tarih itibarıyla yapılır?", cevap: "<b>Başvuru tarihi</b> itibarıyla; kullanım sonucu ayırt edicilik de bu tarihten önceki kullanıma dayanmalıdır.", kaynak: "SMK m.5/2" },
+        { alt: "D3.2", soru: "Ayırt edicilik değerlendirmesinde hangi tüketici esas alınır?", cevap: "İlgili mal/hizmetin <b>makul düzeyde bilgili, dikkatli ve ihtiyatlı ortalama tüketicisi</b>.", kaynak: "Marka Kılavuzu" },
+        { alt: "D3.3", soru: "Tanımlayıcılık değerlendirmesi hangi mal/hizmetler bakımından yapılır?", cevap: "Yalnızca <b>başvuru kapsamındaki</b> mal ve hizmetler bakımından; bir ibare bazı mallar için tanımlayıcıyken diğerleri için ayırt edici olabilir.", kaynak: "SMK m.5/1-c" },
+        { alt: "D3.3", soru: "Yabancı dildeki tanımlayıcı bir kelime tescil edilebilir mi?", cevap: "İlgili tüketici kesimi kelimenin anlamını <b>doğrudan algılıyorsa</b> tanımlayıcı sayılır ve reddedilir.", kaynak: "SMK m.5/1-c; Marka Kılavuzu" },
+        { alt: "D3.3", soru: "Tanımlayıcı unsurlar içeren bileşke markalar tescil edilebilir mi?", cevap: "<b>Evet</b>, bütün olarak ayırt edicilik kazanmışsa; ancak tanımlayıcı unsur üzerinde <b>münhasır hak</b> doğmaz.", kaynak: "SMK m.5/1-c; Marka Kılavuzu" },
+        { alt: "D3.4", soru: "m.5/1-ç incelemesinde “aynı tür mal/hizmet” nasıl anlaşılır?", cevap: "Aynı sınıfta yer alan ve <b>nitelik, amaç, kullanım</b> bakımından örtüşen mal/hizmetler; benzerlik değil <b>aynı türlük</b> aranır.", kaynak: "SMK m.5/1-ç; Marka Kılavuzu" },
+        { alt: "D3.4", soru: "m.5/1-ç kapsamında “ayırt edilemeyecek kadar benzerlik” ölçütü nedir?", cevap: "Ortalama tüketicinin iki işaret arasında <b>fark göremeyeceği</b> düzeyde, neredeyse aynı olma durumudur.", kaynak: "SMK m.5/1-ç" },
+        { alt: "D3.5", soru: "m.5/1-d ile m.5/1-c arasındaki fark nedir?", cevap: "<b>m.5/1-c</b> ürünün özelliklerini <b>tanımlayan</b> işaretlere ilişkindir. <b>m.5/1-d</b> ise ticaret alanında <b>herkesin kullanımına açık</b> hâle gelmiş (jenerik/yaygın) işaretlere ilişkindir.", kaynak: "SMK m.5/1-c, d" },
+        { alt: "D3.6", soru: "Malın “asli değerini veren şekil” istisnası neyi engeller?", cevap: "Ürünün <b>satın alma kararında belirleyici estetik değeri</b> oluşturan şeklin süresiz marka koruması altına alınmasını.", kaynak: "SMK m.5/1-e" },
+        { alt: "D3.6", soru: "m.5/1-e neden süresiz tekelleşmeyi engellemeyi amaçlar?", cevap: "Teknik çözümler <b>patentle</b>, estetik değer <b>tasarımla</b> ve süreli olarak korunmalıdır; marka bu süreli korumaları dolanmak için kullanılamaz.", kaynak: "SMK m.5/1-e; Marka Kılavuzu" },
+        { alt: "D3.7", soru: "Yanıltıcılık değerlendirmesi hangi anda yapılır?", cevap: "<b>Başvuru anında</b>; tescilden sonra kullanım sonucu yanıltıcı hâle gelme ise <b>iptal</b> sebebidir.", kaynak: "SMK m.5/1-f, m.26/1-c" },
+        { alt: "D3.7", soru: "Coğrafi yer adı içeren marka her hâlde yanıltıcı mıdır?", cevap: "<b>Hayır.</b> Yer adı, ürünün gerçek kaynağını yansıtıyorsa veya tüketicide kaynak beklentisi yaratmıyorsa yanıltıcı sayılmaz; ancak <b>m.5/1-c</b> yönünden ayrıca değerlendirilir.", kaynak: "SMK m.5/1-c, f" },
+        { alt: "D3.8", soru: "Paris m.6ter kapsamındaki işaretler için izin alınabilir mi?", cevap: "<b>Evet</b>, yetkili makamın izniyle kullanım mümkündür; izinsiz başvurular reddedilir.", kaynak: "SMK m.5/1-g; Paris Söz. m.6ter" },
+        { alt: "D3.9", soru: "m.5/1-ğ kapsamına giren işaretlere örnek veriniz.", cevap: "Halka mal olmuş <b>tarihi ve kültürel değerler</b> ile yetkili mercilerce tescil izni verilmemiş <b>armalar, nişanlar ve adlandırmalar</b>.", kaynak: "SMK m.5/1-ğ" },
+        { alt: "D3.10", soru: "Dini sembol içeren her başvuru reddedilir mi?", cevap: "İşaretin <b>dini değeri veya sembolü</b> içermesi ve bu kullanımın toplumca kabul görmemesi hâlinde reddedilir; değerlendirme somut olaya göre yapılır.", kaynak: "SMK m.5/1-h" },
+        { alt: "D3.11", soru: "Kamu düzenine aykırılık değerlendirmesinde ölçüt nedir?", cevap: "Toplumun <b>temel değerlerine</b>, hukuk düzenine veya genel ahlak anlayışına açıkça aykırılık.", kaynak: "SMK m.5/1-ı" },
+        { alt: "D3.12", soru: "Coğrafi işaret içeren başvuru, coğrafi işaret sahibinin izniyle tescil edilebilir mi?", cevap: "<b>Hayır.</b> m.5/1-i <b>mutlak</b> ret nedenidir; muvafakat yoluyla aşılamaz.", kaynak: "SMK m.5/1-i, m.5/3" },
+        { alt: "D3.13", soru: "Kullanım sonucu ayırt edicilik hangi coğrafi alanda ispatlanmalıdır?", cevap: "<b>Türkiye</b> bakımından; ilgili tüketici kesiminin önemli bir bölümünde markanın kaynak gösterdiği algısı oluşmalıdır.", kaynak: "SMK m.5/2; Marka Kılavuzu" },
+        { alt: "D3.14", soru: "Muvafakatname kim tarafından verilir?", cevap: "<b>Önceki marka sahibi</b> veya başvuru sahibi tarafından; birden çok hak sahibi varsa <b>tamamının</b> muvafakati gerekir.", kaynak: "SMK m.5/3; Yönetmelik" },
+        { alt: "D3.14", soru: "Muvafakatname hangi aşamalarda sunulabilir?", cevap: "<b>Başvuru ile birlikte</b> veya m.5/1-ç gerekçesiyle verilen ret kararına karşı yapılan <b>itiraz</b> aşamasında.", kaynak: "SMK m.5/3" }
       ]
     },
       {
@@ -676,7 +857,31 @@ window.KARTLAR = {
         { alt: "D4.11", soru: "m.6/7 hangi süreyi öngörür?", cevap: "Sona ermiş <b>ortak veya garanti markasıyla</b> aynı/benzer başvurular, koruma süresinin bitiminden itibaren <b>üç yıl</b> içinde yapılmışsa, önceki hak sahibinin itirazı üzerine reddedilir.", kaynak: "SMK m.6/7" },
         { alt: "D4.12", soru: "m.6/8 hangi süreyi öngörür?", cevap: "<b>Yenilenmeyerek</b> koruma süresi sona eren markayla aynı/benzer başvurular, sona ermeden itibaren <b>iki yıl</b> içinde yapılmışsa; önceki marka <b>bu süre içinde kullanılmışsa</b> itiraz üzerine reddedilir.", kaynak: "SMK m.6/8" },
         { alt: "D4.13", soru: "m.6/9 neyi düzenler?", cevap: "<b>Kötüniyetle</b> yapılan marka başvurularının, itiraz üzerine reddedilmesini.", kaynak: "SMK m.6/9" },
-        { alt: "D4.13", soru: "Kötüniyet iddiasında hangi olgular dikkate alınır?", cevap: "Başvuru sahibinin önceki markadan <b>haberdar olması</b>, taraflar arasındaki ticari ilişki, marka yığma (stoklama) davranışı, engelleme veya haksız kazanç sağlama amacı.", kaynak: "SMK m.6/9; Marka Kılavuzu" }
+        { alt: "D4.13", soru: "Kötüniyet iddiasında hangi olgular dikkate alınır?", cevap: "Başvuru sahibinin önceki markadan <b>haberdar olması</b>, taraflar arasındaki ticari ilişki, marka yığma (stoklama) davranışı, engelleme veya haksız kazanç sağlama amacı.", kaynak: "SMK m.6/9; Marka Kılavuzu" },
+        { alt: "D4.1", soru: "Nispi ret nedenleri resen incelenir mi?", cevap: "<b>Hayır</b>, yalnızca <b>süresinde yapılan itiraz</b> üzerine incelenir.", kaynak: "SMK m.6, m.18" },
+        { alt: "D4.1", soru: "Karıştırılma ihtimalinde “ilişkilendirilme ihtimali” ne demektir?", cevap: "Tüketicinin markaları karıştırmasa bile, işletmeler arasında <b>idari veya ekonomik bağlantı</b> bulunduğunu düşünmesi ihtimalidir.", kaynak: "SMK m.6/1" },
+        { alt: "D4.2", soru: "Tamamlayıcı mallar benzer sayılır mı?", cevap: "Biri diğerinin kullanımı için <b>gerekli veya önemli</b> ise (örn. ayakkabı–ayakkabı bağı) benzerlik yönünde değerlendirilebilir.", kaynak: "Marka Kılavuzu" },
+        { alt: "D4.2", soru: "Mal ile hizmet arasında benzerlik kurulabilir mi?", cevap: "<b>Evet</b>, örneğin bir malın <b>perakende satış hizmeti</b> ile o mal arasında bağlantı kurulabilir.", kaynak: "Marka Kılavuzu" },
+        { alt: "D4.3", soru: "Karşılaştırmada markaların hangi hâli esas alınır?", cevap: "Markaların <b>tescil edildiği/başvurulduğu hâli</b>; fiilî kullanım biçimi değil.", kaynak: "Marka Kılavuzu" },
+        { alt: "D4.3", soru: "Görsel benzerlikte hangi unsurlar öne çıkar?", cevap: "Kelimenin <b>başlangıç kısmı</b>, uzunluğu, harf dizilimi ve genel görünüm; tüketici markanın başını daha çok hatırlar.", kaynak: "Marka Kılavuzu" },
+        { alt: "D4.4", soru: "Zayıf (düşük ayırt edici) unsurların benzerlikteki rolü nedir?", cevap: "Zayıf unsurların ortak olması tek başına karıştırılma ihtimali doğurmaz; <b>ayırt edici unsurlar</b> karşılaştırılır.", kaynak: "Marka Kılavuzu" },
+        { alt: "D4.4", soru: "Çatı marka (house mark) ile kullanım karıştırılmayı önler mi?", cevap: "Çatı markanın eklenmesi <b>her zaman</b> ihtimali ortadan kaldırmaz; ortak unsur baskınsa ilişkilendirme ihtimali sürebilir.", kaynak: "Marka Kılavuzu" },
+        { alt: "D4.5", soru: "Tüketicinin dikkat düzeyi benzerlik değerlendirmesini nasıl etkiler?", cevap: "Pahalı, teknik veya uzmanlık gerektiren ürünlerde dikkat düzeyi <b>yüksektir</b> ve karıştırılma ihtimali azalır; günlük tüketim mallarında tersi geçerlidir.", kaynak: "Marka Kılavuzu" },
+        { alt: "D4.5", soru: "Marka serisi (aile) iddiası nasıl değerlendirilir?", cevap: "Ortak bir kök etrafında <b>fiilen kullanılan</b> çok sayıda tescil varsa, sonraki başvurunun seriye dâhil algılanma riski karıştırılma ihtimalini artırır.", kaynak: "Marka Kılavuzu" },
+        { alt: "D4.6", soru: "m.6/2 kapsamında ticari vekil hangi taleplerde bulunabilir?", cevap: "Gerçek hak sahibi, başvurunun <b>reddini</b> veya tescil edilmişse markanın <b>kendisine devrini</b> ya da <b>hükümsüzlüğünü</b> talep edebilir.", kaynak: "SMK m.6/2, m.25" },
+        { alt: "D4.6", soru: "m.6/2'de vekilin haklı gerekçesi savunma olabilir mi?", cevap: "<b>Evet</b>, ticari vekil veya temsilcinin <b>haklı bir gerekçe</b> göstermesi hâlinde bu ret nedeni uygulanmaz.", kaynak: "SMK m.6/2" },
+        { alt: "D4.7", soru: "m.6/3 kapsamındaki hak hangi tarihe göre değerlendirilir?", cevap: "Sonraki başvurunun <b>başvuru veya rüçhan tarihinden önce</b> hak elde edilmiş olmalıdır.", kaynak: "SMK m.6/3" },
+        { alt: "D4.7", soru: "m.6/3'te kullanımın coğrafi kapsamı ne olmalıdır?", cevap: "Kullanımın, markasal ve <b>ciddi</b> olması aranır; yerel ölçekli kullanımın kapsamı somut olayda değerlendirilir.", kaynak: "SMK m.6/3; Marka Kılavuzu" },
+        { alt: "D4.8", soru: "Tanınmışlık nasıl ispatlanır?", cevap: "Pazar payı, <b>kullanım süresi ve yoğunluğu</b>, coğrafi yaygınlık, <b>reklam yatırımları</b>, tescil sayısı, tüketici anketleri ve mahkeme/Kurum kararlarıyla.", kaynak: "Marka Kılavuzu" },
+        { alt: "D4.8", soru: "Tanınmışlık hangi tarih itibarıyla aranır?", cevap: "İtiraza konu başvurunun <b>başvuru veya rüçhan tarihi</b> itibarıyla.", kaynak: "SMK m.6/4, 5" },
+        { alt: "D4.9", soru: "m.6/5'teki üç şart aynı anda mı aranır?", cevap: "<b>Hayır</b>, üç şarttan <b>herhangi birinin</b> gerçekleşmesi yeterlidir.", kaynak: "SMK m.6/5" },
+        { alt: "D4.9", soru: "“Sulandırma” (dilution) hangi şartla ilgilidir?", cevap: "Tanınmış markanın <b>ayırt edici karakterinin zedelenmesi</b>; markanın tekilliğinin ve çekiciliğinin azalmasıdır.", kaynak: "SMK m.6/5" },
+        { alt: "D4.10", soru: "m.6/6 kapsamında telif hakkına dayanılabilir mi?", cevap: "<b>Evet</b>, eser sahibinin izni olmaksızın eserin marka olarak tescili itiraz üzerine reddedilir.", kaynak: "SMK m.6/6; FSEK" },
+        { alt: "D4.10", soru: "m.6/6'da ticaret unvanına dayanan itirazda ne aranır?", cevap: "Unvanın <b>ticaret sırasında kullanılıyor</b> olması ve önceki tarihli üstün hak oluşturması.", kaynak: "SMK m.6/6" },
+        { alt: "D4.11", soru: "m.6/7'deki üç yıllık süre ne zaman başlar?", cevap: "Ortak veya garanti markasının <b>koruma süresinin bittiği tarihten</b> itibaren.", kaynak: "SMK m.6/7" },
+        { alt: "D4.12", soru: "m.6/8'de aranan ek şart nedir?", cevap: "Yenilenmeyen markanın, sona ermeden önceki dönemde <b>kullanılmış</b> olması.", kaynak: "SMK m.6/8" },
+        { alt: "D4.13", soru: "Kötüniyet iddiası tek başına hükümsüzlük sebebi olur mu?", cevap: "<b>Evet</b>, kötüniyetle yapılan tescil, m.6/9'a dayanılarak hükümsüz kılınabilir.", kaynak: "SMK m.6/9, m.25/1" },
+        { alt: "D4.13", soru: "Kötüniyetli tescilde hükümsüzlük talebi süreye tabi midir?", cevap: "Sessiz kalma yoluyla hak kaybı <b>kötüniyet hâlinde uygulanmaz</b>; bu yönüyle süre engeli bulunmaz.", kaynak: "SMK m.25/6" }
       ]
     },
       {
@@ -693,7 +898,19 @@ window.KARTLAR = {
         { alt: "D5.6", soru: "Kurum kararlarına karşı itiraz süresi nedir?", cevap: "Kararın <b>bildiriminden itibaren iki ay</b> içinde YİDK'ya itiraz edilebilir.", kaynak: "SMK m.20" },
         { alt: "D5.6", soru: "YİDK kararı Kurum bakımından ne anlama gelir?", cevap: "YİDK kararı <b>Kurumun nihai kararıdır</b>; bundan sonraki aşama yargı yoludur.", kaynak: "SMK m.20, m.172" },
         { alt: "D5.7", soru: "İtirazın geri çekilmesi mümkün müdür?", cevap: "<b>Evet</b>, itiraz sahibi karar verilinceye kadar itirazını geri çekebilir.", kaynak: "SMK m.18; Yönetmelik" },
-        { alt: "D5.7", soru: "Hangi hâllerde itiraz ücreti iade edilir?", cevap: "Kurumun hatası nedeniyle işlem yapılamaması gibi mevzuatta öngörülen hâllerde; kural olarak itirazın reddi hâlinde <b>ücret iade edilmez</b>.", kaynak: "Ücret Tebliği" }
+        { alt: "D5.7", soru: "Hangi hâllerde itiraz ücreti iade edilir?", cevap: "Kurumun hatası nedeniyle işlem yapılamaması gibi mevzuatta öngörülen hâllerde; kural olarak itirazın reddi hâlinde <b>ücret iade edilmez</b>.", kaynak: "Ücret Tebliği" },
+        { alt: "D5.1", soru: "Yayıma itiraz üzerine başvuru sahibine görüş süresi verilir mi?", cevap: "<b>Evet</b>, itiraz başvuru sahibine bildirilir ve <b>bir ay</b> içinde görüş sunması istenir.", kaynak: "SMK m.18; Yönetmelik" },
+        { alt: "D5.1", soru: "Yayıma itiraz gerekçeleri sonradan genişletilebilir mi?", cevap: "<b>Hayır</b>; gerekçeler ve deliller <b>itiraz süresi içinde</b> sunulmalıdır.", kaynak: "SMK m.18/2" },
+        { alt: "D5.2", soru: "Üçüncü kişi görüşü ile yayıma itiraz arasındaki fark nedir?", cevap: "<b>Görüş</b> yalnızca belirli <b>mutlak</b> ret nedenleri için, herkes tarafından, taraf sıfatı doğurmadan sunulur. <b>İtiraz</b> ise mutlak ve nispi nedenlerle, süresi ve ücreti olan, taraf sıfatı doğuran bir yoldur.", kaynak: "SMK m.17, m.18" },
+        { alt: "D5.3", soru: "Kullanımın ispatı talebinde hangi dönem esas alınır?", cevap: "İtiraza konu başvurunun başvuru veya rüçhan tarihinden <b>geriye doğru beş yıl</b>.", kaynak: "SMK m.19/2" },
+        { alt: "D5.3", soru: "Kullanmama için “haklı sebep” nedir?", cevap: "Marka sahibinin iradesi dışındaki, kullanımı imkânsız veya makul olmaktan çıkaran engeller (örn. <b>ithalat yasağı, ruhsat bekleme</b>).", kaynak: "SMK m.19/2, m.26" },
+        { alt: "D5.4", soru: "Kullanım ispatında hangi deliller sunulur?", cevap: "<b>Faturalar</b>, ambalaj ve etiket örnekleri, katalog ve reklamlar, fuar belgeleri, satış rakamları — tarih ve mal/hizmet bağlantısını gösterir nitelikte.", kaynak: "SMK m.19; Marka Kılavuzu" },
+        { alt: "D5.5", soru: "Uzlaşma daveti tarafları bağlar mı?", cevap: "<b>Hayır</b>, katılım <b>isteğe bağlıdır</b>; uzlaşma sağlanamazsa inceleme kaldığı yerden sürer.", kaynak: "SMK m.19/1" },
+        { alt: "D5.6", soru: "YİDK itirazında yeni delil sunulabilir mi?", cevap: "İtiraz gerekçeleri kural olarak <b>ilk itiraz aşamasındaki</b> çerçeveyle sınırlıdır; Kurumun kabul ettiği hâller dışında yeni gerekçe ileri sürülemez.", kaynak: "SMK m.20; Yönetmelik" },
+        { alt: "D5.6", soru: "Karara itiraz ücreti ödenmezse ne olur?", cevap: "İtiraz <b>yapılmamış sayılır</b>.", kaynak: "SMK m.20/2" },
+        { alt: "D5.7", soru: "İtirazın geri çekilmesinin sonucu nedir?", cevap: "İnceleme <b>sona erer</b>; başvuru, itiraz yokmuş gibi işleme devam eder.", kaynak: "Yönetmelik" },
+        { alt: "D5.7", soru: "İtiraz süresi kaçırılırsa başka hangi yol kalır?", cevap: "Marka tescil edildikten sonra <b>hükümsüzlük davası</b> açılabilir.", kaynak: "SMK m.25" },
+        { alt: "D5.7", soru: "Yayıma itirazın reddi kararına karşı ne yapılabilir?", cevap: "<b>İki ay</b> içinde YİDK'ya itiraz; YİDK kararına karşı <b>iki ay</b> içinde Ankara FSHHM'de dava.", kaynak: "SMK m.20, m.172" }
       ]
     },
       {
@@ -711,7 +928,19 @@ window.KARTLAR = {
         { alt: "D6.6", soru: "İnhisari lisans sahibi tecavüz davası açabilir mi?", cevap: "<b>Evet</b>, aksi sözleşmede kararlaştırılmamışsa kendi adına dava açabilir. İnhisari olmayan lisans sahibi ise önce hak sahibine bildirimde bulunmalı, hak sahibi dava açmazsa kendisi açabilir.", kaynak: "SMK m.158" },
         { alt: "D6.7", soru: "Marka üzerinde rehin ve haciz mümkün müdür?", cevap: "<b>Evet.</b> Marka; teminat olarak gösterilebilir, rehnedilebilir ve haczedilebilir; bu işlemler <b>sicile kaydedilir</b>.", kaynak: "SMK m.148/1, 2" },
         { alt: "D6.8", soru: "Sicile kaydedilmeyen hukuki işlemler kime karşı ileri sürülemez?", cevap: "<b>İyiniyetli üçüncü kişilere</b> karşı ileri sürülemez.", kaynak: "SMK m.148/5" },
-        { alt: "D6.8", soru: "Marka sicili aleni midir?", cevap: "<b>Evet</b>, sicil kayıtları herkesin incelemesine açıktır.", kaynak: "SMK m.11; Yönetmelik" }
+        { alt: "D6.8", soru: "Marka sicili aleni midir?", cevap: "<b>Evet</b>, sicil kayıtları herkesin incelemesine açıktır.", kaynak: "SMK m.11; Yönetmelik" },
+        { alt: "D6.1", soru: "Tescil belgesi düzenlenmesinin hukuki anlamı nedir?", cevap: "Belge <b>açıklayıcıdır</b>; hak, tescille ve <b>başvuru tarihinden</b> itibaren doğar.", kaynak: "SMK m.7, m.23" },
+        { alt: "D6.2", soru: "Koruma süresi hangi tarihten itibaren hesaplanır?", cevap: "<b>Başvuru tarihinden</b>; tescil tarihinden değil.", kaynak: "SMK m.23/1" },
+        { alt: "D6.3", soru: "Yenileme talebinde bulunabilecek kişiler kimlerdir?", cevap: "<b>Marka sahibi</b> veya vekili; sicilde kayıtlı <b>rehin/lisans</b> sahiplerinin menfaati gözetilir.", kaynak: "SMK m.23; Yönetmelik" },
+        { alt: "D6.3", soru: "Ek süre içinde yapılan yenilemede ne ödenir?", cevap: "Yenileme ücretine ek olarak <b>ek ücret</b>.", kaynak: "SMK m.23/3" },
+        { alt: "D6.4", soru: "Kısmi yenilemenin sonucu nedir?", cevap: "Yenilenmeyen mal/hizmetler bakımından marka hakkı <b>sona erer</b>; yalnızca yenilenen kısım korunmaya devam eder.", kaynak: "SMK m.23/2" },
+        { alt: "D6.5", soru: "Marka devri Kuruma bildirilmezse hak sahipliği değişir mi?", cevap: "Devir taraflar arasında geçerlidir; ancak <b>sicile kaydedilmedikçe</b> iyiniyetli üçüncü kişilere karşı ileri sürülemez ve Kurum işlemlerinde eski sahip esas alınır.", kaynak: "SMK m.148/5" },
+        { alt: "D6.5", soru: "Miras yoluyla intikal sicile kaydedilir mi?", cevap: "<b>Evet</b>, mirasçıların talebi ve belgeleriyle sicile kaydedilir.", kaynak: "SMK m.148; Yönetmelik" },
+        { alt: "D6.6", soru: "Lisans sözleşmesi hangi şekle tabidir?", cevap: "<b>Yazılı</b> şekilde yapılmalıdır; sicile kaydı için talep ve ücret gerekir.", kaynak: "SMK m.148/4, 5" },
+        { alt: "D6.6", soru: "Lisans alanın markayı kullanımı, kullanma yükümlülüğünü karşılar mı?", cevap: "<b>Evet</b>, marka sahibinin izniyle yapılan kullanım <b>marka sahibi tarafından kullanım</b> sayılır.", kaynak: "SMK m.9/3" },
+        { alt: "D6.7", soru: "Marka üzerinde haciz nasıl uygulanır?", cevap: "İcra dairesi kararıyla haciz konur ve <b>sicile kaydedilir</b>; satış genel hükümlere göre yapılır.", kaynak: "SMK m.148/2" },
+        { alt: "D6.8", soru: "Sicil kayıtlarına güvenerek işlem yapan üçüncü kişi korunur mu?", cevap: "<b>Evet</b>, iyiniyetli üçüncü kişilerin sicile duyduğu güven korunur.", kaynak: "SMK m.148/5" },
+        { alt: "D6.8", soru: "Marka sahibinin adres/unvan değişikliği sicile bildirilmeli midir?", cevap: "<b>Evet</b>; aksi hâlde Kurum bildirimleri eski adrese yapılır ve <b>hak kaybı</b> doğabilir.", kaynak: "Yönetmelik" }
       ]
     },
       {
@@ -727,7 +956,17 @@ window.KARTLAR = {
         { alt: "D7.5", soru: "Sessiz kalma yoluyla hak kaybı süresi nedir?", cevap: "Marka sahibi, sonraki tarihli markanın kullanıldığını <b>bildiği veya bilmesi gerektiği hâlde beş yıl boyunca sessiz kalmışsa</b>, sonraki tarihli tescile dayalı olarak hükümsüzlük ileri süremez.", kaynak: "SMK m.25/6" },
         { alt: "D7.5", soru: "Sessiz kalma yoluyla hak kaybı hangi hâlde uygulanmaz?", cevap: "Sonraki tarihli markanın tescilinde <b>kötüniyet</b> varsa.", kaynak: "SMK m.25/6" },
         { alt: "D7.6", soru: "Önceki tarihli hak sahibi, sonraki tarihli tescilli markanın kullanımını engelleyebilir mi?", cevap: "<b>Evet.</b> Marka sahibinin, kendi markasından sonraki tarihli tescilli bir markayı <b>savunma olarak ileri sürmesi mümkün değildir</b>; önceki hak üstündür.", kaynak: "SMK m.155" },
-        { alt: "D7.6", soru: "SMK m.155'in getirdiği yenilik nedir?", cevap: "Tescilli sonraki marka, tasarım veya patent sahibinin, <b>önceki tarihli hak sahibinin açtığı tecavüz davasında tescilini savunma olarak</b> ileri sürememesidir.", kaynak: "SMK m.155" }
+        { alt: "D7.6", soru: "SMK m.155'in getirdiği yenilik nedir?", cevap: "Tescilli sonraki marka, tasarım veya patent sahibinin, <b>önceki tarihli hak sahibinin açtığı tecavüz davasında tescilini savunma olarak</b> ileri sürememesidir.", kaynak: "SMK m.155" },
+        { alt: "D7.1", soru: "Marka hakkı hangi tarihten itibaren üçüncü kişilere karşı ileri sürülebilir?", cevap: "Marka <b>tescil edildikten sonra</b>; ancak koruma <b>başvuru tarihinden</b> itibaren hüküm doğurur ve yayımdan sonraki fiiller için tazminat istenebilir.", kaynak: "SMK m.7/1" },
+        { alt: "D7.1", soru: "Başvuru yayımlandıktan sonra ancak tescilden önce gerçekleşen kullanımlar için ne yapılabilir?", cevap: "Marka tescil edildikten sonra, <b>yayım tarihinden itibaren</b> gerçekleşen fiiller için tazminat talep edilebilir.", kaynak: "SMK m.7/4" },
+        { alt: "D7.2", soru: "Markanın “sözlük veya ansiklopedide jenerik gibi” gösterilmesine karşı ne yapılabilir?", cevap: "Marka sahibi, yayımcıdan markanın <b>tescilli olduğunun belirtilmesini</b> ve gerekirse düzeltmeyi isteyebilir.", kaynak: "SMK m.7/6" },
+        { alt: "D7.2", soru: "Alan adı (domain) olarak marka kullanımı tecavüz oluşturur mu?", cevap: "<b>Evet</b>, ticari etki doğuracak biçimde alan adı, yönlendirici kod veya anahtar sözcük olarak kullanım önlenebilir.", kaynak: "SMK m.7/3-d" },
+        { alt: "D7.3", soru: "Dürüst kullanım istisnasında hangi genel şart aranır?", cevap: "Kullanımın <b>sınai veya ticari konularda dürüst kullanım</b> ilkesine uygun olması.", kaynak: "SMK m.7/5" },
+        { alt: "D7.3", soru: "Yedek parça üreticisi markayı hangi ölçüde kullanabilir?", cevap: "Ürünün <b>kullanım amacını belirtmek için gerekli</b> olduğu ölçüde ve dürüstlük kuralına uygun biçimde.", kaynak: "SMK m.7/5-c" },
+        { alt: "D7.4", soru: "Hakkın tüketilmesi hangi mallar için geçerlidir?", cevap: "Yalnızca <b>hak sahibi tarafından veya onun izniyle</b> piyasaya sunulmuş <b>somut mallar</b> için.", kaynak: "SMK m.152/1" },
+        { alt: "D7.4", soru: "Paralel ithalat Türkiye'de hangi kurala tabidir?", cevap: "<b>Ulusal tüketilme</b> benimsendiğinden, yurt dışında piyasaya sunulmuş malların ithali marka sahibi tarafından önlenebilir.", kaynak: "SMK m.152/1" },
+        { alt: "D7.5", soru: "Sessiz kalma süresi ne zaman işlemeye başlar?", cevap: "Marka sahibinin sonraki markanın <b>kullanıldığını bildiği veya bilmesi gerektiği</b> tarihten itibaren.", kaynak: "SMK m.25/6" },
+        { alt: "D7.6", soru: "Önceki tarihli hak sahibi tecavüz davasında neyi ispatlamalıdır?", cevap: "Hakkının <b>daha önceki tarihli</b> olduğunu ve davalının kullanımının kendi hakkına tecavüz oluşturduğunu.", kaynak: "SMK m.155" }
       ]
     },
       {
@@ -746,7 +985,19 @@ window.KARTLAR = {
         { alt: "D8.5", soru: "Kullanmama nedeniyle iptalde ispat yükü kimdedir?", cevap: "<b>Marka sahibindedir</b>; kullanımı veya kullanmamaya ilişkin haklı sebebi ispatlamalıdır.", kaynak: "SMK m.26/4" },
         { alt: "D8.5", soru: "İptal talebinden önceki üç ay içinde başlayan kullanım dikkate alınır mı?", cevap: "İptal talebinin yapılacağını öğrendikten sonra, <b>talepten önceki üç ay</b> içinde gerçekleşen kullanım dikkate <b>alınmaz</b>.", kaynak: "SMK m.26/5" },
         { alt: "D8.6", soru: "İptal kararının etkisi ne zamandan itibaren doğar?", cevap: "Kural olarak <b>iptal talebinin Kuruma sunulduğu tarihten</b> itibaren. Talep üzerine, iptal sebebinin daha önceki bir tarihte doğduğu tespit edilirse o tarihten itibaren de karar verilebilir.", kaynak: "SMK m.27/2" },
-        { alt: "D8.6", soru: "AYRIM: İptal ile hükümsüzlüğün etkisi nasıl ayrılır?", cevap: "<b>Hükümsüzlük geçmişe etkilidir</b> (marka hiç doğmamış sayılır). <b>İptal ileriye etkilidir</b> (kural olarak talep tarihinden itibaren sonuç doğurur).", kaynak: "SMK m.27" }
+        { alt: "D8.6", soru: "AYRIM: İptal ile hükümsüzlüğün etkisi nasıl ayrılır?", cevap: "<b>Hükümsüzlük geçmişe etkilidir</b> (marka hiç doğmamış sayılır). <b>İptal ileriye etkilidir</b> (kural olarak talep tarihinden itibaren sonuç doğurur).", kaynak: "SMK m.27" },
+        { alt: "D8.1", soru: "Beş yıllık kullanım süresi hangi tarihten başlar?", cevap: "<b>Tescil tarihinden</b> itibaren.", kaynak: "SMK m.9/1" },
+        { alt: "D8.1", soru: "Kullanmama, tecavüz davasında savunma olarak ileri sürülebilir mi?", cevap: "<b>Evet.</b> Davalı, davacının markasını dava tarihinden geriye doğru beş yıl içinde <b>ciddi biçimde kullanmadığını</b> def'i olarak ileri sürebilir.", kaynak: "SMK m.29/2, m.19/2" },
+        { alt: "D8.2", soru: "Markanın yalnızca bazı mal/hizmetlerde kullanımı ne sonuç doğurur?", cevap: "Kullanılmayan mal/hizmetler bakımından <b>kısmi iptal</b> söz konusu olabilir.", kaynak: "SMK m.26/6" },
+        { alt: "D8.2", soru: "Ambalaj veya etiket üzerinde kullanım yeterli midir?", cevap: "<b>Evet</b>, markanın mal veya ambalajı üzerinde kullanımı kullanım sayılır; ancak <b>markasal</b> nitelikte olmalıdır.", kaynak: "SMK m.9/2" },
+        { alt: "D8.3", soru: "İptal sebepleri hükümsüzlük sebeplerinden nasıl ayrılır?", cevap: "<b>İptal</b> sebepleri tescilden <b>sonra</b> ortaya çıkar (kullanmama, jenerikleşme, yanıltıcılık). <b>Hükümsüzlük</b> sebepleri tescil anında <b>zaten mevcuttur</b>.", kaynak: "SMK m.25, m.26" },
+        { alt: "D8.3", soru: "Jenerikleşmede marka sahibinin kusuru aranır mı?", cevap: "<b>Evet</b>; markanın yaygın ad hâline gelmesi marka sahibinin <b>fiilleri veya gerekli önlemleri almaması</b> sonucu gerçekleşmelidir.", kaynak: "SMK m.26/1-b" },
+        { alt: "D8.4", soru: "İdari iptal yetkisinin devri hangi tarihte yürürlüğe girmiştir?", cevap: "<b>10 Ocak 2024</b>; bu tarihe kadar iptal davaları mahkemelerde görülüyordu.", kaynak: "SMK m.26, m.192" },
+        { alt: "D8.4", soru: "İdari iptal kararına karşı hangi yol izlenir?", cevap: "Karara karşı <b>YİDK'ya itiraz</b>, ardından Ankara FSHHM'de dava.", kaynak: "SMK m.26/7, m.20, m.172" },
+        { alt: "D8.5", soru: "İptal talebini kimler yapabilir?", cevap: "<b>İlgili kişiler</b>; menfaatini ortaya koyan herkes iptal talebinde bulunabilir.", kaynak: "SMK m.26/2" },
+        { alt: "D8.5", soru: "İptal talebi geri çekilebilir mi?", cevap: "<b>Evet</b>, karar verilene kadar geri çekilebilir.", kaynak: "SMK m.26; Yönetmelik" },
+        { alt: "D8.5", soru: "Kısmi iptal mümkün müdür?", cevap: "<b>Evet</b>, iptal sebepleri yalnızca bazı mal/hizmetler için varsa o kısım bakımından iptale karar verilir.", kaynak: "SMK m.26/6" },
+        { alt: "D8.6", soru: "İptal kararı geriye etkili olabilir mi?", cevap: "Kural olarak <b>hayır</b>; ancak talep üzerine ve sebebin daha önce doğduğu tespit edilirse <b>daha önceki bir tarihten</b> itibaren etki tanınabilir.", kaynak: "SMK m.27/2" }
       ]
     },
       {
@@ -757,13 +1008,23 @@ window.KARTLAR = {
         { alt: "D9.2", soru: "Markada kısmi hükümsüzlük mümkün müdür?", cevap: "<b>Evet.</b> Hükümsüzlük hâlleri markanın tescil edildiği mal/hizmetlerin bir kısmı için varsa, <b>yalnızca o mal/hizmetler</b> bakımından kısmi hükümsüzlüğe karar verilir.", kaynak: "SMK m.25/5" },
         { alt: "D9.2", soru: "Kısmi hükümsüzlükte markanın kendisinde değişiklik yapılabilir mi?", cevap: "<b>Hayır</b>, marka örneğini değiştirecek biçimde hükümsüzlük kararı verilemez.", kaynak: "SMK m.25/5" },
         { alt: "D9.3", soru: "Hükümsüzlük davasını kimler açabilir?", cevap: "<b>Menfaati olanlar</b>, Cumhuriyet savcıları veya ilgili kamu kurum ve kuruluşları.", kaynak: "SMK m.25/2" },
-        { alt: "D9.3", soru: "Hükümsüzlük davası kime karşı açılır?", cevap: "Dava tarihinde sicilde <b>marka sahibi olarak kayıtlı kişilere</b> veya hukuki haleflerine karşı.", kaynak: "SMK m.25/2" },
+        { alt: "D9.3", soru: "Marka hükümsüzlüğü davası kime karşı açılır?", cevap: "Dava tarihinde sicilde <b>marka sahibi olarak kayıtlı kişilere</b> veya hukuki haleflerine karşı.", kaynak: "SMK m.25/2" },
         { alt: "D9.3", soru: "Hükümsüzlük davası açma süresi var mıdır?", cevap: "Kural olarak koruma süresince açılabilir; ancak <b>sessiz kalma yoluyla hak kaybı</b> (5 yıl) ve kullanmama def'i gibi sınırlamalar uygulanır.", kaynak: "SMK m.25/6, m.25/7" },
         { alt: "D9.4", soru: "Marka hükümsüzlüğü kararının etkisi nedir?", cevap: "<b>Geçmişe etkilidir</b>; markanın SMK'dan doğan koruması hiç doğmamış sayılır.", kaynak: "SMK m.27/1" },
         { alt: "D9.4", soru: "Hükümsüzlüğün geçmişe etkisi hangi durumları etkilemez?", cevap: "Karardan önce verilmiş ve <b>uygulanmış</b> tecavüz kararları ile <b>kesin hükümle sonuçlanmış</b> davalar ve kararın verilmesinden önce yapılıp <b>ifa edilmiş</b> sözleşmeler (hakkaniyet gereği kısmen iade istenebilir).", kaynak: "SMK m.27/3, 4" },
         { alt: "D9.4", soru: "Hükümsüzlük kararı kime karşı hüküm doğurur?", cevap: "Kesinleşen hükümsüzlük kararı <b>herkese karşı</b> (mutlak etkili) hüküm doğurur.", kaynak: "SMK m.27/5" },
         { alt: "D9.5", soru: "Marka hakkı hangi hâllerde sona erer?", cevap: "<b>Yenilenmemesi</b> nedeniyle koruma süresinin dolması ve <b>marka sahibinin vazgeçmesi</b>.", kaynak: "SMK m.28/1" },
-        { alt: "D9.5", soru: "Vazgeçme ne zaman hüküm doğurur?", cevap: "<b>Sicile kayıt tarihi</b> itibarıyla; sicile kayıtlı hak sahipleri ile lisans sahibinin izni olmadan vazgeçilemez.", kaynak: "SMK m.28/2, 3" }
+        { alt: "D9.5", soru: "Vazgeçme ne zaman hüküm doğurur?", cevap: "<b>Sicile kayıt tarihi</b> itibarıyla; sicile kayıtlı hak sahipleri ile lisans sahibinin izni olmadan vazgeçilemez.", kaynak: "SMK m.28/2, 3" },
+        { alt: "D9.1", soru: "Hükümsüzlük ile iptal aynı davada birlikte istenebilir mi?", cevap: "İptal artık <b>idari</b> yolla Kurumdan, hükümsüzlük ise <b>mahkemeden</b> istenir; bu nedenle yollar ayrılmıştır.", kaynak: "SMK m.25, m.26" },
+        { alt: "D9.1", soru: "Marka hükümsüzlüğünde “kullanmama def'i” nedir?", cevap: "Hükümsüzlük davasında davalı, davacının markasını dava tarihinden geriye doğru <b>beş yıl</b> içinde kullanmadığını ileri sürebilir; ispatlanamazsa dava reddedilir.", kaynak: "SMK m.25/7" },
+        { alt: "D9.2", soru: "Kısmi hükümsüzlük kararı sicile nasıl yansır?", cevap: "İlgili <b>mal/hizmetler sicilden çıkarılır</b>; marka kalan kapsamla korunmaya devam eder.", kaynak: "SMK m.25/5, m.27" },
+        { alt: "D9.3", soru: "Hükümsüzlük davasında husumet sicildeki sahibe yöneltilmezse ne olur?", cevap: "Dava <b>husumet yokluğundan</b> reddedilebilir; sicilde kayıtlı hak sahibine yöneltilmelidir.", kaynak: "SMK m.25/2" },
+        { alt: "D9.3", soru: "Hükümsüzlük davası açan kişi menfaatini nasıl ortaya koyar?", cevap: "Aynı/benzer alanda faaliyet, önceki hak sahipliği, başvurusunun reddedilmiş olması gibi <b>somut menfaat</b> ilişkisiyle.", kaynak: "SMK m.25/2" },
+        { alt: "D9.4", soru: "Hükümsüzlük kararı kesinleşmeden uygulanır mı?", cevap: "<b>Hayır</b>; karar kesinleştikten sonra Kuruma bildirilir ve sicile işlenir.", kaynak: "SMK m.27/5, m.51" },
+        { alt: "D9.4", soru: "Hükümsüzlük kararının geçmişe etkisi tazminat iadesi doğurur mu?", cevap: "Kural olarak hayır; ancak <b>hakkaniyet</b> gerektiriyorsa ödenmiş tazminatın kısmen iadesi istenebilir.", kaynak: "SMK m.27/4" },
+        { alt: "D9.5", soru: "Markadan kısmen vazgeçilebilir mi?", cevap: "<b>Evet</b>, tescil kapsamındaki mal/hizmetlerin bir kısmı için vazgeçilebilir.", kaynak: "SMK m.28/2" },
+        { alt: "D9.5", soru: "Lisans kayıtlıysa vazgeçme mümkün müdür?", cevap: "Sicile kayıtlı <b>lisans sahibinin izni</b> olmadan vazgeçilemez.", kaynak: "SMK m.28/3" },
+        { alt: "D9.5", soru: "Marka hakkı sona erdikten sonra üçüncü kişiler işareti kullanabilir mi?", cevap: "<b>Evet</b>, hak sona erdiği tarihten itibaren serbestleşir; ancak m.6/8 kapsamındaki <b>iki yıllık</b> engel ve tanınmışlık iddiaları saklıdır.", kaynak: "SMK m.28, m.6/8" }
       ]
     },
       {
@@ -781,7 +1042,19 @@ window.KARTLAR = {
         { alt: "D10.4", soru: "Tanınmış markada tazminata ek olarak ne istenebilir?", cevap: "Hakkın <b>itibarının zarara uğraması</b> hâlinde ayrıca <b>itibar tazminatı</b> istenebilir.", kaynak: "SMK m.150/2" },
         { alt: "D10.5", soru: "Marka hakkına tecavüz davalarında görevli mahkeme hangisidir?", cevap: "<b>Fikri ve Sınai Haklar Hukuk Mahkemesi</b>; ceza davalarında Fikri ve Sınai Haklar Ceza Mahkemesi.", kaynak: "SMK m.156" },
         { alt: "D10.5", soru: "Hak sahibinin üçüncü kişiye karşı açacağı davada yetkili mahkeme neresidir?", cevap: "<b>Davacının yerleşim yeri</b>, hukuka aykırı fiilin gerçekleştiği yer veya bu fiilin etkilerinin görüldüğü yer mahkemesi.", kaynak: "SMK m.156/3" },
-        { alt: "D10.6", soru: "Marka hakkına tecavüzden doğan tazminat taleplerinde zamanaşımı nedir?", cevap: "<b>Haksız fiil</b> zamanaşımına tabidir: zararın ve failin öğrenilmesinden itibaren <b>iki yıl</b>, her hâlde fiilden itibaren <b>on yıl</b>. Fiil suç oluşturuyorsa daha uzun ceza zamanaşımı uygulanır.", kaynak: "SMK m.157; TBK m.72" }
+        { alt: "D10.6", soru: "Marka hakkına tecavüzden doğan tazminat taleplerinde zamanaşımı nedir?", cevap: "<b>Haksız fiil</b> zamanaşımına tabidir: zararın ve failin öğrenilmesinden itibaren <b>iki yıl</b>, her hâlde fiilden itibaren <b>on yıl</b>. Fiil suç oluşturuyorsa daha uzun ceza zamanaşımı uygulanır.", kaynak: "SMK m.157; TBK m.72" },
+        { alt: "D10.1", soru: "İktibas ile iltibas arasındaki fark nedir?", cevap: "<b>İktibas</b> markanın aynen alınmasıdır. <b>İltibas</b> ise karıştırılmaya yol açacak biçimde benzerinin kullanılmasıdır.", kaynak: "SMK m.29, m.30" },
+        { alt: "D10.1", soru: "Marka hakkına tecavüzde “kullanma” markasal olmalı mıdır?", cevap: "<b>Evet</b>; kaynak gösterme işlevi taşımayan, tamamen tanımlayıcı veya dekoratif kullanımlar kural olarak tecavüz oluşturmaz.", kaynak: "SMK m.7; Marka Kılavuzu" },
+        { alt: "D10.2", soru: "Tecavüz davasında ihtiyati tedbir istenebilir mi?", cevap: "<b>Evet</b>, dava açılmadan önce veya sonra; üretimin durdurulması ve ürünlere el konulması gibi tedbirler istenebilir.", kaynak: "SMK m.159" },
+        { alt: "D10.2", soru: "Gümrükte el koyma nasıl işletilir?", cevap: "Hak sahibinin başvurusu üzerine gümrük idaresi eşyayı <b>durdurur</b>; hak sahibi süresi içinde mahkemeye başvurmazsa eşya serbest bırakılır.", kaynak: "SMK m.159; Gümrük K." },
+        { alt: "D10.3", soru: "Tecavüz suçunda “mal veya hizmet üretmeksizin satışa arz” cezalandırılır mı?", cevap: "<b>Evet</b>, taklit ürünleri satan, dağıtan, ithal/ihraç eden veya ticari amaçla elde bulunduran kişiler de cezalandırılır.", kaynak: "SMK m.30/2" },
+        { alt: "D10.3", soru: "Marka hakkına tecavüz suçunda tüzel kişiler hakkında ne uygulanır?", cevap: "<b>Güvenlik tedbirleri</b> uygulanır; hapis cezası ilgili gerçek kişilere verilir.", kaynak: "SMK m.30/7" },
+        { alt: "D10.3", soru: "Tecavüz suçunda uzlaştırma mümkün müdür?", cevap: "Şikâyete bağlı suçlar bakımından <b>uzlaştırma</b> hükümleri uygulanabilir; şikâyetten vazgeçme davayı düşürür.", kaynak: "SMK m.30/6; CMK" },
+        { alt: "D10.4", soru: "Yoksun kalınan kazanç hesabında hangi delillerden yararlanılır?", cevap: "Ticari defterler, <b>bilirkişi</b> incelemesi, satış ve stok kayıtları, lisans emsalleri.", kaynak: "SMK m.151; HMK" },
+        { alt: "D10.4", soru: "Markanın tanınmışlığı tazminat miktarını etkiler mi?", cevap: "<b>Evet</b>, hesaplamada markanın ekonomik önemi ve tanınmışlığı gibi etkenler <b>artırım sebebi</b> olabilir.", kaynak: "SMK m.151/3" },
+        { alt: "D10.5", soru: "Tecavüz davalarında zorunlu arabuluculuk uygulanır mı?", cevap: "Konusu <b>bir miktar paranın ödenmesi</b> olan (tazminat) taleplerde ticari dava niteliği gereği arabuluculuk dava şartıdır; tespit ve men talepleri bundan ayrıktır.", kaynak: "TTK m.5/A" },
+        { alt: "D10.5", soru: "Marka hakkına tecavüzde yetkili mahkeme davalının yerleşim yeri dışında da olabilir mi?", cevap: "<b>Evet</b>, davacının yerleşim yeri, fiilin gerçekleştiği yer veya etkilerinin görüldüğü yer mahkemesi de yetkilidir.", kaynak: "SMK m.156/3" },
+        { alt: "D10.6", soru: "Süregelen (mütemadi) tecavüzde zamanaşımı nasıl işler?", cevap: "Tecavüz devam ettiği sürece zamanaşımı <b>yeniden işlemeye</b> başlar; her yeni ihlal için ayrı süre söz konusudur.", kaynak: "TBK m.72; SMK m.157" }
       ]
     },
       {
@@ -800,7 +1073,17 @@ window.KARTLAR = {
         { alt: "D11.6", soru: "Süresi içinde ret bildirimi yapılmazsa sonuç ne olur?", cevap: "Marka, o akit tarafta <b>korunuyor kabul edilir</b> (zımni kabul).", kaynak: "Madrid Prot. m.5" },
         { alt: "D11.7", soru: "Uluslararası tescil ne kadar süreyle korunur ve nasıl yenilenir?", cevap: "<b>On yıl</b> süreyle korunur ve onar yıllık dönemlerle <b>WIPO nezdinde tek işlemle</b> yenilenir.", kaynak: "Madrid Prot. m.6, m.7" },
         { alt: "D11.8", soru: "AYRIM: TÜRKPATENT'in menşe ofis ve belirlenen ofis rolleri nasıl ayrılır?", cevap: "<b>Menşe ofis</b> olarak: Türkiye'deki esas başvuruya dayanan uluslararası başvuruyu inceleyip WIPO'ya iletir. <b>Belirlenen ofis</b> olarak: Türkiye'nin belirlendiği uluslararası tescili <b>ulusal mevzuata göre inceler</b> ve gerekirse ret bildiriminde bulunur.", kaynak: "Madrid Prot. m.2, m.5" },
-        { alt: "D11.8", soru: "Türkiye'nin belirlendiği uluslararası tescillerde itiraz süresi nedir?", cevap: "Bültende yayımdan itibaren <b>iki ay</b>; ulusal başvurulardaki süreyle aynıdır.", kaynak: "SMK m.18; Madrid Prot." }
+        { alt: "D11.8", soru: "Türkiye'nin belirlendiği uluslararası tescillerde itiraz süresi nedir?", cevap: "Bültende yayımdan itibaren <b>iki ay</b>; ulusal başvurulardaki süreyle aynıdır.", kaynak: "SMK m.18; Madrid Prot." },
+        { alt: "D11.1", soru: "Esas başvuru ile esas tescil arasındaki fark nedir?", cevap: "<b>Esas başvuru</b> henüz tescil edilmemiş ulusal başvurudur; <b>esas tescil</b> tamamlanmış tescildir. Madrid Protokolü her ikisine de dayanmaya izin verir.", kaynak: "Madrid Prot. m.2" },
+        { alt: "D11.1", soru: "Uluslararası başvuru esas markadan daha geniş kapsamlı olabilir mi?", cevap: "<b>Hayır</b>; kapsam, esas başvuru/tescilin kapsamını <b>aşamaz</b>.", kaynak: "Madrid Prot. m.3" },
+        { alt: "D11.2", soru: "Uluslararası tescil tarihi hangi tarihtir?", cevap: "Kural olarak başvurunun <b>menşe ofise verildiği tarih</b>; menşe ofis başvuruyu iki ay içinde WIPO'ya iletmişse.", kaynak: "Madrid Prot. m.3" },
+        { alt: "D11.3", soru: "Sonraki belirlemenin koruma başlangıcı hangi tarihtir?", cevap: "<b>Sonraki belirlemenin</b> kaydedildiği tarih; uluslararası tescil tarihi değil.", kaynak: "Madrid Prot. m.3ter" },
+        { alt: "D11.4", soru: "Bağımlılık süresi hangi tarihten itibaren hesaplanır?", cevap: "<b>Uluslararası tescil tarihinden</b> itibaren beş yıl.", kaynak: "Madrid Prot. m.6" },
+        { alt: "D11.4", soru: "Beş yıl dolduktan sonra esas markanın hükümsüz kılınması uluslararası tescili etkiler mi?", cevap: "<b>Hayır</b>, süre dolduktan sonra uluslararası tescil <b>bağımsız</b> hâle gelir.", kaynak: "Madrid Prot. m.6" },
+        { alt: "D11.5", soru: "Dönüştürmede ulusal başvuru hangi tarihi korur?", cevap: "<b>Uluslararası tescil tarihini</b> (ve varsa rüçhan tarihini).", kaynak: "Madrid Prot. m.9quinquies" },
+        { alt: "D11.6", soru: "Geçici ret bildirimi sonrası başvuru sahibi ne yapar?", cevap: "İlgili ülkenin <b>ulusal mevzuatına</b> göre, o ülkedeki vekil aracılığıyla itiraz/cevap sürecini yürütür.", kaynak: "Madrid Prot. m.5" },
+        { alt: "D11.7", soru: "Uluslararası tescil kısmen yenilenebilir mi?", cevap: "<b>Evet</b>, belirlenen taraflar veya mal/hizmetler bakımından kısmi yenileme yapılabilir.", kaynak: "Madrid Yönetmeliği" },
+        { alt: "D11.8", soru: "Türkiye'de uluslararası tescilin ulusal tescille aynı hükümleri doğurduğu an hangisidir?", cevap: "Ret bildirimi yapılmaması veya reddin kaldırılmasıyla; bu andan itibaren <b>ulusal tescille aynı</b> sonuçları doğurur.", kaynak: "Madrid Prot. m.4; SMK" }
       ]
     },
       {
@@ -823,7 +1106,20 @@ window.KARTLAR = {
         { alt: "D12.9", soru: "Coğrafi işaret hangi hâllerde sicilden terkin edilir?", cevap: "Koruma şartlarının <b>ortadan kalkması</b>, denetim yükümlülüğünün yerine getirilmemesi veya <b>tescil şartlarının baştan bulunmaması</b> hâllerinde; mahkeme kararıyla.", kaynak: "SMK m.43, m.50" },
         { alt: "D12.10", soru: "Tescilli coğrafi işaret marka olarak tescil edilebilir mi?", cevap: "<b>Hayır.</b> Tescilli coğrafi işaretten oluşan ya da onu içeren başvurular mutlak ret nedeniyle reddedilir.", kaynak: "SMK m.5/1-i, m.48" },
         { alt: "D12.10", soru: "Coğrafi işaret, ürünün jenerik adı hâline gelmişse ne olur?", cevap: "<b>Jenerik adlar</b> coğrafi işaret olarak tescil edilemez; koruma sağlanmaz.", kaynak: "SMK m.35" },
-        { alt: "D12.10", soru: "Coğrafi işaret hakkına tecavüz sayılan fiiller nelerdir?", cevap: "Tescilli adın veya amblemin şartlara uymayan ürünlerde kullanımı, ürünün <b>menşei konusunda yanıltıcı</b> kullanım, adı çağrıştıran/taklit eden kullanım ve “tarzında, tipinde, benzeri” gibi ifadelerle kullanım.", kaynak: "SMK m.44, m.53" }
+        { alt: "D12.10", soru: "Coğrafi işaret hakkına tecavüz sayılan fiiller nelerdir?", cevap: "Tescilli adın veya amblemin şartlara uymayan ürünlerde kullanımı, ürünün <b>menşei konusunda yanıltıcı</b> kullanım, adı çağrıştıran/taklit eden kullanım ve “tarzında, tipinde, benzeri” gibi ifadelerle kullanım.", kaynak: "SMK m.44, m.53" },
+        { alt: "D12.1", soru: "Menşe adı ve mahreç işaretinde ortak olan şart nedir?", cevap: "Her ikisinde de ürünün <b>coğrafi sınırları belirlenmiş bir yöreden</b> kaynaklanması ve belirgin bir <b>nitelik, ün veya diğer özellik</b> taşıması aranır.", kaynak: "SMK m.34" },
+        { alt: "D12.1", soru: "Hangi durumda menşe adı yerine mahreç işareti tercih edilir?", cevap: "Üretimin <b>tüm aşamaları</b> belirlenen alanda gerçekleşmiyorsa; en az bir aşama gerçekleşiyorsa mahreç işareti uygundur.", kaynak: "SMK m.34/2, 3" },
+        { alt: "D12.2", soru: "Geleneksel ürün adı için aranan süre nedir?", cevap: "İlgili piyasada <b>en az otuz yıl</b> süreyle kullanıldığının kanıtlanması.", kaynak: "SMK m.34/3" },
+        { alt: "D12.3", soru: "Coğrafi işaret başvurusu gerçek kişi tarafından yapılabilir mi?", cevap: "Kural olarak hayır; ancak ürünün <b>tek üreticisi</b> varsa ve bunu belgeliyorsa o kişi başvurabilir.", kaynak: "SMK m.36" },
+        { alt: "D12.4", soru: "Coğrafi işaret başvurusunda “denetim biçimi” neden zorunludur?", cevap: "Tescilin sürdürülebilirliği <b>denetime</b> bağlıdır; denetim planı olmayan başvuru eksik sayılır.", kaynak: "SMK m.37, m.49" },
+        { alt: "D12.5", soru: "Coğrafi işarette itirazı kim inceler?", cevap: "<b>Kurum</b>; karara karşı YİDK'ya itiraz ve ardından Ankara FSHHM'de dava yolu açıktır.", kaynak: "SMK m.40, m.20, m.172" },
+        { alt: "D12.5", soru: "Coğrafi işaret tescili nerede yayımlanır?", cevap: "<b>Bültende</b>; tescil edildikten sonra da ilan edilir ve sicile kaydedilir.", kaynak: "SMK m.40, m.42" },
+        { alt: "D12.6", soru: "Amblem hangi amaca hizmet eder?", cevap: "Tüketiciye ürünün <b>tescilli coğrafi işaret</b> kapsamında ve denetime tabi olduğunu gösterir.", kaynak: "SMK m.46" },
+        { alt: "D12.7", soru: "Denetim raporunun sunulmaması hangi sonucu doğurur?", cevap: "Tescilin <b>sicilden terkinine</b> yol açabilir.", kaynak: "SMK m.49" },
+        { alt: "D12.8", soru: "Tescilli coğrafi işaretin adı değiştirilebilir mi?", cevap: "Ad değişikliği kural olarak mümkün değildir; ancak <b>ürün özellikleri ve denetim</b> bilgilerinde değişiklik talep edilebilir.", kaynak: "SMK m.43" },
+        { alt: "D12.9", soru: "Coğrafi işaretin sicilden terkinini kim isteyebilir?", cevap: "<b>Menfaati olanlar</b>, Cumhuriyet savcıları veya ilgili kamu kurum ve kuruluşları; karar mahkemece verilir.", kaynak: "SMK m.43, m.50" },
+        { alt: "D12.10", soru: "Coğrafi işaret ile marka çatışmasında hangi ilke geçerlidir?", cevap: "Tescilli coğrafi işaret, sonraki marka başvurularına karşı <b>mutlak</b> engel oluşturur; önceki iyiniyetli marka tescilleri bakımından birlikte var olma değerlendirilir.", kaynak: "SMK m.5/1-i, m.48" },
+        { alt: "D12.10", soru: "Coğrafi işaretin “ün” unsuru neyi ifade eder?", cevap: "Ürünün, coğrafi kaynağı nedeniyle piyasada kazandığı <b>tanınmışlık ve itibar</b>; nitelik farkı olmasa dahi ün tek başına yeterli olabilir.", kaynak: "SMK m.34" }
       ]
     }
     ]
@@ -863,7 +1159,29 @@ window.KARTLAR = {
         { alt: "E1.13", soru: "En yakın önceki teknik nasıl seçilir?", cevap: "Buluşla <b>benzer amaç veya etkiye</b> yönelen, aynı veya en yakın teknik alanda bulunan ve buluşa ulaşmak için <b>en az yapısal/işlevsel değişikliği</b> gerektiren doküman seçilir.", kaynak: "İnceleme Kılavuzu" },
         { alt: "E1.14", soru: "Sanayiye uygulanabilirlik ne demektir?", cevap: "Buluşun, tarım dâhil <b>sanayinin herhangi bir dalında üretilebilir veya kullanılabilir</b> nitelikte olmasıdır.", kaynak: "SMK m.83/6" },
         { alt: "E1.15", soru: "Buluşun bütünlüğü ilkesi nedir?", cevap: "Patent başvurusu <b>yalnızca bir buluşu</b> ya da <b>genel bir buluş fikri</b> etrafında gerçekleşen buluş grubunu içerebilir.", kaynak: "SMK m.91" },
-        { alt: "E1.15", soru: "Buluş bütünlüğü sağlanmıyorsa ne yapılır?", cevap: "Başvurunun <b>bölünmesi</b> istenir; aksi hâlde araştırma yalnızca ilk buluş için yapılır.", kaynak: "SMK m.91, m.99" }
+        { alt: "E1.15", soru: "Buluş bütünlüğü sağlanmıyorsa ne yapılır?", cevap: "Başvurunun <b>bölünmesi</b> istenir; aksi hâlde araştırma yalnızca ilk buluş için yapılır.", kaynak: "SMK m.91, m.99" },
+        { alt: "E1.1", soru: "Patent ile faydalı model arasındaki temel fark tek cümleyle nedir?", cevap: "Faydalı modelde <b>buluş basamağı aranmaz</b> ve koruma süresi <b>on yıldır</b>.", kaynak: "SMK m.101, m.142" },
+        { alt: "E1.2", soru: "Matematiksel bir yöntem kullanan bir üretim kontrol sistemi patentlenebilir mi?", cevap: "<b>Evet</b>, yöntem bir <b>teknik sürecin</b> parçası olarak teknik etki doğuruyorsa; yasak, konunun <b>kendisiyle</b> sınırlıdır.", kaynak: "SMK m.82/2, 3" },
+        { alt: "E1.2", soru: "İş yöntemleri (business methods) patentlenebilir mi?", cevap: "<b>Hayır</b>, iş faaliyetlerine ilişkin plan, kural ve yöntemler buluş sayılmaz; teknik karakter taşıyan uygulamaları ayrıca değerlendirilir.", kaynak: "SMK m.82/2-c" },
+        { alt: "E1.3", soru: "Kamu düzenine aykırılık, buluşun kanunla yasaklanmış olmasından mı çıkarılır?", cevap: "<b>Hayır.</b> Buluşun kanun veya idari düzenlemeyle yasaklanmış olması, tek başına kamu düzenine aykırı sayılması için yeterli değildir.", kaynak: "SMK m.82/3-a" },
+        { alt: "E1.3", soru: "İnsan klonlama yöntemleri patentlenebilir mi?", cevap: "<b>Hayır</b>; insan klonlama, insan germ hattının genetik kimliğinin değiştirilmesi ve embriyonun sınai/ticari amaçla kullanımı patent dışıdır.", kaynak: "SMK m.82/3" },
+        { alt: "E1.4", soru: "Bilgisayar uygulamalı buluşlarda “teknik katkı” nasıl aranır?", cevap: "İstemdeki teknik unsurların, bilinen tekniğe göre <b>teknik bir problem çözmesi</b> ve teknik etki üretmesi aranır.", kaynak: "SMK m.82; İnceleme Kılavuzu" },
+        { alt: "E1.5", soru: "Gen dizisi patentlenebilir mi?", cevap: "<b>Keşfedilmiş hâliyle hayır.</b> Ancak teknik bir yöntemle <b>izole edilmiş</b> ve <b>sınai uygulanabilirliği açıklanmış</b> dizi, şartları varsa patentlenebilir.", kaynak: "SMK m.82/3-ç" },
+        { alt: "E1.5", soru: "Bitki çeşitleri hangi mevzuatla korunur?", cevap: "<b>Yeni Bitki Çeşitlerine Ait Islahçı Haklarının Korunmasına İlişkin Kanun</b> (sui generis koruma) ile; patentle değil.", kaynak: "5042 s.K.; UPOV" },
+        { alt: "E1.6", soru: "Tekniğin bilinen durumuna dâhil olmak için açıklamanın hangi niteliği taşıması gerekir?", cevap: "<b>Kamuya erişilebilir</b> olması; gizlilik yükümlülüğü altında yapılan açıklamalar dâhil değildir.", kaynak: "SMK m.83/2" },
+        { alt: "E1.6", soru: "İnternette yayımlanan bir belge tekniğin bilinen durumuna dâhil midir?", cevap: "<b>Evet</b>, erişilebilir olduğu ve tarihi ispatlanabildiği ölçüde.", kaynak: "SMK m.83/2" },
+        { alt: "E1.7", soru: "Çakışan başvurunun yenilik değerlendirmesindeki etkisi hangi kapsamla sınırlıdır?", cevap: "Başvurunun <b>ilk hâlindeki</b> içeriğiyle sınırlıdır.", kaynak: "SMK m.83/3" },
+        { alt: "E1.8", soru: "Grace period süresi rüçhan hakkını uzatır mı?", cevap: "<b>Hayır</b>; on iki aylık açıklama süresi ile <b>rüçhan süresi</b> farklı kurumlardır ve birbirini uzatmaz.", kaynak: "SMK m.84, m.93" },
+        { alt: "E1.8", soru: "Buluşun bir bilimsel toplantıda sunulması yenilikten sayılır mı?", cevap: "On iki aylık süre içinde <b>buluş sahibi</b> tarafından yapılmışsa <b>sayılmaz</b>; süre dışındaysa yeniliği ortadan kaldırır.", kaynak: "SMK m.84" },
+        { alt: "E1.9", soru: "Yenilik değerlendirmesinde dokümanın “örtülü açıklaması” dikkate alınır mı?", cevap: "<b>Evet</b>, uzman kişinin dokümandan <b>doğrudan ve kesin biçimde</b> çıkaracağı bilgiler de açıklanmış sayılır.", kaynak: "İnceleme Kılavuzu" },
+        { alt: "E1.10", soru: "Buluş basamağında “aşikârlık” nasıl test edilir?", cevap: "Uzman kişinin, önceki tekniği <b>yapabileceği</b> değil, buluşa ulaşmak için <b>yapacağı</b> (would) sorusuyla; salt teorik imkân yeterli değildir.", kaynak: "İnceleme Kılavuzu" },
+        { alt: "E1.10", soru: "İkincil göstergeler (secondary indicia) nelerdir?", cevap: "<b>Uzun süredir hissedilen ihtiyaç</b>, önyargının aşılması, beklenmedik teknik etki ve <b>ticari başarı</b>; buluş basamağını destekleyici karinelerdir.", kaynak: "İnceleme Kılavuzu" },
+        { alt: "E1.11", soru: "Problem–çözüm yaklaşımında “could–would” testi neyi ayırt eder?", cevap: "Uzman kişinin çözüme <b>ulaşabilecek olması</b> ile <b>ulaşmayı deneyecek olması</b> arasındaki farkı; ikincisi varsa buluş basamağı yoktur.", kaynak: "İnceleme Kılavuzu" },
+        { alt: "E1.12", soru: "Objektif teknik problem formüle edilirken hangi hataya düşülmemelidir?", cevap: "Problemin içine <b>çözümün kendisinin</b> yerleştirilmesi (hindsight/geriye dönük bakış) hatası.", kaynak: "İnceleme Kılavuzu" },
+        { alt: "E1.13", soru: "En yakın önceki teknik olarak birden fazla doküman seçilebilir mi?", cevap: "Değerlendirme her biri için <b>ayrı ayrı</b> yapılabilir; ancak tek bir analizde birden çok başlangıç noktası birleştirilmez.", kaynak: "İnceleme Kılavuzu" },
+        { alt: "E1.14", soru: "Sanayiye uygulanabilirlik hangi buluşlarda sorun yaratır?", cevap: "Doğa kanunlarına aykırı (örn. <b>devridaim makinesi</b>) veya tekrarlanabilir biçimde uygulanamayan buluşlarda.", kaynak: "SMK m.83/6" },
+        { alt: "E1.15", soru: "Buluş bütünlüğü hangi aşamada denetlenir?", cevap: "<b>Araştırma</b> ve <b>inceleme</b> aşamalarında; eksiklik hâlinde bölünme istenir.", kaynak: "SMK m.91, m.96" },
+        { alt: "E1.15", soru: "Buluş bütünlüğünün ihlali hükümsüzlük sebebi midir?", cevap: "<b>Hayır</b>; bütünlük eksikliği verilmiş bir patentin hükümsüzlüğü için sebep oluşturmaz.", kaynak: "SMK m.138" }
       ]
     },
       {
@@ -880,7 +1198,17 @@ window.KARTLAR = {
         { alt: "E2.8", soru: "Araştırma talebi hangi sürede yapılmalıdır?", cevap: "Başvuru tarihinden itibaren <b>on iki ay</b> içinde; süresinde yapılmazsa başvuru <b>geri çekilmiş sayılır</b>.", kaynak: "SMK m.96/1" },
         { alt: "E2.8", soru: "Araştırma raporu düzenlendikten sonra ne yapılır?", cevap: "Rapor başvuru sahibine <b>bildirilir</b> ve başvuruyla birlikte <b>yayımlanır</b>.", kaynak: "SMK m.96, m.97" },
         { alt: "E2.9", soru: "Araştırma raporuna karşı görüş sunma süresi nedir?", cevap: "Raporun bildirim tarihinden itibaren <b>üç ay</b> içinde; bu sürede itiraz/görüş sunulabilir ve tarifname takımında değişiklik yapılabilir.", kaynak: "SMK m.96/3, m.98" },
-        { alt: "E2.9", soru: "Araştırma raporu düzenlenemezse ne olur?", cevap: "Buluşun niteliği gereği rapor kısmen veya tamamen düzenlenemiyorsa, bu durum <b>gerekçeleriyle</b> başvuru sahibine bildirilir.", kaynak: "SMK m.96/2" }
+        { alt: "E2.9", soru: "Araştırma raporu düzenlenemezse ne olur?", cevap: "Buluşun niteliği gereği rapor kısmen veya tamamen düzenlenemiyorsa, bu durum <b>gerekçeleriyle</b> başvuru sahibine bildirilir.", kaynak: "SMK m.96/2" },
+        { alt: "E2.1", soru: "Araştırma raporu patent verilmesi kararı anlamına gelir mi?", cevap: "<b>Hayır.</b> Rapor, tekniğin bilinen durumunu gösterir; patentlenebilirlik kararı <b>inceleme</b> aşamasında verilir.", kaynak: "SMK m.96, m.98" },
+        { alt: "E2.2", soru: "Y kategorisindeki dokümanların birleştirilmesinde aranan şart nedir?", cevap: "Uzman kişinin bu dokümanları <b>birleştirmek için makul bir nedeni</b> bulunması.", kaynak: "İnceleme Kılavuzu" },
+        { alt: "E2.3", soru: "A kategorisi bir doküman itiraz gerekçesi yapılabilir mi?", cevap: "Tek başına zayıftır; ancak <b>başka delillerle birlikte</b> genel teknik bilgiyi göstermek için kullanılabilir.", kaynak: "İnceleme Kılavuzu" },
+        { alt: "E2.4", soru: "E kategorisi doküman buluş basamağı değerlendirmesinde kullanılabilir mi?", cevap: "<b>Hayır</b>, yalnızca <b>yenilik</b> için.", kaynak: "SMK m.83/3" },
+        { alt: "E2.5", soru: "P kategorisi doküman hangi hâlde önem kazanır?", cevap: "Rüçhan talebinin <b>geçersiz</b> olduğu tespit edilirse; bu durumda ara belge tekniğin bilinen durumuna girer.", kaynak: "İnceleme Kılavuzu" },
+        { alt: "E2.6", soru: "D kategorisi doküman kim tarafından gösterilmiştir?", cevap: "<b>Başvuru sahibi</b> tarafından, başvurunun kendisinde atıf yapılarak.", kaynak: "İnceleme Kılavuzu" },
+        { alt: "E2.7", soru: "O kategorisine örnek veriniz.", cevap: "<b>Sözlü açıklama, sergileme, kullanım</b> gibi yazılı olmayan kamuya sunum biçimleri.", kaynak: "İnceleme Kılavuzu" },
+        { alt: "E2.8", soru: "Araştırma talebi süresi kaçırılırsa hangi imkânlar kalır?", cevap: "Şartları varsa <b>işlemlerin devam ettirilmesi</b> (m.106) veya <b>hakların yeniden tesisi</b> (m.107) talep edilebilir.", kaynak: "SMK m.106, m.107" },
+        { alt: "E2.9", soru: "Araştırma raporuna karşı sunulan görüşün etkisi nedir?", cevap: "Başvuru sahibi, istem ve tarifnamede <b>değişiklik</b> yaparak inceleme aşamasına daha güçlü girer; kapsam aşımı yasağı saklıdır.", kaynak: "SMK m.96/3, m.103" },
+        { alt: "E2.9", soru: "Araştırma raporu olumsuz ise başvuru otomatik reddedilir mi?", cevap: "<b>Hayır</b>; başvuru sahibi inceleme talebinde bulunabilir ve istemleri daraltarak süreci sürdürebilir.", kaynak: "SMK m.96, m.98" }
       ]
     },
       {
@@ -906,7 +1234,25 @@ window.KARTLAR = {
         { alt: "E3.10", soru: "Ek patent nedir?", cevap: "Asıl patent konusu buluşu <b>geliştiren veya mükemmelleştiren</b>, onunla bütünlük içindeki buluşlar için verilen patenttir; ayrıca <b>buluş basamağı aranmaz</b>.", kaynak: "SMK m.124" },
         { alt: "E3.10", soru: "Ek patentin süresi ve ücret rejimi nasıldır?", cevap: "<b>Asıl patente bağlıdır</b>, süresi asıl patentin süresi kadardır ve <b>yıllık ücret ödenmez</b>.", kaynak: "SMK m.124" },
         { alt: "E3.11", soru: "Biyolojik materyalin tevdii ne zaman gerekir?", cevap: "Buluş, kamuya açık olmayan ve tarifnamede yeterince açıklanamayan <b>biyolojik materyal</b> içeriyorsa; materyal yetkili bir <b>tevdi merciine</b> yatırılır.", kaynak: "SMK m.92/2; Budapeşte Anlaşması" },
-        { alt: "E3.12", soru: "Dizi listeleri hangi standarda göre hazırlanır?", cevap: "<b>WIPO ST.26</b> standardına göre.", kaynak: "WIPO ST.26" }
+        { alt: "E3.12", soru: "Dizi listeleri hangi standarda göre hazırlanır?", cevap: "<b>WIPO ST.26</b> standardına göre.", kaynak: "WIPO ST.26" },
+        { alt: "E3.1", soru: "Başvuru tarihi kesinleşirken istem verilmemişse ne olur?", cevap: "İstemler, <b>sonradan</b> verilebilir; verilmemesi hâlinde başvuru geri çekilmiş sayılır.", kaynak: "SMK m.90/3, m.95" },
+        { alt: "E3.1", soru: "Önceki başvuruya atıfla başvuru yapılmasının şartı nedir?", cevap: "Atıf yapılan başvurunun <b>numarası, tarihi ve ofisi</b> belirtilmeli; süresi içinde <b>onaylı sureti ve çevirisi</b> sunulmalıdır.", kaynak: "SMK m.90/3" },
+        { alt: "E3.2", soru: "Yeterli açıklama şartı hangi tarih itibarıyla değerlendirilir?", cevap: "<b>Başvuru tarihi</b> itibarıyla; sonradan yapılan açıklamalarla eksiklik giderilemez.", kaynak: "SMK m.92; İnceleme Kılavuzu" },
+        { alt: "E3.2", soru: "Tarifnamede hangi bölümler bulunur?", cevap: "Buluş <b>başlığı</b>, teknik alan, <b>tekniğin bilinen durumu</b>, çözülen teknik problem, buluşun <b>açıklaması</b>, resimlerin listesi ve <b>uygulama örnekleri</b>.", kaynak: "Yönetmelik" },
+        { alt: "E3.3", soru: "Bağımlı istem koruma kapsamını genişletir mi?", cevap: "<b>Hayır</b>, bağımlı istem atıf yaptığı istemi <b>daraltır</b>; koruma kapsamı bağımsız istemle belirlenir.", kaynak: "SMK m.89; Yönetmelik" },
+        { alt: "E3.3", soru: "Bir başvuruda birden fazla bağımsız istem bulunabilir mi?", cevap: "<b>Evet</b>, farklı kategorilerde (ürün, usul, kullanım) veya buluş bütünlüğü korunduğu ölçüde.", kaynak: "SMK m.91; Yönetmelik" },
+        { alt: "E3.4", soru: "İstemlerde “açıklık” şartı ne anlama gelir?", cevap: "Koruma kapsamının, üçüncü kişilerce <b>tereddütsüz belirlenebilmesi</b>; muğlak ifadeler (örn. “yaklaşık”, “tercihen”) belirsizlik yaratabilir.", kaynak: "SMK m.92/4" },
+        { alt: "E3.4", soru: "İstemlerde ürün kategorisi ile usul kategorisi neden ayrı tutulur?", cevap: "Koruma kapsamı ve tecavüz değerlendirmesi farklıdır; usul patentinde <b>usulün doğrudan ürünü</b> de korunur.", kaynak: "SMK m.85/2, m.89" },
+        { alt: "E3.5", soru: "Özet kaç kelimeyi geçmemelidir?", cevap: "Yönetmelikte belirlenen sınır çerçevesinde <b>kısa ve teknik bilgi verici</b> olmalıdır; koruma kapsamına etkisi yoktur.", kaynak: "SMK m.92/6; Yönetmelik" },
+        { alt: "E3.6", soru: "Kapsam aşımı nasıl tespit edilir?", cevap: "Değişikliğin, başvurunun ilk hâlinden uzman kişi tarafından <b>doğrudan ve kesin biçimde</b> çıkarılıp çıkarılamayacağına bakılır.", kaynak: "SMK m.103; İnceleme Kılavuzu" },
+        { alt: "E3.6", soru: "Patent verildikten sonra istemler değiştirilebilir mi?", cevap: "<b>Evet</b>, itiraz üzerine veya patent sahibinin talebiyle <b>daraltma</b> yönünde; koruma kapsamı genişletilemez.", kaynak: "SMK m.99, m.103" },
+        { alt: "E3.7", soru: "Rüçhan hakkı hangi başvuruya dayandırılabilir?", cevap: "Paris Sözleşmesi veya DTÖ üyesi bir ülkede yapılmış <b>usulüne uygun ilk başvuruya</b>.", kaynak: "SMK m.93" },
+        { alt: "E3.7", soru: "Rüçhan hakkının geçerliliği neye göre denetlenir?", cevap: "Sonraki başvurunun konusunun, rüçhana esas başvuruda <b>açıkça yer alıp almadığına</b> göre (aynı buluş şartı).", kaynak: "SMK m.93; İnceleme Kılavuzu" },
+        { alt: "E3.8", soru: "DAS kodu kim tarafından üretilir?", cevap: "<b>İlk başvurunun yapıldığı ofis</b> tarafından; başvuru sahibi bu kodu sonraki ofise bildirir.", kaynak: "WIPO DAS" },
+        { alt: "E3.9", soru: "Bölünmüş başvuruda ücretler nasıl işler?", cevap: "Bölünmüş başvuru <b>bağımsız bir başvuru</b> gibi işlem görür; kendi başvuru, araştırma ve yıllık ücretlerine tabidir.", kaynak: "SMK m.91; Ücret Tebliği" },
+        { alt: "E3.10", soru: "Ek patent bağımsız patente dönüştürülebilir mi?", cevap: "<b>Evet</b>, asıl patentin hükümsüz kılınması hâlinde ek patent <b>bağımsız patente</b> dönüşebilir.", kaynak: "SMK m.124" },
+        { alt: "E3.11", soru: "Biyolojik materyal tevdi edilmezse sonucu ne olur?", cevap: "Buluş <b>yeterince açıklanmamış</b> sayılabilir ve bu bir hükümsüzlük sebebidir.", kaynak: "SMK m.92/2, m.138/1-b" },
+        { alt: "E3.12", soru: "Dizi listesi eksikse ne olur?", cevap: "Kurum <b>eksikliğin giderilmesini</b> ister; giderilmezse işlemler olumsuz sonuçlanır.", kaynak: "Yönetmelik" }
       ]
     },
       {
@@ -922,7 +1268,17 @@ window.KARTLAR = {
         { alt: "E4.5", soru: "İtiraz üzerine patent hangi şekillerde sonuçlanabilir?", cevap: "Patentin <b>iptali</b>, <b>değiştirilerek devamı</b> veya itirazın reddiyle <b>aynen devamı</b>.", kaynak: "SMK m.99/3" },
         { alt: "E4.5", soru: "Değiştirilerek devam kararı nasıl yayımlanır?", cevap: "Değiştirilmiş hâliyle patent <b>yeniden yayımlanır</b>.", kaynak: "SMK m.99/4" },
         { alt: "E4.6", soru: "Patentin koruma süresi nedir?", cevap: "<b>Başvuru tarihinden itibaren yirmi yıl</b>; uzatılamaz.", kaynak: "SMK m.101/1" },
-        { alt: "E4.6", soru: "Patent koruma süresinin başlangıcı hangi tarihtir?", cevap: "<b>Başvuru tarihi</b> (patentin verildiği tarih değil).", kaynak: "SMK m.101/1" }
+        { alt: "E4.6", soru: "Patent koruma süresinin başlangıcı hangi tarihtir?", cevap: "<b>Başvuru tarihi</b> (patentin verildiği tarih değil).", kaynak: "SMK m.101/1" },
+        { alt: "E4.1", soru: "İnceleme talebi kim tarafından yapılabilir?", cevap: "<b>Başvuru sahibi</b> tarafından; üçüncü kişiler inceleme talebinde bulunamaz.", kaynak: "SMK m.98" },
+        { alt: "E4.2", soru: "İnceleme bildirimine cevap süresi nedir?", cevap: "Her bildirim için <b>üç ay</b>; bu sürede görüş sunulmaz veya değişiklik yapılmazsa başvuru geri çekilmiş sayılır.", kaynak: "SMK m.98/3, 4" },
+        { alt: "E4.2", soru: "İnceleme sırasında istemler daraltılabilir mi?", cevap: "<b>Evet</b>, kapsam aşımına yol açmamak kaydıyla istemler değiştirilebilir/daraltılabilir.", kaynak: "SMK m.98, m.103" },
+        { alt: "E4.3", soru: "Patent verilmesi kararından sonra yayımlanan bilgiler nelerdir?", cevap: "Patentin <b>künyesi</b>, tarifname takımı ve istemler <b>Bültende</b> yayımlanır.", kaynak: "SMK m.98/7, m.99" },
+        { alt: "E4.4", soru: "Patente itiraz kim tarafından yapılabilir?", cevap: "<b>Üçüncü kişiler</b>; ücretini ödeyerek ve gerekçelerini belirterek.", kaynak: "SMK m.99/1" },
+        { alt: "E4.4", soru: "Patente itiraz süresi kaçırılırsa hangi yol kalır?", cevap: "<b>Hükümsüzlük davası</b> açılabilir.", kaynak: "SMK m.138" },
+        { alt: "E4.5", soru: "İtiraz üzerine patent sahibi ne yapabilir?", cevap: "<b>Görüş sunabilir</b> ve istemlerde <b>değişiklik</b> önerebilir; değişiklik kapsam aşımına yol açamaz.", kaynak: "SMK m.99/2, 3" },
+        { alt: "E4.5", soru: "İtirazın kabulüyle patent iptal edilirse etkisi ne olur?", cevap: "İptal <b>geçmişe etkilidir</b>; patent hiç verilmemiş sayılır.", kaynak: "SMK m.99, m.138" },
+        { alt: "E4.6", soru: "Patent koruma süresi uzatılabilir mi?", cevap: "<b>Hayır</b>, yirmi yıllık süre uzatılamaz. (İlaçlarda ek koruma sertifikası Türkiye'de öngörülmemiştir.)", kaynak: "SMK m.101/1" },
+        { alt: "E4.6", soru: "Yayımlanmış başvuru ile verilmiş patent arasındaki koruma farkı nedir?", cevap: "Başvuru yayımından itibaren <b>geçici koruma</b> doğar; tam koruma ve tecavüz talepleri <b>patent verildikten sonra</b> ileri sürülebilir.", kaynak: "SMK m.97, m.141" }
       ]
     },
       {
@@ -938,7 +1294,18 @@ window.KARTLAR = {
         { alt: "E5.7", soru: "Faydalı modelin koruma süresi nedir?", cevap: "<b>Başvuru tarihinden itibaren on yıl</b>; uzatılamaz.", kaynak: "SMK m.101/2" },
         { alt: "E5.8", soru: "Patent başvurusu faydalı modele dönüştürülebilir mi?", cevap: "<b>Evet.</b> Başvuru sahibi, patent başvurusunun faydalı modele ya da faydalı model başvurusunun patente dönüştürülmesini talep edebilir.", kaynak: "SMK m.104" },
         { alt: "E5.8", soru: "Patentten faydalı modele dönüşüm talebi hangi süreye kadar yapılabilir?", cevap: "Patent başvurusunun <b>reddine ilişkin kararın</b> veya patentin verildiğine ilişkin kararın bildirim tarihinden itibaren <b>iki ay</b>; her hâlde başvuru tarihinden itibaren <b>on yıl</b> içinde.", kaynak: "SMK m.104" },
-        { alt: "E5.8", soru: "Dönüştürme talebi kaç kez yapılabilir?", cevap: "Aynı başvuru için dönüştürme talebi <b>yalnızca bir kez</b> yapılabilir.", kaynak: "SMK m.104/4" }
+        { alt: "E5.8", soru: "Dönüştürme talebi kaç kez yapılabilir?", cevap: "Aynı başvuru için dönüştürme talebi <b>yalnızca bir kez</b> yapılabilir.", kaynak: "SMK m.104/4" },
+        { alt: "E5.1", soru: "Faydalı modelde araştırma raporu zorunlu mudur?", cevap: "<b>Evet</b>, araştırma talebi ve raporu faydalı model sürecinin zorunlu parçasıdır.", kaynak: "SMK m.143" },
+        { alt: "E5.2", soru: "Usuller faydalı model ile korunabilir mi?", cevap: "<b>Hayır</b>; usuller ve bu usuller sonucu elde edilen ürünler faydalı model kapsamı dışındadır.", kaynak: "SMK m.142/3" },
+        { alt: "E5.3", soru: "Faydalı modelde inceleme aşaması var mıdır?", cevap: "<b>Hayır</b>; araştırma raporu ve üçüncü kişi görüşleri sonrası belge verilir.", kaynak: "SMK m.143" },
+        { alt: "E5.4", soru: "Faydalı modelde grace period uygulanır mı?", cevap: "<b>Evet</b>, buluşun açıklanmasının etkisi olmayan hâllere ilişkin on iki aylık süre faydalı modelde de geçerlidir.", kaynak: "SMK m.84, m.142" },
+        { alt: "E5.5", soru: "Faydalı model araştırma raporu olumsuzsa süreç nasıl devam eder?", cevap: "Başvuru sahibi <b>görüş sunar</b> veya istemleri değiştirir; şartlar sağlanırsa belge verilir.", kaynak: "SMK m.143" },
+        { alt: "E5.6", soru: "Üçüncü kişi görüşü faydalı modelde nasıl değerlendirilir?", cevap: "Kurum, sunulan görüşleri dikkate alarak karar verir; görüş sahibi <b>taraf sıfatı</b> kazanmaz.", kaynak: "SMK m.143/6" },
+        { alt: "E5.7", soru: "Faydalı modelde yıllık ücret ödenir mi?", cevap: "<b>Evet</b>, patentle aynı esaslara göre yıllık ücretler ödenir.", kaynak: "SMK m.101/3" },
+        { alt: "E5.8", soru: "Dönüştürme talebinde başvuru tarihi korunur mu?", cevap: "<b>Evet</b>, dönüştürülen başvuru <b>ilk başvuru tarihini</b> korur.", kaynak: "SMK m.104" },
+        { alt: "E5.8", soru: "Faydalı modelden patente dönüşüm hangi ana kadar mümkündür?", cevap: "Faydalı model belgesi verilmesi kararının bildirim tarihinden itibaren <b>iki ay</b> içinde.", kaynak: "SMK m.104" },
+        { alt: "E5.8", soru: "Faydalı model hükümsüzlük sebepleri patentle aynı mıdır?", cevap: "Büyük ölçüde aynıdır; ancak <b>buluş basamağı</b> eksikliği faydalı model için hükümsüzlük sebebi <b>değildir</b>.", kaynak: "SMK m.142, m.138" },
+        { alt: "E5.8", soru: "Aynı buluş için hem patent hem faydalı model başvurusu yapılabilir mi?", cevap: "Aynı buluş için <b>aynı anda ikisi birden</b> korunamaz; başvuru sahibi birini tercih etmelidir.", kaynak: "SMK m.142/4" }
       ]
     },
       {
@@ -957,7 +1324,19 @@ window.KARTLAR = {
         { alt: "E6.6", soru: "AYRIM: m.106 ile m.107 arasındaki temel fark nedir?", cevap: "<b>m.106 (işlemlerin devamı)</b> kusur aranmaksızın, ücret ödenerek kullanılır. <b>m.107 (hakların yeniden tesisi)</b> ise <b>tüm özenin gösterilmiş olması</b> şartına bağlıdır ve daha ağır bir ispat yükü içerir.", kaynak: "SMK m.106, m.107" },
         { alt: "E6.7", soru: "Patent hakkını sona erdiren hâller nelerdir?", cevap: "<b>Koruma süresinin dolması</b>, patent sahibinin <b>vazgeçmesi</b> ve <b>yıllık ücretlerin süresinde ödenmemesi</b>.", kaynak: "SMK m.139" },
         { alt: "E6.8", soru: "Vazgeçmenin şartı ve etkisi nedir?", cevap: "Sicile kayıtlı hak sahiplerinin izni olmadan vazgeçilemez; vazgeçme <b>sicile kayıt tarihi</b> itibarıyla hüküm doğurur.", kaynak: "SMK m.139/2, 3" },
-        { alt: "E6.8", soru: "Patent hakkının sona ermesinin sonucu nedir?", cevap: "Buluş, sona erme tarihinden itibaren <b>kamuya mal olur</b>; herkes tarafından serbestçe kullanılabilir.", kaynak: "SMK m.139/4" }
+        { alt: "E6.8", soru: "Patent hakkının sona ermesinin sonucu nedir?", cevap: "Buluş, sona erme tarihinden itibaren <b>kamuya mal olur</b>; herkes tarafından serbestçe kullanılabilir.", kaynak: "SMK m.139/4" },
+        { alt: "E6.1", soru: "Yıllık ücretler hangi yıldan itibaren başlar?", cevap: "Başvuru tarihinden itibaren <b>üçüncü yıldan</b> itibaren.", kaynak: "SMK m.101/3" },
+        { alt: "E6.1", soru: "Yıllık ücret ödenmesinden kim sorumludur?", cevap: "<b>Patent/başvuru sahibi</b>; sicile kayıtlı lisans veya rehin sahipleri de menfaatleri gereği ödeyebilir.", kaynak: "SMK m.101" },
+        { alt: "E6.2", soru: "Telafi ücretiyle ödeme süresi ne kadardır?", cevap: "Normal ödeme süresinin bitiminden itibaren <b>altı ay</b>.", kaynak: "SMK m.101/4" },
+        { alt: "E6.3", soru: "m.106 talebiyle hangi işlemler sürdürülebilir?", cevap: "Kurumun verdiği ve kaçırılan <b>süreye bağlı işlemler</b>; talep kabul edilirse işlemler kaldığı yerden devam eder.", kaynak: "SMK m.106" },
+        { alt: "E6.3", soru: "m.106 talebi kabul edilirse kaçırılan sürenin sonuçları ne olur?", cevap: "Hak kaybı <b>doğmamış sayılır</b> ve işlemler sürdürülür.", kaynak: "SMK m.106/2" },
+        { alt: "E6.4", soru: "m.106 talebinin reddine karşı ne yapılabilir?", cevap: "Karara karşı <b>YİDK'ya itiraz</b> edilebilir.", kaynak: "SMK m.20, m.106" },
+        { alt: "E6.5", soru: "m.107'de “tüm özenin gösterilmesi” nasıl ispatlanır?", cevap: "Süre takibi sistemi, öngörülemeyen engel (hastalık, doğal afet, sistem arızası) gibi <b>somut delillerle</b>.", kaynak: "SMK m.107; İnceleme Kılavuzu" },
+        { alt: "E6.5", soru: "Hakların yeniden tesisi talebiyle birlikte ne yapılmalıdır?", cevap: "Yerine getirilmeyen <b>işlem de aynı süre içinde tamamlanmalı</b> ve ücreti ödenmelidir.", kaynak: "SMK m.107/2" },
+        { alt: "E6.6", soru: "Hakların yeniden tesisi kabul edilirse üçüncü kişilerin durumu ne olur?", cevap: "Hakkın sona erdiği dönemde <b>iyiniyetle</b> buluşu kullanmaya başlayan kişilerin kullanımı belirli ölçüde korunur.", kaynak: "SMK m.107/5" },
+        { alt: "E6.7", soru: "Patent hakkı sona erdiğinde tescil kaydı ne olur?", cevap: "Sona erme <b>sicile kaydedilir</b> ve Bültende yayımlanır.", kaynak: "SMK m.139/4" },
+        { alt: "E6.7", soru: "Yıllık ücret ödenmemesi nedeniyle sona eren patent yeniden canlandırılabilir mi?", cevap: "Ancak <b>m.107 (hakların yeniden tesisi)</b> şartları varsa; aksi hâlde hak kesin olarak sona erer.", kaynak: "SMK m.107, m.139" },
+        { alt: "E6.8", soru: "Patentten kısmen vazgeçilebilir mi?", cevap: "<b>Evet</b>, istemlerin bir kısmından vazgeçilebilir; kalan istemler korunmaya devam eder.", kaynak: "SMK m.139/2" }
       ]
     },
       {
@@ -976,7 +1355,19 @@ window.KARTLAR = {
         { alt: "E7.6", soru: "Avrupa patenti verildikten sonra ne olur?", cevap: "Belirlenen ülkelerde <b>ulusal patentlere dönüşür</b> (demet patent); her ülkede o ülkenin ulusal patenti gibi hüküm doğurur.", kaynak: "EPC m.2, m.64" },
         { alt: "E7.7", soru: "Avrupa patentinin Türkiye'de geçerli olması için ne gerekir?", cevap: "Patentin verildiğinin Avrupa Patent Bülteninde yayımlanmasından itibaren <b>üç ay</b> içinde, <b>Türkçe çevirisinin</b> TÜRKPATENT'e verilmesi ve ücretin ödenmesi.", kaynak: "EPC m.65; Validasyon mevzuatı" },
         { alt: "E7.8", soru: "Avrupa patentinin Türkiye'deki koruma süresi nedir?", cevap: "<b>Başvuru tarihinden itibaren yirmi yıl</b>; ulusal patentle aynıdır.", kaynak: "EPC m.63; SMK m.101" },
-        { alt: "E7.8", soru: "EPC kapsamında itiraz (opposition) süresi nedir?", cevap: "Avrupa patentinin verildiğinin yayımından itibaren <b>dokuz ay</b> içinde EPO nezdinde itiraz edilebilir.", kaynak: "EPC m.99" }
+        { alt: "E7.8", soru: "EPC kapsamında itiraz (opposition) süresi nedir?", cevap: "Avrupa patentinin verildiğinin yayımından itibaren <b>dokuz ay</b> içinde EPO nezdinde itiraz edilebilir.", kaynak: "EPC m.99" },
+        { alt: "E7.1", soru: "PCT başvurusu hangi tarihten itibaren tüm belirlenen ülkelerde başvuru etkisi doğurur?", cevap: "<b>Uluslararası başvuru tarihinden</b> itibaren; her belirlenen ülkede usulüne uygun ulusal başvuru sayılır.", kaynak: "PCT m.11" },
+        { alt: "E7.1", soru: "PCT'ye başvururken tüm ülkeler otomatik belirlenmiş sayılır mı?", cevap: "<b>Evet</b>, mevcut sistemde başvuru ile tüm akit taraflar otomatik olarak belirlenmiş sayılır.", kaynak: "PCT Yönetmeliği" },
+        { alt: "E7.2", soru: "ISA'nın yazılı görüşü bağlayıcı mıdır?", cevap: "<b>Hayır</b>; ulusal ofisler kendi mevzuatına göre bağımsız karar verir.", kaynak: "PCT m.33" },
+        { alt: "E7.3", soru: "IPRP nedir?", cevap: "<b>Uluslararası Ön İnceleme Raporu</b> (Patentlenebilirlik Hakkında Uluslararası Ön Rapor); yenilik, buluş basamağı ve sanayiye uygulanabilirlik hakkında görüş içerir.", kaynak: "PCT m.35" },
+        { alt: "E7.4", soru: "Otuz aylık ulusal aşama süresi hangi tarihten hesaplanır?", cevap: "<b>Rüçhan tarihinden</b>; rüçhan yoksa uluslararası başvuru tarihinden.", kaynak: "PCT m.22" },
+        { alt: "E7.5", soru: "Ulusal aşamada istemler değiştirilebilir mi?", cevap: "<b>Evet</b>, PCT m.19 ve m.34 kapsamında yapılan değişiklikler ulusal aşamaya taşınabilir; kapsam aşımı yasağı geçerlidir.", kaynak: "PCT m.19, m.34" },
+        { alt: "E7.6", soru: "EPO'ya başvuru yaparak Türkiye'de koruma elde edilebilir mi?", cevap: "<b>Evet</b>, Türkiye EPC'ye taraftır; Avrupa patenti Türkiye için <b>valide edilerek</b> geçerlilik kazanır.", kaynak: "EPC; Validasyon mevzuatı" },
+        { alt: "E7.7", soru: "Avrupa patentinin Türkçe çevirisi süresinde verilmezse ne olur?", cevap: "Patent, Türkiye'de <b>başından itibaren geçersiz</b> sayılır.", kaynak: "EPC m.65" },
+        { alt: "E7.7", soru: "Avrupa patenti Türkiye'de hangi hükümlere tabidir?", cevap: "Valide edildikten sonra <b>ulusal patent gibi</b> SMK hükümlerine tabidir (hükümsüzlük, tecavüz, yıllık ücret).", kaynak: "EPC m.2, m.64; SMK" },
+        { alt: "E7.8", soru: "EPO nezdinde itiraz süresi kaçırılırsa Türkiye'de ne yapılabilir?", cevap: "Türkiye'de valide edilmiş patente karşı <b>ulusal hükümsüzlük davası</b> açılabilir.", kaynak: "SMK m.138; EPC m.99" },
+        { alt: "E7.8", soru: "AYRIM: PCT ile EPC arasındaki temel fark nedir?", cevap: "<b>PCT</b> yalnızca başvuru ve araştırma/ön inceleme sürecini birleştirir, patent vermez. <b>EPC</b> ise inceleme yapıp <b>Avrupa patenti verir</b>.", kaynak: "PCT; EPC" },
+        { alt: "E7.8", soru: "PCT başvurusu EPO üzerinden bölgesel aşamaya girebilir mi?", cevap: "<b>Evet</b>, PCT başvurusu EPO'da <b>bölgesel aşamaya</b> (Euro-PCT) girebilir.", kaynak: "PCT; EPC" }
       ]
     },
       {
@@ -998,7 +1389,23 @@ window.KARTLAR = {
         { alt: "E8.7", soru: "Bedel konusunda uyuşmazlık çıkarsa nasıl çözülür?", cevap: "Taraflar anlaşamazsa <b>tahkim</b> veya yargı yoluna başvurulur; SMK bedel uyuşmazlıkları için özel usul öngörür.", kaynak: "SMK m.116" },
         { alt: "E8.8", soru: "Yükseköğretim kurumlarında gerçekleştirilen buluşlarda hak sahipliği kime aittir?", cevap: "Kural olarak <b>yükseköğretim kurumuna</b>; kurum hakkı sahiplenirse buluşu yapana gelirden pay verilir.", kaynak: "SMK m.121" },
         { alt: "E8.8", soru: "Yükseköğretim kurumunda buluşu yapana ödenecek pay oranı nedir?", cevap: "Buluştan elde edilen gelirin <b>en az üçte biri</b> buluşu yapana verilir.", kaynak: "SMK m.121/8" },
-        { alt: "E8.9", soru: "Kamu kurum ve kuruluşlarında gerçekleştirilen buluşlarda hangi hükümler uygulanır?", cevap: "Kamu kurumlarında çalışanların buluşları hakkında <b>hizmet buluşlarına ilişkin hükümler</b> uygulanır.", kaynak: "SMK m.122" }
+        { alt: "E8.9", soru: "Kamu kurum ve kuruluşlarında gerçekleştirilen buluşlarda hangi hükümler uygulanır?", cevap: "Kamu kurumlarında çalışanların buluşları hakkında <b>hizmet buluşlarına ilişkin hükümler</b> uygulanır.", kaynak: "SMK m.122" },
+        { alt: "E8.1", soru: "Patent isteme hakkı ile buluş sahipliği arasındaki fark nedir?", cevap: "<b>Buluş sahipliği</b> kişiye sıkı sıkıya bağlı, devredilemez bir manevi haktır. <b>Patent isteme hakkı</b> ise mali nitelikte olup <b>devredilebilir</b> ve mirasla geçer.", kaynak: "SMK m.109, m.111" },
+        { alt: "E8.1", soru: "Buluş sahibinin adının belirtilmesini isteme hakkı devredilebilir mi?", cevap: "<b>Hayır</b>, bu hak kişiye sıkı sıkıya bağlıdır ve vazgeçilemez.", kaynak: "SMK m.111" },
+        { alt: "E8.2", soru: "Gasp iddiasıyla açılan davada patent işlemleri durur mu?", cevap: "Mahkeme, talep üzerine işlemlerin <b>durdurulmasına</b> karar verebilir; ayrıca sicile şerh verilebilir.", kaynak: "SMK m.110" },
+        { alt: "E8.2", soru: "Gerçek hak sahibi devir yerine neyi tercih edebilir?", cevap: "Patentin <b>hükümsüzlüğünü</b> talep edebilir.", kaynak: "SMK m.110/2" },
+        { alt: "E8.3", soru: "Hizmet buluşu sayılabilmek için hangi bağ aranır?", cevap: "Buluşun, çalışanın <b>yükümlü olduğu faaliyet</b> gereği veya işletmenin <b>deneyim ve çalışmalarına</b> dayanarak gerçekleşmiş olması.", kaynak: "SMK m.113/2" },
+        { alt: "E8.4", soru: "Çalışanın bildirimi eksikse işverenin dört aylık süresi işler mi?", cevap: "Bildirim usulüne uygun değilse işveren <b>eksikliği bildirir</b>; süre, tam bildirimin ulaşmasıyla işlemeye başlar.", kaynak: "SMK m.114" },
+        { alt: "E8.4", soru: "İşveren dört aylık sürede sessiz kalırsa sonuç ne olur?", cevap: "Buluş <b>serbest buluş</b> niteliği kazanır.", kaynak: "SMK m.115/3" },
+        { alt: "E8.5", soru: "Tam hak talebinde çalışanın hakkı ne olur?", cevap: "Çalışan, buluşun ekonomik değerine göre hesaplanan <b>bedel</b> talep etme hakkını korur.", kaynak: "SMK m.115/5" },
+        { alt: "E8.6", soru: "Serbest buluşta işverenin öncelik hakkı var mıdır?", cevap: "İşveren, buluş işletmenin faaliyet alanına giriyorsa <b>uygun şartlarla lisans</b> veya hak talep edebilir.", kaynak: "SMK m.118" },
+        { alt: "E8.7", soru: "Bedel hesabında hangi ölçütler kullanılır?", cevap: "Buluşun <b>ekonomik değerlendirilebilirliği</b>, çalışanın işletmedeki <b>görevi</b> ve işletmenin buluşa <b>katkısı</b>.", kaynak: "SMK m.115/5; Yönetmelik" },
+        { alt: "E8.7", soru: "Bedelin ödenmemesi hâlinde çalışan ne yapabilir?", cevap: "Yargı yoluna başvurabilir; sözleşmede öngörülmüşse <b>tahkim</b> yoluna gidilir.", kaynak: "SMK m.116" },
+        { alt: "E8.8", soru: "Yükseköğretim kurumu buluşa sahip çıkmazsa ne olur?", cevap: "Hak <b>buluşu yapana</b> geçer; buluş sahibi kendi adına başvuru yapabilir.", kaynak: "SMK m.121" },
+        { alt: "E8.8", soru: "Yükseköğretim kurumlarındaki buluşlarda bildirim yükümlülüğü var mıdır?", cevap: "<b>Evet</b>, buluşu yapan, buluşunu <b>gecikmeksizin</b> kuruma bildirmekle yükümlüdür.", kaynak: "SMK m.121/2" },
+        { alt: "E8.9", soru: "Kamu destekli projelerde ortaya çıkan buluşların hak sahipliği nasıldır?", cevap: "İlgili destek programının sözleşme hükümleri ve SMK'nın <b>hizmet buluşu</b> hükümleri çerçevesinde belirlenir.", kaynak: "SMK m.122" },
+        { alt: "E8.9", soru: "Çalışan buluşlarına ilişkin hükümler sözleşmeyle çalışan aleyhine değiştirilebilir mi?", cevap: "<b>Hayır</b>; bu hükümler çalışan lehine <b>emredici</b> niteliktedir.", kaynak: "SMK m.120" },
+        { alt: "E8.9", soru: "İş ilişkisi sona erdikten sonra yapılan buluş hizmet buluşu sayılır mı?", cevap: "Kural olarak hayır; ancak buluş, iş ilişkisi sırasındaki <b>faaliyet ve deneyime</b> dayanıyorsa somut olayda değerlendirilir.", kaynak: "SMK m.113" }
       ]
     },
       {
@@ -1019,7 +1426,21 @@ window.KARTLAR = {
         { alt: "E9.8", soru: "Patent hükümsüzlüğü kararının etkisi nedir?", cevap: "<b>Geçmişe etkilidir</b>; patentin SMK'dan doğan koruması hiç doğmamış sayılır ve karar <b>herkese karşı</b> hüküm doğurur.", kaynak: "SMK m.138, m.140" },
         { alt: "E9.9", soru: "Patente tecavüzde tazminat nasıl hesaplanır?", cevap: "Marka ile aynı esaslara göre; yoksun kalınan kazanç <b>muhtemel gelir</b>, <b>mütecavizin net kazancı</b> veya <b>lisans bedeli</b> yöntemlerinden biriyle hesaplanır.", kaynak: "SMK m.151" },
         { alt: "E9.9", soru: "Usul patentlerinde ispat yükü bakımından özel kural nedir?", cevap: "Buluş konusu usulle elde edilen ürün <b>yeni</b> ise, aynı ürünün farklı bir usulle elde edildiğini ispat yükü <b>davalıya</b> geçer (ispat yükünün yer değiştirmesi).", kaynak: "SMK m.141/2" },
-        { alt: "E9.9", soru: "Patente tecavüz davalarında görevli mahkeme hangisidir?", cevap: "<b>Fikri ve Sınai Haklar Hukuk Mahkemesi</b>.", kaynak: "SMK m.156" }
+        { alt: "E9.9", soru: "Patente tecavüz davalarında görevli mahkeme hangisidir?", cevap: "<b>Fikri ve Sınai Haklar Hukuk Mahkemesi</b>.", kaynak: "SMK m.156" },
+        { alt: "E9.1", soru: "Patent hakkına tecavüzde “ürün” ve “usul” patenti farkı nedir?", cevap: "<b>Ürün patentinde</b> ürünün üretimi, satışı, kullanımı ve ithali önlenir. <b>Usul patentinde</b> ise usulün kullanımı ve <b>usulle doğrudan elde edilen ürün</b> korunur.", kaynak: "SMK m.85/2" },
+        { alt: "E9.1", soru: "Patent başvurusu yayımlanmadan önceki kullanımlar için talepte bulunulabilir mi?", cevap: "<b>Hayır</b>; koruma yayımdan itibaren doğar ve tam talepler <b>patent verildikten sonra</b> ileri sürülür.", kaynak: "SMK m.97, m.141" },
+        { alt: "E9.2", soru: "Dolaylı tecavüzde kusur aranır mı?", cevap: "Üçüncü kişinin, araçların buluşu uygulamaya <b>elverişli ve amaçlanmış</b> olduğunu bilmesi veya bilmesi gerekmesi aranır.", kaynak: "SMK m.86" },
+        { alt: "E9.3", soru: "Önceki kullanım hakkı hangi kapsamla sınırlıdır?", cevap: "<b>Mevcut kullanım veya ciddi hazırlıkların gerektirdiği makul ölçü</b> ile sınırlıdır; genişletilemez.", kaynak: "SMK m.87" },
+        { alt: "E9.4", soru: "İstemlerin yorumunda tarifname koruma kapsamını genişletebilir mi?", cevap: "Tarifname <b>yorumda</b> kullanılır; istemlerde yer almayan bir unsuru koruma kapsamına <b>ekleyemez</b>.", kaynak: "SMK m.89" },
+        { alt: "E9.5", soru: "Eşdeğerlik değerlendirmesi hangi tarihe göre yapılır?", cevap: "Tecavüzün <b>gerçekleştiği tarih</b> itibarıyla; sonradan geliştirilen eşdeğer araçlar da kapsama girebilir.", kaynak: "SMK m.89/5" },
+        { alt: "E9.6", soru: "Buluş bütünlüğü eksikliği hükümsüzlük sebebi midir?", cevap: "<b>Hayır</b>; sayılan hükümsüzlük sebepleri arasında yer almaz.", kaynak: "SMK m.138" },
+        { alt: "E9.6", soru: "Patent sahibi hükümsüzlük davasında istemleri daraltarak patenti kurtarabilir mi?", cevap: "<b>Evet</b>, mahkemeye <b>değiştirilmiş istemler</b> sunarak kısmi hükümsüzlükle patentin devamını sağlayabilir.", kaynak: "SMK m.138/4, m.103" },
+        { alt: "E9.7", soru: "Patent hükümsüzlüğü davası kime karşı açılır?", cevap: "Dava tarihinde sicilde <b>patent sahibi</b> olarak kayıtlı kişiye; lisans sahiplerine de bildirim yapılır.", kaynak: "SMK m.138/3" },
+        { alt: "E9.7", soru: "Patent sona erdikten sonra hükümsüzlük davası açılabilir mi?", cevap: "<b>Evet</b>, hakkın sona ermesini izleyen <b>beş yıl</b> içinde.", kaynak: "SMK m.138/2" },
+        { alt: "E9.8", soru: "Kısmi hükümsüzlükte kalan istemler hangi şartı sağlamalıdır?", cevap: "Kalan istemlerin <b>tek başına patentlenebilirlik</b> şartlarını sağlaması gerekir.", kaynak: "SMK m.138/4" },
+        { alt: "E9.9", soru: "Patent tecavüzünde ihtiyati tedbir talebinde ne ispat edilmelidir?", cevap: "Hakkın <b>varlığı</b>, tecavüzün gerçekleştiği veya ciddi ve etkin çalışmalarla başlanacağı ve gecikmesinde <b>sakınca</b> bulunduğu.", kaynak: "SMK m.159" },
+        { alt: "E9.9", soru: "Patente tecavüzde manevi tazminat istenebilir mi?", cevap: "<b>Evet</b>, şartları varsa; ayrıca hakkın itibarı zarar görmüşse <b>itibar tazminatı</b> talep edilebilir.", kaynak: "SMK m.150" },
+        { alt: "E9.9", soru: "Tecavüz davasında patentin hükümsüzlüğü def'i ileri sürülebilir mi?", cevap: "Uygulamada hükümsüzlük ayrı dava konusudur; ancak açılan hükümsüzlük davası tecavüz davası için <b>bekletici mesele</b> yapılabilir.", kaynak: "SMK m.138, m.156" }
       ]
     },
       {
@@ -1037,7 +1458,19 @@ window.KARTLAR = {
         { alt: "E10.5", soru: "Bağımlılık nedeniyle zorunlu lisansta karşılıklılık var mıdır?", cevap: "<b>Evet.</b> Önceki patent sahibi de, sonraki patentin kullanımı için <b>karşılıklı (çapraz) lisans</b> talep edebilir.", kaynak: "SMK m.131/3" },
         { alt: "E10.6", soru: "Kamu yararı nedeniyle zorunlu lisansa kim karar verir?", cevap: "<b>Cumhurbaşkanı kararıyla</b>; kamu sağlığı ya da milli güvenlik nedenlerinin bulunması hâlinde.", kaynak: "SMK m.132" },
         { alt: "E10.6", soru: "Zorunlu lisansta bedel nasıl belirlenir?", cevap: "<b>Mahkeme</b> tarafından (kamu yararı hâlinde ilgili karar çerçevesinde), buluşun ekonomik önemi dikkate alınarak belirlenir.", kaynak: "SMK m.133, m.137" },
-        { alt: "E10.6", soru: "Zorunlu lisans devredilebilir mi?", cevap: "Yalnızca <b>işletme ile birlikte</b> devredilebilir; kural olarak <b>inhisari değildir</b>.", kaynak: "SMK m.136" }
+        { alt: "E10.6", soru: "Zorunlu lisans devredilebilir mi?", cevap: "Yalnızca <b>işletme ile birlikte</b> devredilebilir; kural olarak <b>inhisari değildir</b>.", kaynak: "SMK m.136" },
+        { alt: "E10.1", soru: "Lisans sözleşmesinin sicile kaydı zorunlu mudur?", cevap: "Zorunlu değildir; ancak <b>sicile kaydedilmeyen</b> lisans iyiniyetli üçüncü kişilere karşı ileri sürülemez.", kaynak: "SMK m.148/5" },
+        { alt: "E10.1", soru: "İnhisari lisans sahibi patenti başkasına devredebilir mi?", cevap: "<b>Hayır</b>; lisans hakkı, patent mülkiyetini vermez ve sözleşmede aksi yoksa devredilemez.", kaynak: "SMK m.125/4" },
+        { alt: "E10.2", soru: "Lisans verme beyanı hangi hâlde yapılamaz?", cevap: "Sicile kayıtlı bir <b>inhisari lisans</b> varsa lisans verme beyanında bulunulamaz.", kaynak: "SMK m.127" },
+        { alt: "E10.3", soru: "Zorunlu lisans talebi nereye yapılır?", cevap: "<b>Mahkemeye</b>; kamu yararı hâlinde ise karar <b>Cumhurbaşkanınca</b> verilir.", kaynak: "SMK m.129, m.132" },
+        { alt: "E10.3", soru: "Zorunlu lisans talebinden önce ne yapılmalıdır?", cevap: "Talep sahibinin, patent sahibinden <b>sözleşmeye dayalı lisans</b> almak için ciddi girişimde bulunmuş olması aranır.", kaynak: "SMK m.129/2" },
+        { alt: "E10.4", soru: "Kullanmama nedeniyle zorunlu lisansta “kullanma” nasıl değerlendirilir?", cevap: "Buluşun Türkiye'de <b>ciddi ve etkin</b> biçimde kullanılması; pazarın ihtiyacını karşılayacak ölçüde üretim veya ithalat aranır.", kaynak: "SMK m.130" },
+        { alt: "E10.5", soru: "Bağımlılık nedeniyle zorunlu lisansta kapsam nasıl sınırlanır?", cevap: "Lisans, <b>sonraki patentin kullanımı için gerekli olan ölçüde</b> verilir.", kaynak: "SMK m.131" },
+        { alt: "E10.6", soru: "Kamu yararı gerekçesi hangi hâllerde kabul edilir?", cevap: "<b>Kamu sağlığı</b> veya <b>millî güvenlik</b> nedenleriyle buluşun kullanımının zorunlu olduğu hâllerde.", kaynak: "SMK m.132" },
+        { alt: "E10.6", soru: "İhracat amaçlı zorunlu lisans hangi durumda verilir?", cevap: "Kamu sağlığı sorunları bulunan ülkelere <b>eczacılık ürünleri</b> ihracatı amacıyla; uluslararası düzenlemeler çerçevesinde.", kaynak: "SMK m.129/1" },
+        { alt: "E10.6", soru: "Zorunlu lisans kararı sicile kaydedilir mi?", cevap: "<b>Evet</b>, karar sicile kaydedilir ve yayımlanır.", kaynak: "SMK m.137" },
+        { alt: "E10.6", soru: "Zorunlu lisans şartları ortadan kalkarsa ne olur?", cevap: "Patent sahibinin talebiyle lisansın <b>değiştirilmesine veya iptaline</b> karar verilebilir.", kaynak: "SMK m.137" },
+        { alt: "E10.6", soru: "Zorunlu lisans alan, buluşu kullanmazsa sonucu ne olur?", cevap: "Lisans <b>iptal</b> edilebilir; zorunlu lisans kullanılmak üzere verilir.", kaynak: "SMK m.137" }
       ]
     },
       {
@@ -1048,7 +1481,15 @@ window.KARTLAR = {
         { alt: "E11.1", soru: "Entegre devre topoğrafyası koruma süresi nedir?", cevap: "Tescil başvurusunun yapıldığı veya ilk ticari kullanımın gerçekleştiği tarihten itibaren <b>on yıl</b>.", kaynak: "5147 s.K. m.9" },
         { alt: "E11.2", soru: "Entegre devre topoğrafyası tescil başvurusu nereye yapılır?", cevap: "<b>TÜRKPATENT'e</b>.", kaynak: "5147 s.K." },
         { alt: "E11.2", soru: "Ticari kullanımdan sonra tescil başvurusu için süre sınırı var mıdır?", cevap: "<b>Evet</b>, ilk ticari kullanımdan itibaren <b>iki yıl</b> içinde başvuru yapılmalıdır; aksi hâlde koruma talep edilemez.", kaynak: "5147 s.K. m.7" },
-        { alt: "E11.2", soru: "Entegre devre topoğrafyası koruması neyi kapsamaz?", cevap: "Topoğrafyanın dayandığı <b>kavram, işlem, sistem, teknik</b> veya kodlanmış bilgiyi kapsamaz; yalnızca topoğrafyanın kendisi korunur.", kaynak: "5147 s.K. m.6" }
+        { alt: "E11.2", soru: "Entegre devre topoğrafyası koruması neyi kapsamaz?", cevap: "Topoğrafyanın dayandığı <b>kavram, işlem, sistem, teknik</b> veya kodlanmış bilgiyi kapsamaz; yalnızca topoğrafyanın kendisi korunur.", kaynak: "5147 s.K. m.6" },
+        { alt: "E11.1", soru: "Entegre devre topoğrafyası nedir?", cevap: "Bir entegre devreyi oluşturan <b>tabakaların üç boyutlu dizilimini</b> gösteren, herhangi bir formatta ifade edilmiş dizilimdir.", kaynak: "5147 s.K. m.2" },
+        { alt: "E11.1", soru: "Koruma süresi hangi tarihte sona erer?", cevap: "Başvuru veya ilk ticari kullanım tarihinden itibaren <b>onuncu takvim yılının sonunda</b>.", kaynak: "5147 s.K. m.9" },
+        { alt: "E11.2", soru: "Entegre devre topoğrafyası hakkı devredilebilir mi?", cevap: "<b>Evet</b>, devir, lisans, rehin ve miras yoluyla intikal mümkündür; sicile kaydedilir.", kaynak: "5147 s.K." },
+        { alt: "E11.2", soru: "Ters mühendislik (reverse engineering) hak ihlali sayılır mı?", cevap: "<b>Hayır</b>; değerlendirme, analiz veya eğitim amacıyla yapılan çoğaltma ve bunun sonucunda <b>orijinal</b> yeni bir topoğrafya geliştirilmesi ihlal sayılmaz.", kaynak: "5147 s.K. m.'ler" },
+        { alt: "E11.2", soru: "Entegre devre topoğrafyası tescilinde inceleme yapılır mı?", cevap: "Kurum <b>şekli inceleme</b> yapar; orijinallik iddiası uyuşmazlık hâlinde mahkemece değerlendirilir.", kaynak: "5147 s.K." },
+        { alt: "E11.2", soru: "AYRIM: Entegre devre topoğrafyası ile patent koruması nasıl ayrılır?", cevap: "<b>Patent</b> teknik çözümü korur ve buluş basamağı arar. <b>Topoğrafya koruması</b> ise devrenin <b>üç boyutlu dizilimini</b> korur; orijinallik yeterlidir.", kaynak: "5147 s.K.; SMK m.82" },
+        { alt: "E11.2", soru: "Entegre devre topoğrafyası koruması tescilsiz doğar mı?", cevap: "<b>Hayır</b>, koruma için <b>tescil</b> gereklidir; ilk ticari kullanımdan itibaren iki yıl içinde başvurulmalıdır.", kaynak: "5147 s.K. m.7" },
+        { alt: "E11.2", soru: "Topoğrafya hakkına tecavüz hâlinde hangi yollar açıktır?", cevap: "Tecavüzün <b>tespiti, önlenmesi, durdurulması</b>, <b>tazminat</b> ve el koyma/imha talepleri; ayrıca ceza hükümleri uygulanır.", kaynak: "5147 s.K." }
       ]
     }
     ]
