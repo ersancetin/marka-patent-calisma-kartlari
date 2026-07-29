@@ -31,6 +31,7 @@ ve aynı ilkeyi paylaşır: **her şey kullanıcının tarayıcısında çalış
 | Özellik | Açıklama |
 |---|---|
 | Çoklu konu seçimi | Birden çok konuyu tek turda birleştirerek çalışma |
+| Alt konu rozeti | Her kart, taksonomideki alt konu koduyla etiketli |
 | Kart çevirme | Tıklama, `Boşluk` tuşu veya dokunmatik |
 | Bildim / Tekrar Et | Kart işaretleme; tur sonunda yalnızca bilemediklerini tekrar etme |
 | Kalıcı ilerleme | İşaretler `localStorage`'da tutulur, sonraki oturumda korunur |
@@ -41,35 +42,39 @@ ve aynı ilkeyi paylaşır: **her şey kullanıcının tarayıcısında çalış
 
 ## Konular
 
-| Konu | Kapsam |
+İçerik, **Marka & Patent Vekilliği Sınavı konu taksonomisine** göre düzenlenmiştir:
+`Modül (A–E) → Konu (A1, D3, E1 …) → Kart (alt konu kodlu)`
+
+| Modül | Kapsam | Durum |
+|---|---|---|
+| **A** Genel Hukuk | A1 Türk Ticaret Kanunu · A2 Türk Medeni Kanunu · A3 Türk Borçlar Kanunu | **A1 hazır (208 kart)** |
+| **B** Kurum ve Uluslararası Çerçeve | B1 TÜRKPATENT · B2 Vekillik Mevzuatı · B3 Uluslararası Anlaşmalar | hazırlanıyor |
+| **C** Tasarım Hukuku | C1–C6 | hazırlanıyor |
+| **D** Marka Hukuku | D1–D12 | hazırlanıyor |
+| **E** Patent Hukuku | E1–E11 | hazırlanıyor |
+
+Kartı olmayan konular sitede "Hazırlanıyor" satırında listelenir; ilk kart eklendiğinde
+kendiliğinden çalışılabilir hâle gelir.
+
+### A1 — Türk Ticaret Kanunu (208 kart)
+
+| Alt konu | Kart |
 |---|---|
-| Marka Hukuku | Marka tanımı, tescil şartları, mutlak/nispi ret nedenleri, hükümsüzlük, iptal |
-| Patent & Faydalı Model | Patentlenebilirlik, yenilik, buluş basamağı, istemler, süreçler |
-| Tasarım & Coğrafi İşaret | Tasarım tescili, yenilik ve ayırt edicilik, menşe adı, mahreç işareti |
-| Ortak Hükümler | Devir, lisans, rehin, haciz, sicil, hükümsüzlük ve iptalin etkisi |
-| Tecavüz & Yaptırımlar | Tecavüz fiilleri, hukuk davaları, tazminat, cezai hükümler |
-| Uluslararası Sistemler | Paris, TRIPS, Madrid, PCT, Lahey, EPC |
-| Vekillik Mevzuatı & Usul | Vekillik sicili, TÜRKPATENT işlemleri, itiraz süreleri, YİDK, dava |
-| Entegre Devre Topoğrafyaları | 5147 sayılı Kanun kapsamındaki koruma |
+| A1.1 Ticari işletme kavramı ve unsurları | 12 |
+| A1.2 Tacir sıfatı ve tacir olmanın sonuçları | 35 |
+| A1.3 Ticari iş, ticari hüküm, ticari davalar | 16 |
+| A1.4 Ticaret unvanı — seçimi ve ekler | 14 |
+| A1.5 Ticaret unvanının korunması ve devri | 9 |
+| A1.6 İşletme adı | 6 |
+| A1.7 Unvan ↔ işletme adı ↔ marka ayrımı | 7 |
+| A1.8 Haksız rekabet — genel hüküm ve özel haller | 17 |
+| A1.9 Haksız rekabette davalar ve zamanaşımı | 17 |
+| A1.10 Ticari işletmenin devri ve rehni | 15 |
+| A1.11 Ticaret sicili ve tescilin etkileri | 25 |
+| A1.12 Diğer TTK hükümleri (acente, cari hesap, kıymetli evrak, şirketler) | 35 |
 
-> **Not:** Depodaki mevcut kartlar, biçimi göstermek için konulmuş **örneklerdir**. Yayına almadan
-> önce kendi içeriğinizle değiştirin ve mevzuat atıflarını güncel metinden doğrulayın.
-
-## Kart eklemek
-
-Tüm içerik tek dosyadadır: **`data/desteler.js`**. Derleme adımı yoktur; dosyayı düzenleyip
-sayfayı yenilemeniz yeterlidir.
-
-```js
-{
-  soru:   "Marka tescilinin koruma süresi ne kadardır?",
-  cevap:  "Başvuru tarihinden itibaren <b>on yıldır</b>; onar yıllık dönemlerle yenilenir.",
-  kaynak: "SMK m.23"    // isteğe bağlı
-}
-```
-
-Ayrıntılı anlatım, yeni deste ekleme ve sık yapılan hatalar için: [Kart Ekleme Rehberi](katki.html)
-(canlı sitede `/katki.html`).
+> **Not:** Kartlar bir çalışma aracıdır; hukuki görüş veya güncel mevzuat metni yerine geçmez.
+> Mevzuat değişebilir — atıfları güncel metinden doğrulayınız.
 
 ## Veri güvenliği ve KVKK
 
@@ -89,7 +94,7 @@ veya dış kaynağa bağlanılmaz; ikonlar satır içi SVG'dir.
 index.html             — konu seçimi, kart ekranı, tur özeti (tek sayfa)
 katki.html             — kart ekleme rehberi
 gizlilik.html          — gizlilik & KVKK bildirimi
-data/desteler.js       — KART İÇERİĞİ (düzenlenecek tek dosya)
+data/desteler.js       — KART İÇERİĞİ (modül → konu → kart; düzenlenecek tek dosya)
 assets/css/style.css   — marka katmanı (ince başlık/altbilgi, doküman sayfası)
 assets/css/kartlar.css — kart arayüzü
 assets/js/kartlar.js   — kart motoru

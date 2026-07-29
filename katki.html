@@ -34,89 +34,93 @@
     <p class="updated">Tüm içerik tek bir dosyada tutulur: <code>data/desteler.js</code></p>
 
     <div class="callout">
-      <p>Sitede derleme (build) adımı yoktur. <code>data/desteler.js</code> dosyasını düzenleyip kaydetmeniz
-      ve sayfayı yenilemeniz yeterlidir; kartlar anında güncellenir.</p>
+      <p>Sitede derleme (build) adımı yoktur. <code>data/desteler.js</code> dosyasını düzenleyip
+      kaydetmeniz ve sayfayı yenilemeniz yeterlidir; kartlar anında güncellenir.</p>
     </div>
 
-    <h2>1. Bir kartın yapısı</h2>
-    <p>Her kart üç alandan oluşur. <code>kaynak</code> isteğe bağlıdır; yazıldığında cevap yüzünün altında
-    mevzuat dayanağı olarak gösterilir.</p>
-<pre><code>{
-  soru:   "Marka tescilinin koruma süresi ne kadardır?",
-  cevap:  "Başvuru tarihinden itibaren &lt;b&gt;on yıldır&lt;/b&gt;; onar yıllık dönemlerle yenilenir.",
-  kaynak: "SMK m.23"
-}</code></pre>
+    <h2>1. Yapı</h2>
+    <p>Dosya, vekillik sınavı konu taksonomisini birebir izler:</p>
+<pre><code>Modül (A–E)  →  Konu (A1, D3, E1 …)  →  Kart (alt konu kodlu)</code></pre>
+    <p>Kartı olmayan konular ana sayfada <em>“Hazırlanıyor”</em> satırında listelenir; ilk kart
+    eklendiği anda kendiliğinden seçilebilir hâle gelir. Yeni bir konu açmanız gerekmez, taksonomideki
+    konuların tamamı dosyada hazır bekler.</p>
 
-    <h2>2. Mevcut bir desteye kart eklemek</h2>
-    <p>İlgili destenin <code>kartlar</code> dizisinin sonuna yeni bloğu ekleyin. Bloklar arasına virgül
-    koymayı unutmayın; son bloktan sonra virgül olmamalıdır.</p>
+    <h2>2. Bir kartın yapısı</h2>
 <pre><code>{
-  id: 'marka-hukuku',
-  ad: 'Marka Hukuku',
-  aciklama: '...',
-  ikon: 'marka',
+  alt:    "A1.3",                    // taksonomideki alt konu kodu (isteğe bağlı)
+  soru:   "Ticari davalarda görevli mahkeme hangisidir?",
+  cevap:  "Aksine hüküm yoksa &lt;b&gt;asliye ticaret mahkemesi&lt;/b&gt;.",
+  kaynak: "TTK m.5/1"                // mevzuat dayanağı (isteğe bağlı)
+}</code></pre>
+    <ul>
+      <li><code>alt</code> kartın sağ üst köşesinde rozet olarak görünür.</li>
+      <li><code>kaynak</code> cevap yüzünün altında “Dayanak” satırı olarak görünür.</li>
+      <li>İkisi de boş bırakılabilir; yazılmazsa ilgili alan hiç görünmez.</li>
+    </ul>
+
+    <h2>3. Mevcut bir konuya kart eklemek</h2>
+    <p>İlgili konunun <code>kartlar</code> dizisinin sonuna yeni bloğu ekleyin. Bloklar arasına virgül
+    koyun; son bloktan sonra virgül olmasın.</p>
+<pre><code>{
+  kod: "D3",
+  ad: "Mutlak Ret Nedenleri (m.5)",
+  ikon: "marka",
   kartlar: [
-    { soru: '...', cevap: '...', kaynak: 'SMK m.4' },
-    { soru: '...', cevap: '...', kaynak: 'SMK m.23' }   &lt;-- yeni kart
+    { alt: "D3.3", soru: "…", cevap: "…", kaynak: "SMK m.5/1-c" },
+    { alt: "D3.13", soru: "…", cevap: "…", kaynak: "SMK m.5/2" }   &lt;-- yeni kart
   ]
 }</code></pre>
 
-    <h2>3. Yeni bir deste eklemek</h2>
-    <p><code>desteler</code> dizisine yeni bir blok ekleyin. <code>id</code> alanı benzersiz olmalı ve
-    boşluk içermemelidir (ilerleme kaydı bu değere bağlanır).</p>
-<pre><code>{
-  id: 'lisans-sozlesmeleri',
-  ad: 'Lisans Sözleşmeleri',
-  aciklama: 'İnhisari ve inhisari olmayan lisans, alt lisans, sicil kaydı.',
-  ikon: 'belge',
-  kartlar: [
-    { soru: '...', cevap: '...', kaynak: 'SMK m.24' }
-  ]
-}</code></pre>
+    <h2>4. Yeni bir konu veya modül eklemek</h2>
+    <p>Taksonomide olmayan bir konu açmanız gerekirse, ilgili modülün <code>konular</code> dizisine
+    yeni bir blok ekleyin. <code>kod</code> benzersiz olmalıdır; ilerleme kaydı bu değere bağlanır.</p>
+<pre><code>{ kod: "D13", ad: "Yeni Konu", ikon: "marka", kartlar: [] }</code></pre>
 
     <h3>Kullanılabilir ikonlar</h3>
     <p><code>marka</code>, <code>patent</code>, <code>tasarim</code>, <code>cografi</code>,
     <code>belge</code>, <code>dunya</code>, <code>kalkan</code>, <code>kalem</code>,
     <code>devre</code>. Tanımsız bir ad verilirse varsayılan ikon kullanılır.</p>
 
-    <h2>4. Metin biçimlendirme</h2>
+    <h2>5. Metin biçimlendirme</h2>
     <ul>
-      <li>Vurgu için <code>&lt;b&gt;kalın&lt;/b&gt;</code>, satır atlatmak için <code>&lt;br&gt;</code> kullanabilirsiniz.</li>
-      <li>Metin içinde çift tırnak kullanacaksanız ya <code>\"</code> biçiminde kaçırın ya da dizgiyi
-      tek tırnakla yazın: <code>'... "GİZLİDİR" ...'</code></li>
-      <li>Türkçe karakterler dosyada UTF-8 olarak saklanır; ayrıca bir işlem gerekmez.</li>
-      <li>Kartlara HTML yazabildiğiniz için, yalnızca kendi hazırladığınız içeriği ekleyin.</li>
+      <li>Vurgu için <code>&lt;b&gt;kalın&lt;/b&gt;</code>, satır atlatmak için <code>&lt;br&gt;</code>.</li>
+      <li>Dizgiler <strong>çift tırnaklıdır</strong>; Türkçe kesme işareti (TTK’ya) sorun çıkarmaz.
+      Metin içinde tırnak gerekiyorsa tipografik tırnak kullanın: <code>“GİZLİDİR”</code></li>
+      <li>Türkçe karakterler UTF-8 olarak saklanır; ek işlem gerekmez.</li>
+      <li>Kartlara HTML yazılabildiği için yalnızca kendi hazırladığınız içeriği ekleyin.</li>
     </ul>
 
-    <h2>5. Sık yapılan hatalar</h2>
+    <h2>6. Sık yapılan hatalar</h2>
     <ul>
       <li><strong>Eksik veya fazla virgül.</strong> Kartlar görünmüyorsa ilk bakılacak yer burasıdır.
-      Tarayıcıda <em>F12 &rarr; Console</em> sekmesi hatayı satır numarasıyla gösterir.</li>
-      <li><strong>Kaçırılmamış tırnak.</strong> <code>"... "marka" ..."</code> dizgiyi erken kapatır.</li>
-      <li><strong>Aynı <code>id</code>.</strong> İki destenin id'si aynı olursa ilerleme kayıtları karışır.</li>
+      Tarayıcıda <em>F12 &rarr; Console</em> hatayı satır numarasıyla gösterir.</li>
+      <li><strong>Kartı yanlış diziye koymak.</strong> Kartlar <code>kartlar: [ … ]</code> içinde
+      olmalıdır; yanlışlıkla <code>konular</code> dizisine düşen bir blok, kartsız bir konu gibi görünür.</li>
+      <li><strong>Aynı <code>kod</code>.</strong> İki konunun kodu aynı olursa ilerleme kayıtları karışır.</li>
     </ul>
 
     <div class="callout">
-      <p><strong>İlerleme kayıtları neye bağlı?</strong> Bir kartın "bildim" işareti, destenin
-      <code>id</code>'si ile <b>soru metninden</b> üretilen bir imzaya bağlanır. Kartların sırasını
-      değiştirmek kaydı bozmaz; soru metnini değiştirmek ise o kartı yeni kart sayar. Bu tercih,
-      düzeltilen bir sorunun yeniden çalışılmasını sağlamak içindir.</p>
+      <p><strong>İlerleme kayıtları neye bağlı?</strong> Bir kartın “bildim” işareti, konunun
+      <code>kod</code>'u ile <b>soru metninden</b> üretilen bir imzaya bağlanır. Kartların sırasını
+      değiştirmek kaydı bozmaz; soru metnini değiştirmek ise o kartı yeni kart sayar — düzeltilen
+      bir sorunun yeniden çalışılması için bilinçli bir tercihtir.</p>
     </div>
 
-    <h2>6. Yerelde denemek</h2>
-    <p>Dosyaları düzenledikten sonra depo kökünde basit bir sunucu çalıştırıp kontrol edebilirsiniz:</p>
+    <h2>7. Yerelde denemek</h2>
 <pre><code>python3 -m http.server 8000
 # http://localhost:8000</code></pre>
+    <p>Dosyayı bozmadan değiştirdiğinizi hızlıca doğrulamak için:</p>
+<pre><code>node --check data/desteler.js</code></pre>
 
-    <h2>7. Katkıyı göndermek</h2>
-    <p>Değişikliğinizi bir <em>pull request</em> olarak gönderebilir; kod yazmadan katkı vermek
+    <h2>8. Katkıyı göndermek</h2>
+    <p>Değişikliğinizi <em>pull request</em> olarak gönderebilir; kod yazmadan katkı vermek
     isterseniz kart metinlerinizi
     <a href="https://github.com/ersancetin/marka-patent-calisma-kartlari/issues" target="_blank" rel="noopener">Issues</a>
     üzerinden iletebilirsiniz.</p>
 
     <div class="callout">
-      <p><strong>İçerik sorumluluğu:</strong> Eklenen kartlar bir çalışma aracıdır; hukuki görüş
-      niteliği taşımaz. Lütfen mevzuat atıflarını güncel metinden doğrulayarak ekleyiniz.</p>
+      <p><strong>İçerik sorumluluğu:</strong> Kartlar bir çalışma aracıdır; hukuki görüş niteliği
+      taşımaz. Mevzuat atıflarını güncel metinden doğrulayarak ekleyiniz.</p>
     </div>
 
   </div>

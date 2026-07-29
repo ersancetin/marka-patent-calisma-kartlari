@@ -61,7 +61,16 @@
 
   /* ---------- durum ---------- */
 
-  var desteler = (window.KARTLAR && window.KARTLAR.desteler) || [];
+  var moduller = (window.KARTLAR && window.KARTLAR.moduller) || [];
+  var desteler = [];   // tüm konular, modül bilgisiyle düzleştirilmiş
+  moduller.forEach(function (mo) {
+    (mo.konular || []).forEach(function (k) {
+      desteler.push({
+        id: k.kod, kod: k.kod, ad: k.ad, ikon: k.ikon,
+        modulKod: mo.kod, modulAd: mo.ad, kartlar: k.kartlar || []
+      });
+    });
+  });
   var secili = [];          // seçili deste id'leri
   var sira = 'karisik';     // karisik | sirali
   var yon = 'soru';         // soru | cevap  (kartın ön yüzünde ne yazacağı)
@@ -76,7 +85,8 @@
     var kap = $('#deste-grid');
     if (!kap) return;
 
-    if (!desteler.length) {
+    var toplam = desteler.reduce(function (n, d) { return n + d.kartlar.length; }, 0);
+    if (!toplam) {
       kap.innerHTML = '';
       $('#bos-uyari').classList.remove('hidden');
       $('#secenekler').classList.add('hidden');
@@ -84,29 +94,61 @@
     }
 
     kap.innerHTML = '';
-    desteler.forEach(function (d) {
-      var adet = (d.kartlar || []).length;
-      var btn = document.createElement('button');
-      btn.type = 'button';
-      btn.className = 'deste-card';
-      btn.dataset.id = d.id;
-      btn.disabled = adet === 0;
-      btn.setAttribute('aria-pressed', 'false');
-      btn.innerHTML =
-        '<span class="deste-icon">' + ikonSvg(d.ikon, 19) + '</span>' +
-        '<span class="deste-body">' +
-          '<h3>' + d.ad + '</h3>' +
-          '<span class="deste-meta">' + (adet ? adet + ' kart' : 'içerik bekleniyor') + '</span>' +
-        '</span>' +
-        '<span class="deste-check">' +
-          '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.4" ' +
-          'stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5l5 5L20 6.5"/></svg>' +
-        '</span>';
-      btn.addEventListener('click', function () { desteSec(d.id, btn); });
-      kap.appendChild(btn);
+    moduller.forEach(function (mo) {
+      var konular = mo.konular || [];
+      var dolu = konular.filter(function (k) { return (k.kartlar || []).length > 0; });
+      var bos = konular.filter(function (k) { return !(k.kartlar || []).length; });
+      if (!konular.length) return;
+
+      var bolum = document.createElement('section');
+      bolum.className = 'modul';
+
+      var bas = document.createElement('h2');
+      bas.className = 'modul-bas';
+      bas.innerHTML = '<span class="modul-kod">' + mo.kod + '</span>' + mo.ad;
+      bolum.appendChild(bas);
+
+      if (dolu.length) {
+        var izgara = document.createElement('div');
+        izgara.className = 'deste-grid';
+        dolu.forEach(function (k) { izgara.appendChild(desteKarti(k, mo)); });
+        bolum.appendChild(izgara);
+      }
+
+      if (bos.length) {
+        var not = document.createElement('p');
+        not.className = 'hazirlanan';
+        not.textContent = 'Hazırlanıyor: ' + bos.map(function (k) {
+          return k.kod + ' ' + k.ad;
+        }).join(' · ');
+        bolum.appendChild(not);
+      }
+
+      kap.appendChild(bolum);
     });
 
     secimGuncelle();
+  }
+
+  function desteKarti(k, mo) {
+    var adet = (k.kartlar || []).length;
+    var btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'deste-card';
+    btn.dataset.id = k.kod;
+    btn.setAttribute('aria-pressed', 'false');
+    btn.innerHTML =
+      '<span class="deste-icon">' + ikonSvg(k.ikon, 19) + '</span>' +
+      '<span class="deste-body">' +
+        '<h3><span class="deste-kod">' + k.kod + '</span>' + k.ad + '</h3>' +
+        '<span class="deste-meta">' + adet + ' kart</span>' +
+      '</span>' +
+      '<span class="deste-check">' +
+        '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.4" ' +
+        'stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5l5 5L20 6.5"/></svg>' +
+      '</span>';
+    btn.addEventListener('click', function () { desteSec(k.kod, btn); });
+    return btn;
   }
 
   function desteSec(id, el) {
@@ -141,7 +183,8 @@
           soru: k.soru,
           cevap: k.cevap,
           kaynak: k.kaynak || '',
-          desteAd: d.ad
+          alt: k.alt || '',
+          desteAd: d.kod + ' · ' + d.ad
         });
       });
     });
@@ -206,6 +249,8 @@
     $('#kart-on-etiket').textContent = yon === 'soru' ? 'Soru' : 'Cevap';
     $('#kart-arka-etiket').textContent = yon === 'soru' ? 'Cevap' : 'Soru';
     $('#deste-etiket').textContent = k.desteAd;
+    $('#kart-alt-on').textContent = k.alt;
+    $('#kart-alt-arka').textContent = k.alt;
 
     $('#sayac-mevcut').textContent = indeks + 1;
     $('#sayac-toplam').textContent = kuyruk.length;
