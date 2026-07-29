@@ -21,25 +21,27 @@
 Sınai mülkiyet mevzuatını **aktif hatırlama** yöntemiyle tekrar etmek için hazırlanmış çevrilebilir
 soru–cevap kartlarıdır. Kartın ön yüzünde soru, arka yüzünde cevap ve varsa mevzuat dayanağı yer alır.
 
-Cumhuriyet Avukatları'nın [PDF Araçları](https://ersancetin.github.io/cumhuriyet-avukatlari/) projesiyle
-aynı marka kimliğini ve aynı ilkeyi paylaşır: **her şey kullanıcının tarayıcısında çalışır.**
+Arayüz bilerek sade tutulmuştur: siteyi açan kişi tanıtım metni okumadan doğrudan konu seçip
+çalışmaya başlar. Cumhuriyet Avukatları'nın
+[PDF Araçları](https://ersancetin.github.io/cumhuriyet-avukatlari/) projesiyle aynı marka kimliğini
+ve aynı ilkeyi paylaşır: **her şey kullanıcının tarayıcısında çalışır.**
 
 ## Özellikler
 
 | Özellik | Açıklama |
 |---|---|
-| Çoklu deste seçimi | Birden çok konuyu tek turda birleştirerek çalışma |
+| Çoklu konu seçimi | Birden çok konuyu tek turda birleştirerek çalışma |
 | Kart çevirme | Tıklama, `Boşluk` tuşu veya dokunmatik |
 | Bildim / Tekrar Et | Kart işaretleme; tur sonunda yalnızca bilemediklerini tekrar etme |
 | Kalıcı ilerleme | İşaretler `localStorage`'da tutulur, sonraki oturumda korunur |
 | Karışık / sıralı mod | Sırayı bozarak ezber etkisini kırma |
 | Ters yön | "Cevap → Soru" yönüyle tanımdan kuruma gitme |
 | Klavye ve kaydırma | `←` `→` `1` `2` `S` `Esc`, mobilde sağa–sola kaydırma |
-| Tur özeti | Bilme oranı, sayaçlar ve tekrar seçenekleri |
+| Tur özeti | Bilme oranı ve tekrar seçenekleri |
 
-## Desteler
+## Konular
 
-| Deste | Kapsam |
+| Konu | Kapsam |
 |---|---|
 | Marka Hukuku | Marka tanımı, tescil şartları, mutlak/nispi ret nedenleri, hükümsüzlük, iptal |
 | Patent & Faydalı Model | Patentlenebilirlik, yenilik, buluş basamağı, istemler, süreçler |
@@ -84,14 +86,13 @@ Derleme adımı olmayan statik bir sitedir (HTML + CSS + vanilla JS). Çalışma
 veya dış kaynağa bağlanılmaz; ikonlar satır içi SVG'dir.
 
 ```
-index.html            — deste seçimi, çalışma ekranı, tur özeti
-katki.html            — kart ekleme rehberi
-gizlilik.html         — gizlilik & KVKK bildirimi
-data/desteler.js      — KART İÇERİĞİ (düzenlenecek tek dosya)
-assets/css/style.css  — marka katmanı (header, hero, bölümler, footer)
-assets/css/kartlar.css— kart arayüzü
-assets/js/kartlar.js  — kart motoru
-assets/js/common.js   — mobil menü
+index.html             — konu seçimi, kart ekranı, tur özeti (tek sayfa)
+katki.html             — kart ekleme rehberi
+gizlilik.html          — gizlilik & KVKK bildirimi
+data/desteler.js       — KART İÇERİĞİ (düzenlenecek tek dosya)
+assets/css/style.css   — marka katmanı (ince başlık/altbilgi, doküman sayfası)
+assets/css/kartlar.css — kart arayüzü
+assets/js/kartlar.js   — kart motoru
 ```
 
 ### Yerelde çalıştırma

@@ -69,7 +69,6 @@
   var kuyruk = [];          // çalışılan kartlar
   var indeks = 0;
   var ilerleme = ilerlemeOku();
-  var oturum = { bildim: 0, tekrar: 0 };
 
   /* ---------- deste seçimi ekranı ---------- */
 
@@ -80,7 +79,6 @@
     if (!desteler.length) {
       kap.innerHTML = '';
       $('#bos-uyari').classList.remove('hidden');
-      $('#secim-arac').classList.add('hidden');
       $('#secenekler').classList.add('hidden');
       return;
     }
@@ -95,10 +93,9 @@
       btn.disabled = adet === 0;
       btn.setAttribute('aria-pressed', 'false');
       btn.innerHTML =
-        '<span class="deste-icon">' + ikonSvg(d.ikon, 21) + '</span>' +
+        '<span class="deste-icon">' + ikonSvg(d.ikon, 19) + '</span>' +
         '<span class="deste-body">' +
           '<h3>' + d.ad + '</h3>' +
-          '<p>' + (d.aciklama || '') + '</p>' +
           '<span class="deste-meta">' + (adet ? adet + ' kart' : 'içerik bekleniyor') + '</span>' +
         '</span>' +
         '<span class="deste-check">' +
@@ -158,19 +155,14 @@
     var say = $('#secim-say');
     if (say) {
       say.innerHTML = secili.length
-        ? '<strong>' + secili.length + '</strong> deste · <strong>' + kartlar.length + '</strong> kart seçildi'
-        : 'Çalışmak istediğiniz desteleri seçin.';
+        ? '<strong>' + secili.length + '</strong> konu · <strong>' + kartlar.length + '</strong> kart'
+        : 'Konu seçilmedi';
     }
 
     var hepsiBtn = $('#tumunu-sec');
     if (hepsiBtn) {
       hepsiBtn.textContent = (secili.length && secili.length === kullanilabilirDesteler().length)
-        ? 'Seçimi Temizle' : 'Tümünü Seç';
-    }
-
-    var bilinmeyenBtn = document.querySelector('.opt-choice[data-kapsam="bilinmeyen"]');
-    if (bilinmeyenBtn) {
-      bilinmeyenBtn.textContent = 'Yalnızca bilemediklerim' + (secili.length ? ' (' + bilinmeyen + ')' : '');
+        ? 'Seçimi temizle' : 'Tümünü seç';
     }
 
     var basla = $('#basla');
@@ -192,7 +184,6 @@
 
     kuyruk = sira === 'karisik' ? karistir(kartlar.slice()) : kartlar.slice();
     indeks = 0;
-    oturum = { bildim: 0, tekrar: 0 };
 
     $('#secim-ekrani').classList.add('hidden');
     $('#ozet-ekrani').classList.add('hidden');
@@ -214,8 +205,6 @@
     $('#kart-kaynak').innerHTML = k.kaynak;
     $('#kart-on-etiket').textContent = yon === 'soru' ? 'Soru' : 'Cevap';
     $('#kart-arka-etiket').textContent = yon === 'soru' ? 'Cevap' : 'Soru';
-    $('#kart-no-on').textContent = (indeks + 1) + ' / ' + kuyruk.length;
-    $('#kart-no-arka').textContent = (indeks + 1) + ' / ' + kuyruk.length;
     $('#deste-etiket').textContent = k.desteAd;
 
     $('#sayac-mevcut').textContent = indeks + 1;
@@ -229,18 +218,10 @@
     var durum = ilerleme[k.kimlik];
     $('#bildim').classList.toggle('aktif', durum === 'bildim');
     $('#tekrar').classList.toggle('aktif', durum === 'tekrar');
-
-    $('#ist-bildim').textContent = oturum.bildim;
-    $('#ist-tekrar').textContent = oturum.tekrar;
-    $('#ist-kalan').textContent = kuyruk.length - (indeks + 1);
   }
 
-  /* çalışma bölümünü, yapışkan başlığın altında kalacak şekilde görünür kıl */
   function bolumeKaydir() {
-    var bolum = document.getElementById('kartlar');
-    if (!bolum) return;
-    var ust = bolum.getBoundingClientRect().top + window.pageYOffset - 84;
-    window.scrollTo({ top: Math.max(0, ust), behavior: 'smooth' });
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
   function cevir() { $('#kart').classList.toggle('cevrildi'); }
@@ -255,12 +236,6 @@
   function isaretle(durum) {
     var k = kuyruk[indeks];
     if (!k) return;
-    var oncekiDurum = ilerleme[k.kimlik];
-    if (oncekiDurum !== durum) {
-      if (durum === 'bildim') oturum.bildim++; else oturum.tekrar++;
-      if (oncekiDurum === 'bildim') oturum.bildim = Math.max(0, oturum.bildim - 1);
-      if (oncekiDurum === 'tekrar') oturum.tekrar = Math.max(0, oturum.tekrar - 1);
-    }
     ilerleme[k.kimlik] = durum;
     ilerlemeYaz(ilerleme);
     setTimeout(sonraki, 160);
@@ -279,12 +254,9 @@
     var oran = kuyruk.length ? Math.round((bilinen / kuyruk.length) * 100) : 0;
 
     $('#ozet-oran').textContent = '%' + oran;
-    $('#ozet-toplam').textContent = kuyruk.length;
-    $('#ozet-bildim').textContent = bilinen;
-    $('#ozet-tekrar').textContent = kuyruk.length - bilinen;
     $('#ozet-alt').textContent = oran === 100
-      ? 'Bu turdaki tüm kartları bildiniz.'
-      : (kuyruk.length - bilinen) + ' kart tekrar bekliyor.';
+      ? kuyruk.length + ' kartın tamamını bildiniz.'
+      : bilinen + ' / ' + kuyruk.length + ' kart bilindi · ' + (kuyruk.length - bilinen) + ' kart tekrar bekliyor.';
     $('#tekrar-et').disabled = bilinen === kuyruk.length;
 
     $('#calisma-ekrani').classList.add('hidden');
@@ -297,7 +269,6 @@
     if (!kalan.length) return;
     kuyruk = sira === 'karisik' ? karistir(kalan) : kalan;
     indeks = 0;
-    oturum = { bildim: 0, tekrar: 0 };
     $('#ozet-ekrani').classList.add('hidden');
     $('#calisma-ekrani').classList.remove('hidden');
     kartGoster();
@@ -305,7 +276,6 @@
 
   function bastanBasla() {
     indeks = 0;
-    oturum = { bildim: 0, tekrar: 0 };
     if (sira === 'karisik') kuyruk = karistir(kuyruk.slice());
     $('#ozet-ekrani').classList.add('hidden');
     $('#calisma-ekrani').classList.remove('hidden');
