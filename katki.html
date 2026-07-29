@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kart Ekleme Rehberi — Marka &amp; Patent Çalışma Kartları</title>
+<meta name="description" content="Marka & Patent Çalışma Kartları'na yeni soru–cevap kartı veya yeni deste eklemek için adım adım rehber.">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html">
+      <img src="assets/logo.png" alt="Cumhuriyet Avukatları logosu" class="brand-logo">
+      <span class="brand-text"><strong>CUMHUR&#304;YET AVUKATLARI</strong><small>Çalışma Kartları</small></span>
+    </a>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Menü" aria-expanded="false">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+    <nav class="site-nav" id="site-nav">
+      <a href="index.html#kartlar">Kartlar</a>
+      <a href="index.html#nasil">Nasıl Çalışır</a>
+      <a href="katki.html">Katkı</a>
+      <a href="gizlilik.html">Gizlilik</a>
+      <a class="nav-icon" href="https://github.com/ersancetin/marka-patent-calisma-kartlari" target="_blank" rel="noopener" title="GitHub" aria-label="GitHub"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.6.5.5 5.6.5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.2.8-.6v-2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.4 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.4-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0c2.2-1.5 3.2-1.2 3.2-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.3c0 .4.2.7.8.6 4.6-1.5 7.9-5.8 7.9-10.9C23.5 5.6 18.4.5 12 .5z"/></svg></a>
+    </nav>
+  </div>
+</header>
+
+<main class="prose">
+  <div class="container-narrow">
+    <a class="back-link" href="index.html">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M11 6l-6 6 6 6"/></svg>
+      Ana sayfa
+    </a>
+
+    <h1>Kart Ekleme Rehberi</h1>
+    <p class="updated">Tüm içerik tek bir dosyada tutulur: <code>data/desteler.js</code></p>
+
+    <div class="callout">
+      <p>Sitede derleme (build) adımı yoktur. <code>data/desteler.js</code> dosyasını düzenleyip kaydetmeniz
+      ve sayfayı yenilemeniz yeterlidir; kartlar anında güncellenir.</p>
+    </div>
+
+    <h2>1. Bir kartın yapısı</h2>
+    <p>Her kart üç alandan oluşur. <code>kaynak</code> isteğe bağlıdır; yazıldığında cevap yüzünün altında
+    mevzuat dayanağı olarak gösterilir.</p>
+<pre><code>{
+  soru:   "Marka tescilinin koruma süresi ne kadardır?",
+  cevap:  "Başvuru tarihinden itibaren &lt;b&gt;on yıldır&lt;/b&gt;; onar yıllık dönemlerle yenilenir.",
+  kaynak: "SMK m.23"
+}</code></pre>
+
+    <h2>2. Mevcut bir desteye kart eklemek</h2>
+    <p>İlgili destenin <code>kartlar</code> dizisinin sonuna yeni bloğu ekleyin. Bloklar arasına virgül
+    koymayı unutmayın; son bloktan sonra virgül olmamalıdır.</p>
+<pre><code>{
+  id: 'marka-hukuku',
+  ad: 'Marka Hukuku',
+  aciklama: '...',
+  ikon: 'marka',
+  kartlar: [
+    { soru: '...', cevap: '...', kaynak: 'SMK m.4' },
+    { soru: '...', cevap: '...', kaynak: 'SMK m.23' }   &lt;-- yeni kart
+  ]
+}</code></pre>
+
+    <h2>3. Yeni bir deste eklemek</h2>
+    <p><code>desteler</code> dizisine yeni bir blok ekleyin. <code>id</code> alanı benzersiz olmalı ve
+    boşluk içermemelidir (ilerleme kaydı bu değere bağlanır).</p>
+<pre><code>{
+  id: 'lisans-sozlesmeleri',
+  ad: 'Lisans Sözleşmeleri',
+  aciklama: 'İnhisari ve inhisari olmayan lisans, alt lisans, sicil kaydı.',
+  ikon: 'belge',
+  kartlar: [
+    { soru: '...', cevap: '...', kaynak: 'SMK m.24' }
+  ]
+}</code></pre>
+
+    <h3>Kullanılabilir ikonlar</h3>
+    <p><code>marka</code>, <code>patent</code>, <code>tasarim</code>, <code>cografi</code>,
+    <code>belge</code>, <code>dunya</code>, <code>kalkan</code>, <code>kalem</code>,
+    <code>devre</code>. Tanımsız bir ad verilirse varsayılan ikon kullanılır.</p>
+
+    <h2>4. Metin biçimlendirme</h2>
+    <ul>
+      <li>Vurgu için <code>&lt;b&gt;kalın&lt;/b&gt;</code>, satır atlatmak için <code>&lt;br&gt;</code> kullanabilirsiniz.</li>
+      <li>Metin içinde çift tırnak kullanacaksanız ya <code>\"</code> biçiminde kaçırın ya da dizgiyi
+      tek tırnakla yazın: <code>'... "GİZLİDİR" ...'</code></li>
+      <li>Türkçe karakterler dosyada UTF-8 olarak saklanır; ayrıca bir işlem gerekmez.</li>
+      <li>Kartlara HTML yazabildiğiniz için, yalnızca kendi hazırladığınız içeriği ekleyin.</li>
+    </ul>
+
+    <h2>5. Sık yapılan hatalar</h2>
+    <ul>
+      <li><strong>Eksik veya fazla virgül.</strong> Kartlar görünmüyorsa ilk bakılacak yer burasıdır.
+      Tarayıcıda <em>F12 &rarr; Console</em> sekmesi hatayı satır numarasıyla gösterir.</li>
+      <li><strong>Kaçırılmamış tırnak.</strong> <code>"... "marka" ..."</code> dizgiyi erken kapatır.</li>
+      <li><strong>Aynı <code>id</code>.</strong> İki destenin id'si aynı olursa ilerleme kayıtları karışır.</li>
+    </ul>
+
+    <div class="callout">
+      <p><strong>İlerleme kayıtları neye bağlı?</strong> Bir kartın "bildim" işareti, destenin
+      <code>id</code>'si ile <b>soru metninden</b> üretilen bir imzaya bağlanır. Kartların sırasını
+      değiştirmek kaydı bozmaz; soru metnini değiştirmek ise o kartı yeni kart sayar. Bu tercih,
+      düzeltilen bir sorunun yeniden çalışılmasını sağlamak içindir.</p>
+    </div>
+
+    <h2>6. Yerelde denemek</h2>
+    <p>Dosyaları düzenledikten sonra depo kökünde basit bir sunucu çalıştırıp kontrol edebilirsiniz:</p>
+<pre><code>python3 -m http.server 8000
+# http://localhost:8000</code></pre>
+
+    <h2>7. Katkıyı göndermek</h2>
+    <p>Değişikliğinizi bir <em>pull request</em> olarak gönderebilir; kod yazmadan katkı vermek
+    isterseniz kart metinlerinizi
+    <a href="https://github.com/ersancetin/marka-patent-calisma-kartlari/issues" target="_blank" rel="noopener">Issues</a>
+    üzerinden iletebilirsiniz.</p>
+
+    <div class="callout">
+      <p><strong>İçerik sorumluluğu:</strong> Eklenen kartlar bir çalışma aracıdır; hukuki görüş
+      niteliği taşımaz. Lütfen mevzuat atıflarını güncel metinden doğrulayarak ekleyiniz.</p>
+    </div>
+
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-bottom" style="border-top:none;margin-top:0;padding-top:0;">
+      <span>&copy; 2026 Cumhuriyet Avukatları<span class="sep">&middot;</span>Açık kaynak, MIT lisansı</span>
+      <span><a href="index.html">Ana sayfa</a><span class="sep">&middot;</span><a href="gizlilik.html">Gizlilik</a></span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/common.js"></script>
+</body>
+</html>
