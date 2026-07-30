@@ -94,7 +94,6 @@
       kap.innerHTML = '';
       $('#bos-uyari').classList.remove('hidden');
       $('#alt-bar').classList.add('hidden');
-      $('#hizli').classList.add('hidden');
       return;
     }
 
@@ -316,18 +315,6 @@
     return 'Tüm kartlar';
   }
 
-  /* hızlı başlangıç: kapsamı ayarlar, tüm konuları seçer ve turu başlatır */
-  function hizliBasla(hedefKapsam) {
-    kapsam = hedefKapsam;
-    Array.prototype.forEach.call(document.querySelectorAll('.opt-choice[data-grup="kapsam"]'), function (el) {
-      el.classList.toggle('active', el.dataset.kapsam === hedefKapsam);
-    });
-    secili = kullanilabilirDesteler().map(function (d) { return d.id; });
-    kartlariSenkronla();
-    secimGuncelle();
-    if (!$('#basla').disabled) basla();
-  }
-
   function ayarAcKapa() {
     var panel = $('#ayar-panel');
     var btn = $('#ayar-ac');
@@ -516,9 +503,6 @@
     $('#tumunu-sec').addEventListener('click', tumunuSec);
     $('#tumunu-ac').addEventListener('click', tumunuAc);
     $('#ayar-ac').addEventListener('click', ayarAcKapa);
-    Array.prototype.forEach.call(document.querySelectorAll('.hizli-btn'), function (el) {
-      el.addEventListener('click', function () { hizliBasla(el.dataset.hizli); });
-    });
     $('#basla').addEventListener('click', basla);
     $('#kart').addEventListener('click', cevir);
     $('#onceki').addEventListener('click', onceki);

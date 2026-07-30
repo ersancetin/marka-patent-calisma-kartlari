@@ -30,7 +30,6 @@ ve aynı ilkeyi paylaşır: **her şey kullanıcının tarayıcısında çalış
 
 | Özellik | Açıklama |
 |---|---|
-| Hızlı başlangıç | Tek tıkla "Çıkmış sorular", "Bilemediklerim" veya tüm konulardan karışık tur |
 | Modül akordeonu | Beş modül katlanır listede; açılınca konular, modülün tümünü seçme kısayoluyla |
 | Yapışkan seçim çubuğu | Seçim özeti ve başlat düğmesi ekranın altında sabit; ayarlar aynı çubuktan açılır |
 | Çoklu konu seçimi | Birden çok konuyu tek turda birleştirerek çalışma |
