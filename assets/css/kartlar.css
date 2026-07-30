@@ -400,10 +400,12 @@ main.container { padding-top: 34px; padding-bottom: 150px; }
 
 .kart-alan { perspective: 1600px; }
 
+/* İki yüz aynı ızgara gözünde durur: kartın yüksekliğini uzun olan yüz belirler,
+   böylece uzun cevaplar kesilmez ve çevirirken yükseklik zıplaması olmaz. */
 .kart {
   position: relative;
   width: 100%;
-  min-height: 300px;
+  display: grid;
   transform-style: preserve-3d;
   transition: transform .45s cubic-bezier(.4, .2, .2, 1);
   cursor: pointer;
@@ -411,8 +413,8 @@ main.container { padding-top: 34px; padding-bottom: 150px; }
 .kart.cevrildi { transform: rotateY(180deg); }
 
 .kart-yuz {
-  position: absolute;
-  inset: 0;
+  grid-area: 1 / 1;
+  position: relative;
   width: 100%;
   min-height: 300px;
   backface-visibility: hidden;
@@ -421,13 +423,13 @@ main.container { padding-top: 34px; padding-bottom: 150px; }
   border: 1px solid var(--line);
   background: var(--white);
   box-shadow: var(--shadow);
-  padding: 46px 34px 40px;
+  padding: 46px 34px 44px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-  overflow-y: auto;
+  overflow-wrap: break-word;
 }
 
 .kart-on { border-top: 3px solid var(--red); }
@@ -621,8 +623,7 @@ main.container { padding-top: 34px; padding-bottom: 150px; }
 @media (max-width: 640px) {
   main.container { padding-top: 24px; }
   .deste-grid { grid-template-columns: 1fr; }
-  .kart, .kart-yuz { min-height: 280px; }
-  .kart-yuz { padding: 42px 20px 38px; }
+  .kart-yuz { min-height: 280px; padding: 42px 18px 42px; }
   .deg-btn { font-size: 12.5px; padding: 11px 10px; }
   .calisma-bar .deste-etiket { display: none; }
   .kisayollar { display: none; }
