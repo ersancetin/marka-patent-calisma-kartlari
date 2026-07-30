@@ -30,7 +30,7 @@ ve aynı ilkeyi paylaşır: **her şey kullanıcının tarayıcısında çalış
 
 | Özellik | Açıklama |
 |---|---|
-| Karma tur | Sayfanın başındaki tek düğme: tüm konulardan karışık bir tur başlatır |
+| Hemen Başla | Sayfanın başındaki tek düğme: tüm konulardan karışık bir tur başlatır |
 | Modül akordeonu | Beş modül katlanır listede; açılınca konular, modülün tümünü seçme kısayoluyla |
 | Yapışkan seçim çubuğu | Seçim özeti ve başlat düğmesi ekranın altında sabit; ayarlar aynı çubuktan açılır |
 | Çoklu konu seçimi | Birden çok konuyu tek turda birleştirerek çalışma |

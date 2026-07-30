@@ -22,52 +22,101 @@ main.container { padding-top: 34px; padding-bottom: 150px; }
 /* ---------- Karma tur ---------- */
 
 .karma {
+  position: relative;
   display: flex;
   align-items: center;
-  gap: 13px;
-  width: 100%;
+  gap: 14px;
+  width: auto;              /* geniş ekranda içeriğine göre daralır */
+  max-width: 100%;
   margin-bottom: 30px;
-  padding: 15px 18px;
+  padding: 17px 22px;
   text-align: left;
-  background: var(--white);
-  border: 1px solid var(--line-strong);
-  border-radius: var(--radius);
+  border: 0;
+  border-radius: 13px;
+  background: linear-gradient(135deg, #C93E30 0%, var(--red) 46%, #9E2A1F 100%);
+  color: var(--white);
   cursor: pointer;
+  overflow: hidden;
   font-family: var(--sans);
-  color: var(--ink);
-  transition: border-color .13s ease, background .13s ease, box-shadow .13s ease;
+  box-shadow: 0 1px 2px rgba(120, 30, 22, .18), 0 12px 26px -10px rgba(120, 30, 22, .5);
+  transition: transform .15s ease, box-shadow .15s ease;
 }
+/* sağ üstten gelen yumuşak ışık — düz kırmızıyı canlandırır */
+.karma::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(125% 150% at 100% 0%, rgba(255, 255, 255, .17), rgba(255, 255, 255, 0) 58%);
+  pointer-events: none;
+}
+.karma > * { position: relative; z-index: 1; }
+
 .karma-ikon {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 38px;
-  height: 38px;
+  width: 42px;
+  height: 42px;
   flex-shrink: 0;
-  border-radius: 9px;
-  background: var(--red-soft);
-  color: var(--red);
+  border-radius: 11px;
+  background: rgba(255, 255, 255, .15);
+  border: 1px solid rgba(255, 255, 255, .24);
+  transition: background .15s ease, transform .3s ease;
 }
-.karma-metin { display: flex; flex-direction: column; min-width: 0; }
-.karma-metin strong { font-size: 15px; font-weight: 700; letter-spacing: -.005em; }
+
+.karma-metin { display: flex; flex-direction: column; min-width: 0; gap: 1px; }
+.karma-metin strong {
+  font-family: var(--serif);
+  font-size: 19px;
+  font-weight: 400;
+  letter-spacing: .005em;
+  line-height: 1.2;
+}
 .karma-metin small {
   font-size: 12.5px;
-  color: var(--muted);
+  color: rgba(255, 255, 255, .82);
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.karma-ok { margin-left: auto; flex-shrink: 0; color: var(--line-strong); transition: color .13s ease, transform .13s ease; }
-.karma:disabled { opacity: .5; cursor: not-allowed; }
+
+.karma-ok {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  margin-left: 4px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, .13);
+  color: var(--white);
+  transition: background .15s ease, transform .15s ease;
+}
+
+.karma:focus-visible { outline: 2px solid var(--ink); outline-offset: 3px; }
+.karma:active:not(:disabled) { transform: translateY(0); box-shadow: 0 1px 2px rgba(120, 30, 22, .2); }
+.karma:disabled {
+  background: var(--line-strong);
+  box-shadow: none;
+  cursor: not-allowed;
+  opacity: .75;
+}
 
 @media (hover: hover) {
   .karma:hover:not(:disabled) {
-    border-color: var(--red);
-    background: var(--red-soft);
-    box-shadow: var(--shadow);
+    transform: translateY(-2px);
+    box-shadow: 0 2px 4px rgba(120, 30, 22, .2), 0 18px 34px -12px rgba(120, 30, 22, .58);
   }
-  .karma:hover:not(:disabled) .karma-ikon { background: var(--red); color: var(--white); }
-  .karma:hover:not(:disabled) .karma-ok { color: var(--red); transform: translateX(2px); }
+  .karma:hover:not(:disabled) .karma-ikon { background: rgba(255, 255, 255, .24); transform: rotate(-12deg); }
+  .karma:hover:not(:disabled) .karma-ok { background: rgba(255, 255, 255, .26); transform: translateX(3px); }
+}
+
+@media (max-width: 640px) {
+  .karma { width: 100%; padding: 15px 16px; gap: 12px; }
+  .karma-ok { margin-left: auto; }
+  .karma-ikon { width: 38px; height: 38px; }
+  .karma-metin strong { font-size: 17.5px; }
 }
 
 /* ---------- Konu başlığı ---------- */
