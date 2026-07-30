@@ -6,7 +6,7 @@
 
 <p align="center">
   Marka ve Patent Vekilliği Sınavı'na hazırlananlar için <strong>%100 tarayıcıda çalışan</strong>,
-  ücretsiz ve açık kaynak <strong>2002 soru–cevap kartı</strong>.<br>
+  ücretsiz ve açık kaynak <strong>2026 soru–cevap kartı</strong>.<br>
   Üyelik yok, çerez yok, veri toplanmaz.
 </p>
 
@@ -47,7 +47,7 @@ ve aynı ilkeyi paylaşır: **her şey kullanıcının tarayıcısında çalış
 İçerik, **Marka & Patent Vekilliği Sınavı konu taksonomisine** göre düzenlenmiştir:
 `Modül (A–E) → Konu (A1, D3, E1 …) → Kart (alt konu kodlu)`
 
-Toplam **2002 kart**, **5 modül**, **35 konu**. Bunlardan **300 kart çıkmış sınav sorularından** türetilmiştir (2015: 19, 2017: 71, 2019: 80, 2021: 74, 2024: 56) ve kartta sınav yılı rozetiyle işaretlidir; ana sayfadaki **"Çıkmış sorular"** seçeneğiyle yalnızca bu kartlar çalışılabilir.
+Toplam **2026 kart**, **5 modül**, **35 konu**. Bunlardan **300 kart çıkmış sınav sorularından** türetilmiştir (2015: 19, 2017: 71, 2019: 80, 2021: 74, 2024: 56) ve kartta sınav yılı rozetiyle işaretlidir; ana sayfadaki **"Çıkmış sorular"** seçeneğiyle yalnızca bu kartlar çalışılabilir.
 
 ### Modül A — Genel Hukuk (389 kart)
 
@@ -65,15 +65,15 @@ Toplam **2002 kart**, **5 modül**, **35 konu**. Bunlardan **300 kart çıkmış
 | **B2** Vekillik Mevzuatı | 71 |
 | **B3** Uluslararası Anlaşmalar | 50 |
 
-### Modül C — Tasarım Hukuku (215 kart)
+### Modül C — Tasarım Hukuku (239 kart)
 
 | Konu | Kart |
 |---|---|
 | **C1** Temel Kavramlar | 33 |
 | **C2** Koruma Şartları | 42 |
-| **C3** Başvuru ve Tescil Süreci | 54 |
-| **C4** Süreler ve Hak Kaybı | 26 |
-| **C5** Hak Sahipliği ve İhlal | 39 |
+| **C3** Başvuru ve Tescil Süreci | 70 |
+| **C4** Süreler ve Hak Kaybı | 30 |
+| **C5** Hak Sahipliği ve İhlal | 43 |
 | **C6** Lahey Sistemi | 21 |
 
 ### Modül D — Marka Hukuku (652 kart)
