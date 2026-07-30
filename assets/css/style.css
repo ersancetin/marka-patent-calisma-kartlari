@@ -78,6 +78,13 @@ a:hover { color: var(--red-dark); }
 .header-links a:hover { color: var(--red); }
 .header-links svg { display: block; }
 
+/* Instagram: kullanıcı adı küçük harf kalmalı */
+.ig-link { gap: 6px; }
+.ig-link .metin { text-transform: none; letter-spacing: .01em; font-size: 12.5px; }
+@media (max-width: 620px) {
+  .ig-link .metin { display: none; }
+}
+
 /* ---------- Butonlar ---------- */
 
 .btn {

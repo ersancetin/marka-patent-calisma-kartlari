@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Marka &amp; Patent Çalışma Kartları — Cumhuriyet Avukatları</title>
+<title>Marka ve Patent Vekilliği Sınavı Çalışma Kartları — Cumhuriyet Avukatları</title>
 <meta name="description" content="Marka ve Patent Vekilliği Sınavı için soru–cevap çalışma kartları. Tarayıcıda çalışır, üyelik istemez, veri toplamaz.">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="stylesheet" href="assets/css/style.css">
@@ -19,7 +19,10 @@
     </a>
     <div class="header-links">
       <a href="gizlilik.html"><span class="metin">Gizlilik</span></a>
-      <a href="https://github.com/ersancetin/marka-patent-calisma-kartlari" target="_blank" rel="noopener" title="GitHub" aria-label="GitHub"><svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.6.5.5 5.6.5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.2.8-.6v-2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.4 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.4-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0c2.2-1.5 3.2-1.2 3.2-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.3c0 .4.2.7.8.6 4.6-1.5 7.9-5.8 7.9-10.9C23.5 5.6 18.4.5 12 .5z"/></svg></a>
+      <a class="ig-link" href="https://www.instagram.com/cumhuriyet_avukatlari" target="_blank" rel="noopener" title="Instagram: @cumhuriyet_avukatlari" aria-label="Instagram: cumhuriyet_avukatlari">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="2.6" y="2.6" width="18.8" height="18.8" rx="5.2"/><circle cx="12" cy="12" r="4.1"/><circle cx="17.4" cy="6.6" r="1.15" fill="currentColor" stroke="none"/></svg>
+        <span class="metin">cumhuriyet_avukatlari</span>
+      </a>
     </div>
   </div>
 </header>
@@ -29,8 +32,24 @@
   <!-- ============ Deste seçimi ============ -->
   <div id="secim-ekrani">
     <div class="sayfa-bas">
-      <h1>Marka &amp; Patent Çalışma Kartları</h1>
-      <p>Vekillik sınavı konu taksonomisine göre düzenlenmiştir. Çalışmak istediğiniz konuları seçin.</p>
+      <h1>Marka ve Patent Vekilliği Sınavı<br><span>Çalışma Kartları</span></h1>
+      <p class="sayfa-alt" id="sayfa-alt"></p>
+    </div>
+
+    <div class="hizli" id="hizli">
+      <span class="hizli-etiket">Hızlı başlangıç</span>
+      <button type="button" class="hizli-btn" data-hizli="sinav">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l2.5 5.6 6.1.7-4.5 4.1 1.2 6-5.3-3-5.3 3 1.2-6L3.4 9.3l6.1-.7z"/></svg>
+        Çıkmış sorular
+      </button>
+      <button type="button" class="hizli-btn" data-hizli="bilinmeyen">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 11a8 8 0 1 0-2.3 6.3"/><path d="M20 5v6h-6"/></svg>
+        Bilemediklerim
+      </button>
+      <button type="button" class="hizli-btn" data-hizli="tumu">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 3h5v5M4 20L21 3M21 16v5h-5M15 15l6 6M4 4l5 5"/></svg>
+        Tüm konulardan karışık
+      </button>
     </div>
 
     <div class="bos-uyari hidden" id="bos-uyari">
@@ -39,34 +58,12 @@
       <a href="katki.html">kart ekleme rehberine</a> bakabilirsiniz.
     </div>
 
-    <div id="deste-grid"></div>
-
-    <div class="secenekler" id="secenekler">
-      <div class="opt-row">
-        <button type="button" class="opt-choice active" data-grup="sira" data-sira="karisik">Karışık</button>
-        <button type="button" class="opt-choice" data-grup="sira" data-sira="sirali">Sıralı</button>
-        <span class="opt-ayrac"></span>
-        <button type="button" class="opt-choice active" data-grup="yon" data-yon="soru">Soru &rarr; Cevap</button>
-        <button type="button" class="opt-choice" data-grup="yon" data-yon="cevap">Cevap &rarr; Soru</button>
-        <span class="opt-ayrac"></span>
-        <button type="button" class="opt-choice active" data-grup="kapsam" data-kapsam="tumu">Tüm kartlar</button>
-        <button type="button" class="opt-choice" data-grup="kapsam" data-kapsam="bilinmeyen">Bilemediklerim</button>
-        <button type="button" class="opt-choice" data-grup="kapsam" data-kapsam="sinav">Çıkmış sorular</button>
-      </div>
-      <div class="opt-row">
-        <span class="opt-etiket">Tur boyu</span>
-        <button type="button" class="opt-choice" data-grup="boy" data-boy="25">25 kart</button>
-        <button type="button" class="opt-choice active" data-grup="boy" data-boy="50">50 kart</button>
-        <button type="button" class="opt-choice" data-grup="boy" data-boy="100">100 kart</button>
-        <button type="button" class="opt-choice" data-grup="boy" data-boy="0">Sınırsız</button>
-      </div>
-      <button type="button" class="btn btn-primary btn-block" id="basla" disabled>Çalışmaya Başla</button>
-      <p class="secim-alt">
-        <span id="secim-say"></span>
-        <button type="button" class="link-btn" id="tumunu-sec">Tümünü seç</button>
-        <button type="button" class="link-btn" id="sifirla">İlerlemeyi sıfırla</button>
-      </p>
+    <div class="konu-bas">
+      <h2>Konular</h2>
+      <button type="button" class="link-btn" id="tumunu-ac">Tümünü aç</button>
     </div>
+
+    <div id="deste-grid"></div>
   </div>
 
   <!-- ============ Çalışma ekranı ============ -->
@@ -146,6 +143,63 @@
   </div>
 
 </main>
+
+<!-- ============ Yapışkan seçim çubuğu ============ -->
+<div class="alt-bar" id="alt-bar">
+  <div class="ayar-panel hidden" id="ayar-panel">
+    <div class="container ayar-ic">
+      <div class="ayar-grup">
+        <span class="ayar-baslik">Kapsam</span>
+        <div class="opt-row">
+          <button type="button" class="opt-choice active" data-grup="kapsam" data-kapsam="tumu">Tüm kartlar</button>
+          <button type="button" class="opt-choice" data-grup="kapsam" data-kapsam="bilinmeyen">Bilemediklerim</button>
+          <button type="button" class="opt-choice" data-grup="kapsam" data-kapsam="sinav">Çıkmış sorular</button>
+        </div>
+      </div>
+      <div class="ayar-grup">
+        <span class="ayar-baslik">Tur boyu</span>
+        <div class="opt-row">
+          <button type="button" class="opt-choice" data-grup="boy" data-boy="25">25</button>
+          <button type="button" class="opt-choice active" data-grup="boy" data-boy="50">50</button>
+          <button type="button" class="opt-choice" data-grup="boy" data-boy="100">100</button>
+          <button type="button" class="opt-choice" data-grup="boy" data-boy="0">Sınırsız</button>
+        </div>
+      </div>
+      <div class="ayar-grup">
+        <span class="ayar-baslik">Sıra</span>
+        <div class="opt-row">
+          <button type="button" class="opt-choice active" data-grup="sira" data-sira="karisik">Karışık</button>
+          <button type="button" class="opt-choice" data-grup="sira" data-sira="sirali">Sıralı</button>
+        </div>
+      </div>
+      <div class="ayar-grup">
+        <span class="ayar-baslik">Yön</span>
+        <div class="opt-row">
+          <button type="button" class="opt-choice active" data-grup="yon" data-yon="soru">Soru &rarr; Cevap</button>
+          <button type="button" class="opt-choice" data-grup="yon" data-yon="cevap">Cevap &rarr; Soru</button>
+        </div>
+      </div>
+      <p class="ayar-alt">
+        <button type="button" class="link-btn" id="tumunu-sec">Tüm konuları seç</button>
+        <button type="button" class="link-btn" id="sifirla">İlerlemeyi sıfırla</button>
+      </p>
+    </div>
+  </div>
+
+  <div class="container alt-bar-ic">
+    <div class="alt-bilgi">
+      <strong id="secim-say">Konu seçilmedi</strong>
+      <span id="secim-not">Çalışmak istediğiniz konuları seçin</span>
+    </div>
+    <div class="alt-aksiyon">
+      <button type="button" class="btn btn-ghost" id="ayar-ac" aria-expanded="false">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 12h16M4 18h16"/><circle cx="9" cy="6" r="2" fill="var(--paper)"/><circle cx="15" cy="12" r="2" fill="var(--paper)"/><circle cx="8" cy="18" r="2" fill="var(--paper)"/></svg>
+        <span class="metin">Ayarlar</span>
+      </button>
+      <button type="button" class="btn btn-primary" id="basla" disabled>Çalışmaya Başla</button>
+    </div>
+  </div>
+</div>
 
 <footer class="site-footer">
   <div class="container footer-inner">

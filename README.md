@@ -2,7 +2,7 @@
   <img src="assets/logo.png" width="120" alt="Cumhuriyet Avukatları">
 </p>
 
-<h1 align="center">Marka &amp; Patent Çalışma Kartları</h1>
+<h1 align="center">Marka ve Patent Vekilliği Sınavı Çalışma Kartları</h1>
 
 <p align="center">
   Marka ve Patent Vekilliği Sınavı'na hazırlananlar için <strong>%100 tarayıcıda çalışan</strong>,
@@ -30,6 +30,9 @@ ve aynı ilkeyi paylaşır: **her şey kullanıcının tarayıcısında çalış
 
 | Özellik | Açıklama |
 |---|---|
+| Hızlı başlangıç | Tek tıkla "Çıkmış sorular", "Bilemediklerim" veya tüm konulardan karışık tur |
+| Modül akordeonu | Beş modül katlanır listede; açılınca konular, modülün tümünü seçme kısayoluyla |
+| Yapışkan seçim çubuğu | Seçim özeti ve başlat düğmesi ekranın altında sabit; ayarlar aynı çubuktan açılır |
 | Çoklu konu seçimi | Birden çok konuyu tek turda birleştirerek çalışma |
 | Alt konu rozeti | Her kart, taksonomideki alt konu koduyla etiketli |
 | Çıkmış soru filtresi | Sınav sorularından türetilen kartlar yıl rozetli; ayrı çalışılabilir |

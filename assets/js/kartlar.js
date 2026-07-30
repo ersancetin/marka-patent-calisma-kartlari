@@ -93,37 +93,87 @@
     if (!toplam) {
       kap.innerHTML = '';
       $('#bos-uyari').classList.remove('hidden');
-      $('#secenekler').classList.add('hidden');
+      $('#alt-bar').classList.add('hidden');
+      $('#hizli').classList.add('hidden');
       return;
     }
 
+    var sinavSay = desteler.reduce(function (n, d) {
+      return n + d.kartlar.filter(function (k) { return !!k.yil; }).length;
+    }, 0);
+    $('#sayfa-alt').innerHTML =
+      'Vekillik sınavı konu taksonomisine göre düzenlenmiş <b>' + toplam + ' soru–cevap kartı</b>. ' +
+      'Bunların <b>' + sinavSay + ' tanesi</b> çıkmış sınav sorularından türetilmiştir.';
+
     kap.innerHTML = '';
     moduller.forEach(function (mo) {
-      var konular = mo.konular || [];
+      var konular = (mo.konular || []).filter(function (k) { return (k.kartlar || []).length > 0; });
       if (!konular.length) return;
 
-      var hazir = konular.filter(function (k) { return (k.kartlar || []).length > 0; }).length;
-      var kartSayisi = konular.reduce(function (n, k) { return n + (k.kartlar || []).length; }, 0);
+      var kartSayisi = konular.reduce(function (n, k) { return n + k.kartlar.length; }, 0);
 
       var bolum = document.createElement('section');
       bolum.className = 'modul';
+      bolum.dataset.modul = mo.kod;
 
-      var bas = document.createElement('div');
+      var bas = document.createElement('button');
+      bas.type = 'button';
       bas.className = 'modul-bas';
+      bas.setAttribute('aria-expanded', 'false');
       bas.innerHTML =
         '<span class="modul-kod">' + mo.kod + '</span>' +
         '<span class="modul-ad">' + mo.ad + '</span>' +
-        '<span class="modul-say">' + hazir + '/' + konular.length + ' konu · ' + kartSayisi + ' kart</span>';
+        '<span class="modul-rozet hidden"></span>' +
+        '<span class="modul-say">' + konular.length + ' konu · ' + kartSayisi + ' kart</span>' +
+        '<svg class="modul-ok" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" ' +
+        'stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>';
+      bas.addEventListener('click', function () { modulAcKapa(bolum); });
       bolum.appendChild(bas);
+
+      var govde = document.createElement('div');
+      govde.className = 'modul-govde';
+
+      var arac = document.createElement('div');
+      arac.className = 'modul-arac';
+      var hepsiBtn = document.createElement('button');
+      hepsiBtn.type = 'button';
+      hepsiBtn.className = 'link-btn modul-hepsi';
+      hepsiBtn.textContent = 'Modülün tümünü seç';
+      hepsiBtn.addEventListener('click', function () { modulSec(mo.kod); });
+      arac.appendChild(hepsiBtn);
+      govde.appendChild(arac);
 
       var izgara = document.createElement('div');
       izgara.className = 'deste-grid';
       konular.forEach(function (k) { izgara.appendChild(desteKarti(k)); });
-      bolum.appendChild(izgara);
+      govde.appendChild(izgara);
 
+      bolum.appendChild(govde);
       kap.appendChild(bolum);
     });
 
+    secimGuncelle();
+  }
+
+  function modulAcKapa(bolum, zorla) {
+    var ac = typeof zorla === 'boolean' ? zorla : !bolum.classList.contains('acik');
+    bolum.classList.toggle('acik', ac);
+    bolum.querySelector('.modul-bas').setAttribute('aria-expanded', ac ? 'true' : 'false');
+    tumunuAcGuncelle();
+  }
+
+  /* modüldeki konuların hepsi seçiliyse kaldırır, değilse hepsini seçer */
+  function modulSec(modulKod) {
+    var idler = desteler
+      .filter(function (d) { return d.modulKod === modulKod && d.kartlar.length; })
+      .map(function (d) { return d.id; });
+    var hepsi = idler.every(function (id) { return secili.indexOf(id) !== -1; });
+    idler.forEach(function (id) {
+      var i = secili.indexOf(id);
+      if (hepsi && i !== -1) secili.splice(i, 1);
+      else if (!hepsi && i === -1) secili.push(id);
+    });
+    kartlariSenkronla();
     secimGuncelle();
   }
 
@@ -131,40 +181,59 @@
     var adet = (k.kartlar || []).length;
     var btn = document.createElement('button');
     btn.type = 'button';
-    btn.className = 'deste-card' + (adet ? '' : ' bos');
+    btn.className = 'deste-card';
     btn.dataset.id = k.kod;
-    btn.disabled = adet === 0;
     btn.setAttribute('aria-pressed', 'false');
     btn.innerHTML =
       '<span class="deste-icon">' + ikonSvg(k.ikon, 19) + '</span>' +
       '<span class="deste-body">' +
         '<h3><span class="deste-kod">' + k.kod + '</span>' + k.ad + '</h3>' +
-        '<span class="deste-meta">' + (adet ? adet + ' kart' : 'hazırlanıyor') + '</span>' +
+        '<span class="deste-meta">' + adet + ' kart</span>' +
       '</span>' +
       '<span class="deste-check">' +
         '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.4" ' +
         'stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5l5 5L20 6.5"/></svg>' +
       '</span>';
-    if (adet) btn.addEventListener('click', function () { desteSec(k.kod, btn); });
+    btn.addEventListener('click', function () { desteSec(k.kod); });
     return btn;
   }
 
-  function desteSec(id, el) {
+  function desteSec(id) {
     var i = secili.indexOf(id);
-    if (i === -1) { secili.push(id); el.classList.add('selected'); el.setAttribute('aria-pressed', 'true'); }
-    else { secili.splice(i, 1); el.classList.remove('selected'); el.setAttribute('aria-pressed', 'false'); }
+    if (i === -1) secili.push(id); else secili.splice(i, 1);
+    kartlariSenkronla();
     secimGuncelle();
   }
 
-  function tumunuSec() {
-    var hepsiSecili = secili.length === kullanilabilirDesteler().length;
-    secili = hepsiSecili ? [] : kullanilabilirDesteler().map(function (d) { return d.id; });
+  /* seçili dizisini ekrandaki kartlara yansıtır */
+  function kartlariSenkronla() {
     Array.prototype.forEach.call(document.querySelectorAll('.deste-card'), function (el) {
       var on = secili.indexOf(el.dataset.id) !== -1;
       el.classList.toggle('selected', on);
       el.setAttribute('aria-pressed', on ? 'true' : 'false');
     });
+  }
+
+  function tumunuSec() {
+    var hepsiSecili = secili.length === kullanilabilirDesteler().length;
+    secili = hepsiSecili ? [] : kullanilabilirDesteler().map(function (d) { return d.id; });
+    kartlariSenkronla();
     secimGuncelle();
+  }
+
+  function tumunuAcGuncelle() {
+    var btn = $('#tumunu-ac');
+    if (!btn) return;
+    var bolumler = document.querySelectorAll('.modul');
+    if (!bolumler.length) return;
+    var acikSayisi = document.querySelectorAll('.modul.acik').length;
+    btn.textContent = acikSayisi === bolumler.length ? 'Tümünü kapat' : 'Tümünü aç';
+  }
+
+  function tumunuAc() {
+    var bolumler = document.querySelectorAll('.modul');
+    var hepsiAcik = document.querySelectorAll('.modul.acik').length === bolumler.length;
+    Array.prototype.forEach.call(bolumler, function (b) { modulAcKapa(b, !hepsiAcik); });
   }
 
   function kullanilabilirDesteler() {
@@ -193,31 +262,79 @@
   function secimGuncelle() {
     var kartlar = seciliKartlar();
     var bilinmeyen = kartlar.filter(function (k) { return ilerleme[k.kimlik] !== 'bildim'; }).length;
+    var sinav = kartlar.filter(function (k) { return !!k.yil; }).length;
+
+    /* modül rozetleri ve seçili görünümü */
+    Array.prototype.forEach.call(document.querySelectorAll('.modul'), function (bolum) {
+      var kod = bolum.dataset.modul;
+      var idler = desteler
+        .filter(function (d) { return d.modulKod === kod && d.kartlar.length; })
+        .map(function (d) { return d.id; });
+      var n = idler.filter(function (id) { return secili.indexOf(id) !== -1; }).length;
+      var rozet = bolum.querySelector('.modul-rozet');
+      rozet.textContent = n + ' konu';
+      rozet.classList.toggle('hidden', n === 0);
+      bolum.classList.toggle('secili', n > 0);
+      var hepsiBtn = bolum.querySelector('.modul-hepsi');
+      if (hepsiBtn) hepsiBtn.textContent = (n === idler.length) ? 'Modül seçimini kaldır' : 'Modülün tümünü seç';
+    });
+
+    var calisilacak = kartlar.length;
+    if (kapsam === 'bilinmeyen') calisilacak = bilinmeyen;
+    else if (kapsam === 'sinav') calisilacak = sinav;
+    var turluk = turBoyu ? Math.min(turBoyu, calisilacak) : calisilacak;
 
     var say = $('#secim-say');
-    if (say) {
-      say.innerHTML = secili.length
-        ? '<strong>' + secili.length + '</strong> konu · <strong>' + kartlar.length + '</strong> kart'
-        : 'Konu seçilmedi';
+    var not = $('#secim-not');
+    if (!secili.length) {
+      say.textContent = 'Konu seçilmedi';
+      not.textContent = 'Çalışmak istediğiniz konuları seçin';
+    } else {
+      say.textContent = secili.length + ' konu · ' + calisilacak + ' kart';
+      not.textContent = calisilacak === 0
+        ? kapsamAdi() + ' kapsamında kart kalmadı'
+        : (turluk < calisilacak
+            ? 'Bu turda ' + turluk + ' kart · ' + kapsamAdi()
+            : kapsamAdi());
     }
+
+    var basla = $('#basla');
+    basla.disabled = calisilacak === 0;
+    basla.textContent = calisilacak > 0 ? turluk + ' Kartla Başla' : 'Çalışmaya Başla';
 
     var hepsiBtn = $('#tumunu-sec');
     if (hepsiBtn) {
       hepsiBtn.textContent = (secili.length && secili.length === kullanilabilirDesteler().length)
-        ? 'Seçimi temizle' : 'Tümünü seç';
+        ? 'Seçimi temizle' : 'Tüm konuları seç';
     }
+    tumunuAcGuncelle();
+  }
 
-    var basla = $('#basla');
-    if (basla) {
-      var calisilacak = kartlar.length;
-      if (kapsam === 'bilinmeyen') calisilacak = bilinmeyen;
-      else if (kapsam === 'sinav') calisilacak = kartlar.filter(function (k) { return !!k.yil; }).length;
-      var turluk = turBoyu ? Math.min(turBoyu, calisilacak) : calisilacak;
-      basla.disabled = calisilacak === 0;
-      basla.textContent = calisilacak > 0
-        ? turluk + ' Kartla Çalışmaya Başla' + (turluk < calisilacak ? ' (' + calisilacak + ' kart içinden)' : '')
-        : 'Çalışmaya Başla';
-    }
+  function kapsamAdi() {
+    if (kapsam === 'bilinmeyen') return 'Bilemediklerim';
+    if (kapsam === 'sinav') return 'Çıkmış sorular';
+    return 'Tüm kartlar';
+  }
+
+  /* hızlı başlangıç: kapsamı ayarlar, tüm konuları seçer ve turu başlatır */
+  function hizliBasla(hedefKapsam) {
+    kapsam = hedefKapsam;
+    Array.prototype.forEach.call(document.querySelectorAll('.opt-choice[data-grup="kapsam"]'), function (el) {
+      el.classList.toggle('active', el.dataset.kapsam === hedefKapsam);
+    });
+    secili = kullanilabilirDesteler().map(function (d) { return d.id; });
+    kartlariSenkronla();
+    secimGuncelle();
+    if (!$('#basla').disabled) basla();
+  }
+
+  function ayarAcKapa() {
+    var panel = $('#ayar-panel');
+    var btn = $('#ayar-ac');
+    var ac = panel.classList.contains('hidden');
+    panel.classList.toggle('hidden', !ac);
+    btn.classList.toggle('acik', ac);
+    btn.setAttribute('aria-expanded', ac ? 'true' : 'false');
   }
 
   /* ---------- çalışma ---------- */
@@ -238,8 +355,14 @@
     $('#secim-ekrani').classList.add('hidden');
     $('#ozet-ekrani').classList.add('hidden');
     $('#calisma-ekrani').classList.remove('hidden');
+    altBar(false);
     bolumeKaydir();
     kartGoster();
+  }
+
+  function altBar(goster) {
+    $('#alt-bar').classList.toggle('hidden', !goster);
+    document.body.classList.toggle('bar-yok', !goster);
   }
 
   /* havuzun havuzBas'tan başlayan bir turluk dilimini kuyruğa alır */
@@ -375,6 +498,7 @@
     $('#calisma-ekrani').classList.add('hidden');
     $('#ozet-ekrani').classList.add('hidden');
     $('#secim-ekrani').classList.remove('hidden');
+    altBar(true);
     secimGuncelle();
     bolumeKaydir();
   }
@@ -390,6 +514,11 @@
 
   function baglan() {
     $('#tumunu-sec').addEventListener('click', tumunuSec);
+    $('#tumunu-ac').addEventListener('click', tumunuAc);
+    $('#ayar-ac').addEventListener('click', ayarAcKapa);
+    Array.prototype.forEach.call(document.querySelectorAll('.hizli-btn'), function (el) {
+      el.addEventListener('click', function () { hizliBasla(el.dataset.hizli); });
+    });
     $('#basla').addEventListener('click', basla);
     $('#kart').addEventListener('click', cevir);
     $('#onceki').addEventListener('click', onceki);
