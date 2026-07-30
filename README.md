@@ -6,7 +6,7 @@
 
 <p align="center">
   Marka ve Patent Vekilliği Sınavı'na hazırlananlar için <strong>%100 tarayıcıda çalışan</strong>,
-  ücretsiz ve açık kaynak <strong>2026 soru–cevap kartı</strong>.<br>
+  ücretsiz ve açık kaynak <strong>2102 soru–cevap kartı</strong>.<br>
   Üyelik yok, çerez yok, veri toplanmaz.
 </p>
 
@@ -47,7 +47,7 @@ ve aynı ilkeyi paylaşır: **her şey kullanıcının tarayıcısında çalış
 İçerik, **Marka & Patent Vekilliği Sınavı konu taksonomisine** göre düzenlenmiştir:
 `Modül (A–E) → Konu (A1, D3, E1 …) → Kart (alt konu kodlu)`
 
-Toplam **2026 kart**, **5 modül**, **35 konu**. Bunlardan **300 kart çıkmış sınav sorularından** türetilmiştir (2015: 19, 2017: 71, 2019: 80, 2021: 74, 2024: 56) ve kartta sınav yılı rozetiyle işaretlidir; ana sayfadaki **"Çıkmış sorular"** seçeneğiyle yalnızca bu kartlar çalışılabilir.
+Toplam **2102 kart**, **5 modül**, **35 konu**. Bunlardan **300 kart çıkmış sınav sorularından** türetilmiştir (2015: 19, 2017: 71, 2019: 80, 2021: 74, 2024: 56) ve kartta sınav yılı rozetiyle işaretlidir; ana sayfadaki **"Çıkmış sorular"** seçeneğiyle yalnızca bu kartlar çalışılabilir.
 
 ### Modül A — Genel Hukuk (389 kart)
 
@@ -57,13 +57,13 @@ Toplam **2026 kart**, **5 modül**, **35 konu**. Bunlardan **300 kart çıkmış
 | **A2** Türk Medeni Kanunu | 94 |
 | **A3** Türk Borçlar Kanunu | 72 |
 
-### Modül B — Kurum ve Uluslararası Çerçeve (175 kart)
+### Modül B — Kurum ve Uluslararası Çerçeve (213 kart)
 
 | Konu | Kart |
 |---|---|
 | **B1** TÜRKPATENT | 54 |
 | **B2** Vekillik Mevzuatı | 71 |
-| **B3** Uluslararası Anlaşmalar | 50 |
+| **B3** Uluslararası Anlaşmalar | 88 |
 
 ### Modül C — Tasarım Hukuku (239 kart)
 
@@ -93,7 +93,7 @@ Toplam **2026 kart**, **5 modül**, **35 konu**. Bunlardan **300 kart çıkmış
 | **D11** Madrid Protokolü | 43 |
 | **D12** Coğrafi İşaret ve Geleneksel Ürün Adı | 68 |
 
-### Modül E — Patent Hukuku (571 kart)
+### Modül E — Patent Hukuku (609 kart)
 
 | Konu | Kart |
 |---|---|
@@ -107,7 +107,7 @@ Toplam **2026 kart**, **5 modül**, **35 konu**. Bunlardan **300 kart çıkmış
 | **E8** Hak Sahipliği ve Çalışan Buluşları | 50 |
 | **E9** Tecavüz ve Hükümsüzlük | 55 |
 | **E10** Lisans ve Zorunlu Lisans | 56 |
-| **E11** Entegre Devre Topoğrafyaları | 20 |
+| **E11** Entegre Devre Topoğrafyaları | 58 |
 
 ### Kaynaklar
 
@@ -115,10 +115,12 @@ Kartlar şu birincil kaynaklardan hazırlanmıştır:
 
 - **6769 sayılı Sınai Mülkiyet Kanunu**
 - **Sınai Mülkiyet Kanununun Uygulanmasına Dair Yönetmelik**
+- **5147 sayılı Entegre Devre Topoğrafyalarının Korunması Hakkında Kanun**
 - **Coğrafi İşaret ve Geleneksel Ürün Adı Amblem Yönetmeliği**
 - **Patent Vekilliği ve Marka Vekilliği Sınav, Sicil ve Disiplin Yönetmeliği** (5000 s.K.)
 - **4 sayılı Cumhurbaşkanlığı Kararnamesi** (TÜRKPATENT teşkilatı, m.358 vd.)
-- TTK, TMK, TBK ve ilgili uluslararası anlaşmalar
+- **Paris Sözleşmesi** (1883, 1979'da değiştirilmiş hâli — WIPO resmî çevirisi)
+- TTK, TMK, TBK ile Madrid, Lahey, PCT, EPC ve TRIPS düzenlemeleri
 - **TÜRKPATENT çıkmış sınav soruları ve cevap anahtarları** (2015, 2017, 2019, 2021, 2024)
 
 > **Not:** Kartlar bir çalışma aracıdır; hukuki görüş veya güncel mevzuat metni yerine
