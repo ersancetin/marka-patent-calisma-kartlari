@@ -74,8 +74,12 @@
   var secili = [];          // seçili deste id'leri
   var sira = 'karisik';     // karisik | sirali
   var yon = 'soru';         // soru | cevap  (kartın ön yüzünde ne yazacağı)
-  var kapsam = 'tumu';      // tumu | bilinmeyen
-  var kuyruk = [];          // çalışılan kartlar
+  var kapsam = 'tumu';      // tumu | bilinmeyen | sinav
+  var turBoyu = 50;         // bir turda çalışılacak en fazla kart (0 = sınırsız)
+  var havuz = [];           // tura girmeye uygun tüm kartlar (sıralanmış hâli)
+  var havuzBas = 0;         // içinde bulunulan turun havuzdaki başlangıç sırası
+  var havuzSon = 0;         // içinde bulunulan turun havuzdaki bitiş sırası
+  var kuyruk = [];          // içinde bulunulan turun kartları
   var indeks = 0;
   var ilerleme = ilerlemeOku();
 
@@ -208,8 +212,11 @@
       var calisilacak = kartlar.length;
       if (kapsam === 'bilinmeyen') calisilacak = bilinmeyen;
       else if (kapsam === 'sinav') calisilacak = kartlar.filter(function (k) { return !!k.yil; }).length;
+      var turluk = turBoyu ? Math.min(turBoyu, calisilacak) : calisilacak;
       basla.disabled = calisilacak === 0;
-      basla.textContent = calisilacak > 0 ? calisilacak + ' Kartla Çalışmaya Başla' : 'Çalışmaya Başla';
+      basla.textContent = calisilacak > 0
+        ? turluk + ' Kartla Çalışmaya Başla' + (turluk < calisilacak ? ' (' + calisilacak + ' kart içinden)' : '')
+        : 'Çalışmaya Başla';
     }
   }
 
@@ -224,10 +231,33 @@
     }
     if (!kartlar.length) return;
 
-    kuyruk = sira === 'karisik' ? karistir(kartlar.slice()) : kartlar.slice();
-    indeks = 0;
+    havuz = sira === 'karisik' ? karistir(kartlar.slice()) : kartlar.slice();
+    havuzBas = 0;
+    partiYukle();
 
     $('#secim-ekrani').classList.add('hidden');
+    $('#ozet-ekrani').classList.add('hidden');
+    $('#calisma-ekrani').classList.remove('hidden');
+    bolumeKaydir();
+    kartGoster();
+  }
+
+  /* havuzun havuzBas'tan başlayan bir turluk dilimini kuyruğa alır */
+  function partiYukle() {
+    havuzSon = turBoyu ? Math.min(havuzBas + turBoyu, havuz.length) : havuz.length;
+    kuyruk = havuz.slice(havuzBas, havuzSon);
+    indeks = 0;
+  }
+
+  /* kuyruk tur içinde daralabildiği için havuzSon üzerinden hesaplanır */
+  function kalanHavuz() {
+    return Math.max(0, havuz.length - havuzSon);
+  }
+
+  function sonrakiParti() {
+    if (!kalanHavuz()) return;
+    havuzBas = havuzSon;
+    partiYukle();
     $('#ozet-ekrani').classList.add('hidden');
     $('#calisma-ekrani').classList.remove('hidden');
     bolumeKaydir();
@@ -301,10 +331,22 @@
     var oran = kuyruk.length ? Math.round((bilinen / kuyruk.length) * 100) : 0;
 
     $('#ozet-oran').textContent = '%' + oran;
-    $('#ozet-alt').textContent = oran === 100
+    var alt = oran === 100
       ? kuyruk.length + ' kartın tamamını bildiniz.'
       : bilinen + ' / ' + kuyruk.length + ' kart bilindi · ' + (kuyruk.length - bilinen) + ' kart tekrar bekliyor.';
+    var kalan = kalanHavuz();
+    if (kalan) alt += ' Seçiminizde ' + kalan + ' kart daha var.';
+    $('#ozet-alt').textContent = alt;
     $('#tekrar-et').disabled = bilinen === kuyruk.length;
+
+    var ileri = $('#sonraki-parti');
+    if (ileri) {
+      ileri.classList.toggle('hidden', kalan === 0);
+      ileri.textContent = 'Sonraki ' + Math.min(kalan, turBoyu || kalan) + ' Kart';
+      /* iki kırmızı buton yan yana durmasın: sıradaki parti varsa vurgu onda kalsın */
+      $('#tekrar-et').classList.toggle('btn-primary', kalan === 0);
+      $('#tekrar-et').classList.toggle('btn-outline', kalan > 0);
+    }
 
     $('#calisma-ekrani').classList.add('hidden');
     $('#ozet-ekrani').classList.remove('hidden');
@@ -357,6 +399,7 @@
     $('#bildim').addEventListener('click', function () { isaretle('bildim'); });
     $('#tekrar').addEventListener('click', function () { isaretle('tekrar'); });
     $('#tekrar-et').addEventListener('click', bilemediklerim);
+    $('#sonraki-parti').addEventListener('click', sonrakiParti);
     $('#bastan').addEventListener('click', bastanBasla);
     $('#ozet-geri').addEventListener('click', secimeDon);
     $('#sifirla').addEventListener('click', ilerlemeSifirla);
@@ -371,6 +414,7 @@
         if (grup === 'sira') sira = el.dataset.sira;
         if (grup === 'yon') yon = el.dataset.yon;
         if (grup === 'kapsam') { kapsam = el.dataset.kapsam; secimGuncelle(); }
+        if (grup === 'boy') { turBoyu = parseInt(el.dataset.boy, 10) || 0; secimGuncelle(); }
       });
     });
 

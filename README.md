@@ -33,6 +33,7 @@ ve aynı ilkeyi paylaşır: **her şey kullanıcının tarayıcısında çalış
 | Çoklu konu seçimi | Birden çok konuyu tek turda birleştirerek çalışma |
 | Alt konu rozeti | Her kart, taksonomideki alt konu koduyla etiketli |
 | Çıkmış soru filtresi | Sınav sorularından türetilen kartlar yıl rozetli; ayrı çalışılabilir |
+| Tur boyu | Turu 25 / 50 / 100 kartla sınırlama; tur sonunda "Sonraki N Kart" ile kaldığı yerden devam |
 | Kart çevirme | Tıklama, `Boşluk` tuşu veya dokunmatik |
 | Bildim / Tekrar Et | Kart işaretleme; tur sonunda yalnızca bilemediklerini tekrar etme |
 | Kalıcı ilerleme | İşaretler `localStorage`'da tutulur, sonraki oturumda korunur |

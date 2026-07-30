@@ -53,6 +53,13 @@
         <button type="button" class="opt-choice" data-grup="kapsam" data-kapsam="bilinmeyen">Bilemediklerim</button>
         <button type="button" class="opt-choice" data-grup="kapsam" data-kapsam="sinav">Çıkmış sorular</button>
       </div>
+      <div class="opt-row">
+        <span class="opt-etiket">Tur boyu</span>
+        <button type="button" class="opt-choice" data-grup="boy" data-boy="25">25 kart</button>
+        <button type="button" class="opt-choice active" data-grup="boy" data-boy="50">50 kart</button>
+        <button type="button" class="opt-choice" data-grup="boy" data-boy="100">100 kart</button>
+        <button type="button" class="opt-choice" data-grup="boy" data-boy="0">Sınırsız</button>
+      </div>
       <button type="button" class="btn btn-primary btn-block" id="basla" disabled>Çalışmaya Başla</button>
       <p class="secim-alt">
         <span id="secim-say"></span>
@@ -131,6 +138,7 @@
     <h2>Tur tamamlandı</h2>
     <p class="ozet-alt" id="ozet-alt"></p>
     <div class="ozet-actions">
+      <button type="button" class="btn btn-primary hidden" id="sonraki-parti">Sonraki Kartlar</button>
       <button type="button" class="btn btn-primary" id="tekrar-et">Bilemediklerimi Tekrar Et</button>
       <button type="button" class="btn btn-outline" id="bastan">Baştan Başla</button>
       <button type="button" class="btn btn-outline" id="ozet-geri">Konulara Dön</button>
