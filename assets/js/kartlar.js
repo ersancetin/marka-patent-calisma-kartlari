@@ -178,6 +178,7 @@
           cevap: k.cevap,
           kaynak: k.kaynak || '',
           alt: k.alt || '',
+          yil: k.yil || '',
           desteAd: d.kod + ' · ' + d.ad
         });
       });
@@ -204,7 +205,9 @@
 
     var basla = $('#basla');
     if (basla) {
-      var calisilacak = kapsam === 'bilinmeyen' ? bilinmeyen : kartlar.length;
+      var calisilacak = kartlar.length;
+      if (kapsam === 'bilinmeyen') calisilacak = bilinmeyen;
+      else if (kapsam === 'sinav') calisilacak = kartlar.filter(function (k) { return !!k.yil; }).length;
       basla.disabled = calisilacak === 0;
       basla.textContent = calisilacak > 0 ? calisilacak + ' Kartla Çalışmaya Başla' : 'Çalışmaya Başla';
     }
@@ -216,6 +219,8 @@
     var kartlar = seciliKartlar();
     if (kapsam === 'bilinmeyen') {
       kartlar = kartlar.filter(function (k) { return ilerleme[k.kimlik] !== 'bildim'; });
+    } else if (kapsam === 'sinav') {
+      kartlar = kartlar.filter(function (k) { return !!k.yil; });
     }
     if (!kartlar.length) return;
 
@@ -245,6 +250,9 @@
     $('#deste-etiket').textContent = k.desteAd;
     $('#kart-alt-on').textContent = k.alt;
     $('#kart-alt-arka').textContent = k.alt;
+    var yilEt = k.yil ? '<span class="kart-yil">' + k.yil + ' sınavı</span>' : '';
+    $('#kart-yil-on').innerHTML = yilEt;
+    $('#kart-yil-arka').innerHTML = yilEt;
 
     $('#sayac-mevcut').textContent = indeks + 1;
     $('#sayac-toplam').textContent = kuyruk.length;

@@ -261,6 +261,20 @@ main.container { padding-top: 34px; }
 }
 .kart-alt:empty { display: none; }
 
+.kart-yil-alan { position: absolute; bottom: 14px; right: 16px; }
+.kart-yil {
+  display: inline-block;
+  font-size: 9.5px;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--red);
+  border: 1px solid var(--red);
+  border-radius: 99px;
+  padding: 2px 8px;
+}
+.kart-arka .kart-yil { color: var(--green); border-color: var(--green-line); background: var(--white); }
+
 .kart-etiket {
   position: absolute;
   top: 14px;

@@ -6,7 +6,7 @@
 
 <p align="center">
   Marka ve Patent Vekilliği Sınavı'na hazırlananlar için <strong>%100 tarayıcıda çalışan</strong>,
-  ücretsiz ve açık kaynak <strong>1572 soru–cevap kartı</strong>.<br>
+  ücretsiz ve açık kaynak <strong>1629 soru–cevap kartı</strong>.<br>
   Üyelik yok, çerez yok, veri toplanmaz.
 </p>
 
@@ -32,6 +32,7 @@ ve aynı ilkeyi paylaşır: **her şey kullanıcının tarayıcısında çalış
 |---|---|
 | Çoklu konu seçimi | Birden çok konuyu tek turda birleştirerek çalışma |
 | Alt konu rozeti | Her kart, taksonomideki alt konu koduyla etiketli |
+| Çıkmış soru filtresi | Sınav sorularından türetilen kartlar yıl rozetli; ayrı çalışılabilir |
 | Kart çevirme | Tıklama, `Boşluk` tuşu veya dokunmatik |
 | Bildim / Tekrar Et | Kart işaretleme; tur sonunda yalnızca bilemediklerini tekrar etme |
 | Kalıcı ilerleme | İşaretler `localStorage`'da tutulur, sonraki oturumda korunur |
@@ -45,7 +46,7 @@ ve aynı ilkeyi paylaşır: **her şey kullanıcının tarayıcısında çalış
 İçerik, **Marka & Patent Vekilliği Sınavı konu taksonomisine** göre düzenlenmiştir:
 `Modül (A–E) → Konu (A1, D3, E1 …) → Kart (alt konu kodlu)`
 
-Toplam **1572 kart**, **5 modül**, **35 konu**.
+Toplam **1629 kart**, **5 modül**, **35 konu**. Bunlardan **56 kart çıkmış sınav sorularından** türetilmiştir ve kartta sınav yılı rozetiyle işaretlidir; ana sayfadaki **"Çıkmış sorular"** seçeneğiyle yalnızca bu kartlar çalışılabilir.
 
 ### Modül A — Genel Hukuk (356 kart)
 
@@ -55,12 +56,12 @@ Toplam **1572 kart**, **5 modül**, **35 konu**.
 | **A2** Türk Medeni Kanunu | 82 |
 | **A3** Türk Borçlar Kanunu | 66 |
 
-### Modül B — Kurum ve Uluslararası Çerçeve (114 kart)
+### Modül B — Kurum ve Uluslararası Çerçeve (115 kart)
 
 | Konu | Kart |
 |---|---|
 | **B1** TÜRKPATENT | 30 |
-| **B2** Vekillik Mevzuatı | 34 |
+| **B2** Vekillik Mevzuatı | 35 |
 | **B3** Uluslararası Anlaşmalar | 50 |
 
 ### Modül C — Tasarım Hukuku (176 kart)
@@ -74,15 +75,15 @@ Toplam **1572 kart**, **5 modül**, **35 konu**.
 | **C5** Hak Sahipliği ve İhlal | 33 |
 | **C6** Lahey Sistemi | 18 |
 
-### Modül D — Marka Hukuku (491 kart)
+### Modül D — Marka Hukuku (515 kart)
 
 | Konu | Kart |
 |---|---|
-| **D1** Marka Kavramı ve Türleri | 41 |
-| **D2** Başvuru Süreçleri ve Şekli Şartlar | 42 |
-| **D3** Mutlak Ret Nedenleri (m.5) | 61 |
-| **D4** Nispi Ret Nedenleri (m.6) | 66 |
-| **D5** İtiraz ve İnceleme Süreçleri | 34 |
+| **D1** Marka Kavramı ve Türleri | 43 |
+| **D2** Başvuru Süreçleri ve Şekli Şartlar | 50 |
+| **D3** Mutlak Ret Nedenleri (m.5) | 67 |
+| **D4** Nispi Ret Nedenleri (m.6) | 70 |
+| **D5** İtiraz ve İnceleme Süreçleri | 38 |
 | **D6** Tescil Sonrası İşlemler | 35 |
 | **D7** Marka Hakkının Kapsamı ve Sınırları | 30 |
 | **D8** Markanın Kullanılması ve İptal | 36 |
@@ -91,21 +92,33 @@ Toplam **1572 kart**, **5 modül**, **35 konu**.
 | **D11** Madrid Protokolü | 34 |
 | **D12** Coğrafi İşaret ve Geleneksel Ürün Adı | 43 |
 
-### Modül E — Patent Hukuku (435 kart)
+### Modül E — Patent Hukuku (467 kart)
 
 | Konu | Kart |
 |---|---|
-| **E1** Patentlenebilirlik Kriterleri | 67 |
-| **E2** Araştırma Raporu ve Doküman Kategorileri | 32 |
-| **E3** Başvuru, Şekli Şartlar ve Belgeler | 55 |
+| **E1** Patentlenebilirlik Kriterleri | 76 |
+| **E2** Araştırma Raporu ve Doküman Kategorileri | 39 |
+| **E3** Başvuru, Şekli Şartlar ve Belgeler | 64 |
 | **E4** İnceleme ve Belgelendirme | 31 |
-| **E5** Faydalı Model | 32 |
+| **E5** Faydalı Model | 37 |
 | **E6** Ücretler ve Hakların Yeniden Tesisi | 36 |
-| **E7** Uluslararası Başvurular (PCT, EPC) | 36 |
+| **E7** Uluslararası Başvurular (PCT, EPC) | 38 |
 | **E8** Hak Sahipliği ve Çalışan Buluşları | 45 |
 | **E9** Tecavüz ve Hükümsüzlük | 44 |
 | **E10** Lisans ve Zorunlu Lisans | 37 |
 | **E11** Entegre Devre Topoğrafyaları | 20 |
+
+### Kaynaklar
+
+Kartlar şu birincil kaynaklardan hazırlanmıştır:
+
+- **6769 sayılı Sınai Mülkiyet Kanunu**
+- **Sınai Mülkiyet Kanununun Uygulanmasına Dair Yönetmelik**
+- **Coğrafi İşaret ve Geleneksel Ürün Adı Amblem Yönetmeliği**
+- **Patent Vekilliği ve Marka Vekilliği Sınav, Sicil ve Disiplin Yönetmeliği** (5000 s.K.)
+- **4 sayılı Cumhurbaşkanlığı Kararnamesi** (TÜRKPATENT teşkilatı, m.358 vd.)
+- TTK, TMK, TBK ve ilgili uluslararası anlaşmalar
+- **TÜRKPATENT çıkmış sınav soruları ve cevap anahtarları** (2015, 2017, 2019, 2021, 2024)
 
 > **Not:** Kartlar bir çalışma aracıdır; hukuki görüş veya güncel mevzuat metni yerine
 > geçmez. Mevzuat değişebilir — atıfları güncel metinden doğrulayınız.
