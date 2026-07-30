@@ -6,7 +6,7 @@ main.container { padding-top: 34px; padding-bottom: 150px; }
 
 /* ---------- Sayfa başlığı ---------- */
 
-.sayfa-bas { margin-bottom: 30px; }
+.sayfa-bas { margin-bottom: 18px; }
 .sayfa-bas h1 {
   font-family: var(--serif);
   font-weight: 400;
@@ -18,6 +18,57 @@ main.container { padding-top: 34px; padding-bottom: 150px; }
 .sayfa-bas h1 span { color: var(--red); }
 .sayfa-alt { color: var(--muted); font-size: 14px; }
 .sayfa-alt b { color: var(--ink); font-weight: 700; }
+
+/* ---------- Karma tur ---------- */
+
+.karma {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  width: 100%;
+  margin-bottom: 30px;
+  padding: 15px 18px;
+  text-align: left;
+  background: var(--white);
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius);
+  cursor: pointer;
+  font-family: var(--sans);
+  color: var(--ink);
+  transition: border-color .13s ease, background .13s ease, box-shadow .13s ease;
+}
+.karma-ikon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  flex-shrink: 0;
+  border-radius: 9px;
+  background: var(--red-soft);
+  color: var(--red);
+}
+.karma-metin { display: flex; flex-direction: column; min-width: 0; }
+.karma-metin strong { font-size: 15px; font-weight: 700; letter-spacing: -.005em; }
+.karma-metin small {
+  font-size: 12.5px;
+  color: var(--muted);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.karma-ok { margin-left: auto; flex-shrink: 0; color: var(--line-strong); transition: color .13s ease, transform .13s ease; }
+.karma:disabled { opacity: .5; cursor: not-allowed; }
+
+@media (hover: hover) {
+  .karma:hover:not(:disabled) {
+    border-color: var(--red);
+    background: var(--red-soft);
+    box-shadow: var(--shadow);
+  }
+  .karma:hover:not(:disabled) .karma-ikon { background: var(--red); color: var(--white); }
+  .karma:hover:not(:disabled) .karma-ok { color: var(--red); transform: translateX(2px); }
+}
 
 /* ---------- Konu başlığı ---------- */
 

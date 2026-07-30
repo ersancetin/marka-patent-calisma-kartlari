@@ -94,6 +94,7 @@
       kap.innerHTML = '';
       $('#bos-uyari').classList.remove('hidden');
       $('#alt-bar').classList.add('hidden');
+      karmaGuncelle();
       return;
     }
 
@@ -239,6 +240,31 @@
     return desteler.filter(function (d) { return (d.kartlar || []).length > 0; });
   }
 
+  /* karma tur: kapsamı "tüm kartlar", sırayı "karışık" yapar,
+     bütün konuları seçip turu doğrudan başlatır */
+  function karmaBasla() {
+    kapsam = 'tumu';
+    sira = 'karisik';
+    Array.prototype.forEach.call(document.querySelectorAll('.opt-choice'), function (el) {
+      if (el.dataset.grup === 'kapsam') el.classList.toggle('active', el.dataset.kapsam === 'tumu');
+      if (el.dataset.grup === 'sira') el.classList.toggle('active', el.dataset.sira === 'karisik');
+    });
+    secili = kullanilabilirDesteler().map(function (d) { return d.id; });
+    kartlariSenkronla();
+    secimGuncelle();
+    if (!$('#basla').disabled) basla();
+  }
+
+  function karmaGuncelle() {
+    var btn = $('#karma');
+    if (!btn) return;
+    var toplam = desteler.reduce(function (n, d) { return n + d.kartlar.length; }, 0);
+    btn.disabled = toplam === 0;
+    $('#karma-alt').textContent = toplam
+      ? 'Tüm konulardan karışık ' + (turBoyu ? Math.min(turBoyu, toplam) : toplam) + ' kart'
+      : 'Kart bulunamadı';
+  }
+
   function seciliKartlar() {
     var out = [];
     desteler.forEach(function (d) {
@@ -306,6 +332,7 @@
       hepsiBtn.textContent = (secili.length && secili.length === kullanilabilirDesteler().length)
         ? 'Seçimi temizle' : 'Tüm konuları seç';
     }
+    karmaGuncelle();
     tumunuAcGuncelle();
   }
 
@@ -503,6 +530,7 @@
     $('#tumunu-sec').addEventListener('click', tumunuSec);
     $('#tumunu-ac').addEventListener('click', tumunuAc);
     $('#ayar-ac').addEventListener('click', ayarAcKapa);
+    $('#karma').addEventListener('click', karmaBasla);
     $('#basla').addEventListener('click', basla);
     $('#kart').addEventListener('click', cevir);
     $('#onceki').addEventListener('click', onceki);
