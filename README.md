@@ -6,7 +6,7 @@
 
 <p align="center">
   Marka ve Patent Vekilliği Sınavı'na hazırlananlar için <strong>%100 tarayıcıda çalışan</strong>,
-  ücretsiz ve açık kaynak <strong>1873 soru–cevap kartı</strong>.<br>
+  ücretsiz ve açık kaynak <strong>2002 soru–cevap kartı</strong>.<br>
   Üyelik yok, çerez yok, veri toplanmaz.
 </p>
 
@@ -47,7 +47,7 @@ ve aynı ilkeyi paylaşır: **her şey kullanıcının tarayıcısında çalış
 İçerik, **Marka & Patent Vekilliği Sınavı konu taksonomisine** göre düzenlenmiştir:
 `Modül (A–E) → Konu (A1, D3, E1 …) → Kart (alt konu kodlu)`
 
-Toplam **1873 kart**, **5 modül**, **35 konu**. Bunlardan **300 kart çıkmış sınav sorularından** türetilmiştir (2015: 19, 2017: 71, 2019: 80, 2021: 74, 2024: 56) ve kartta sınav yılı rozetiyle işaretlidir; ana sayfadaki **"Çıkmış sorular"** seçeneğiyle yalnızca bu kartlar çalışılabilir.
+Toplam **2002 kart**, **5 modül**, **35 konu**. Bunlardan **300 kart çıkmış sınav sorularından** türetilmiştir (2015: 19, 2017: 71, 2019: 80, 2021: 74, 2024: 56) ve kartta sınav yılı rozetiyle işaretlidir; ana sayfadaki **"Çıkmış sorular"** seçeneğiyle yalnızca bu kartlar çalışılabilir.
 
 ### Modül A — Genel Hukuk (389 kart)
 
@@ -57,56 +57,56 @@ Toplam **1873 kart**, **5 modül**, **35 konu**. Bunlardan **300 kart çıkmış
 | **A2** Türk Medeni Kanunu | 94 |
 | **A3** Türk Borçlar Kanunu | 72 |
 
-### Modül B — Kurum ve Uluslararası Çerçeve (121 kart)
+### Modül B — Kurum ve Uluslararası Çerçeve (175 kart)
 
 | Konu | Kart |
 |---|---|
-| **B1** TÜRKPATENT | 33 |
-| **B2** Vekillik Mevzuatı | 38 |
+| **B1** TÜRKPATENT | 54 |
+| **B2** Vekillik Mevzuatı | 71 |
 | **B3** Uluslararası Anlaşmalar | 50 |
 
-### Modül C — Tasarım Hukuku (191 kart)
+### Modül C — Tasarım Hukuku (215 kart)
 
 | Konu | Kart |
 |---|---|
-| **C1** Temel Kavramlar | 30 |
-| **C2** Koruma Şartları | 39 |
-| **C3** Başvuru ve Tescil Süreci | 43 |
-| **C4** Süreler ve Hak Kaybı | 25 |
-| **C5** Hak Sahipliği ve İhlal | 33 |
+| **C1** Temel Kavramlar | 33 |
+| **C2** Koruma Şartları | 42 |
+| **C3** Başvuru ve Tescil Süreci | 54 |
+| **C4** Süreler ve Hak Kaybı | 26 |
+| **C5** Hak Sahipliği ve İhlal | 39 |
 | **C6** Lahey Sistemi | 21 |
 
-### Modül D — Marka Hukuku (622 kart)
+### Modül D — Marka Hukuku (652 kart)
 
 | Konu | Kart |
 |---|---|
 | **D1** Marka Kavramı ve Türleri | 49 |
 | **D2** Başvuru Süreçleri ve Şekli Şartlar | 66 |
-| **D3** Mutlak Ret Nedenleri (m.5) | 77 |
+| **D3** Mutlak Ret Nedenleri (m.5) | 78 |
 | **D4** Nispi Ret Nedenleri (m.6) | 82 |
 | **D5** İtiraz ve İnceleme Süreçleri | 52 |
 | **D6** Tescil Sonrası İşlemler | 47 |
-| **D7** Marka Hakkının Kapsamı ve Sınırları | 30 |
+| **D7** Marka Hakkının Kapsamı ve Sınırları | 36 |
 | **D8** Markanın Kullanılması ve İptal | 42 |
-| **D9** Hükümsüzlük ve Sona Erme | 38 |
-| **D10** Marka Hakkına Tecavüz | 38 |
+| **D9** Hükümsüzlük ve Sona Erme | 39 |
+| **D10** Marka Hakkına Tecavüz | 50 |
 | **D11** Madrid Protokolü | 43 |
-| **D12** Coğrafi İşaret ve Geleneksel Ürün Adı | 58 |
+| **D12** Coğrafi İşaret ve Geleneksel Ürün Adı | 68 |
 
-### Modül E — Patent Hukuku (550 kart)
+### Modül E — Patent Hukuku (571 kart)
 
 | Konu | Kart |
 |---|---|
 | **E1** Patentlenebilirlik Kriterleri | 84 |
 | **E2** Araştırma Raporu ve Doküman Kategorileri | 45 |
 | **E3** Başvuru, Şekli Şartlar ve Belgeler | 88 |
-| **E4** İnceleme ve Belgelendirme | 38 |
+| **E4** İnceleme ve Belgelendirme | 40 |
 | **E5** Faydalı Model | 45 |
 | **E6** Ücretler ve Hakların Yeniden Tesisi | 39 |
 | **E7** Uluslararası Başvurular (PCT, EPC) | 49 |
 | **E8** Hak Sahipliği ve Çalışan Buluşları | 50 |
-| **E9** Tecavüz ve Hükümsüzlük | 52 |
-| **E10** Lisans ve Zorunlu Lisans | 40 |
+| **E9** Tecavüz ve Hükümsüzlük | 55 |
+| **E10** Lisans ve Zorunlu Lisans | 56 |
 | **E11** Entegre Devre Topoğrafyaları | 20 |
 
 ### Kaynaklar
