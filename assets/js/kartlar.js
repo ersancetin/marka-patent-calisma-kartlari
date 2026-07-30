@@ -272,7 +272,7 @@
         .map(function (d) { return d.id; });
       var n = idler.filter(function (id) { return secili.indexOf(id) !== -1; }).length;
       var rozet = bolum.querySelector('.modul-rozet');
-      rozet.textContent = n + ' konu';
+      rozet.textContent = (n === idler.length) ? 'tümü seçili' : n + '/' + idler.length + ' seçili';
       rozet.classList.toggle('hidden', n === 0);
       bolum.classList.toggle('secili', n > 0);
       var hepsiBtn = bolum.querySelector('.modul-hepsi');
