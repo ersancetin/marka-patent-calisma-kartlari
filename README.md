@@ -6,7 +6,7 @@
 
 <p align="center">
   Marka ve Patent Vekilliği Sınavı'na hazırlananlar için <strong>%100 tarayıcıda çalışan</strong>,
-  ücretsiz ve açık kaynak <strong>1194 soru–cevap kartı</strong>.<br>
+  ücretsiz ve açık kaynak <strong>1572 soru–cevap kartı</strong>.<br>
   Üyelik yok, çerez yok, veri toplanmaz.
 </p>
 
@@ -45,67 +45,67 @@ ve aynı ilkeyi paylaşır: **her şey kullanıcının tarayıcısında çalış
 İçerik, **Marka & Patent Vekilliği Sınavı konu taksonomisine** göre düzenlenmiştir:
 `Modül (A–E) → Konu (A1, D3, E1 …) → Kart (alt konu kodlu)`
 
-Toplam **1194 kart**, **5 modül**, **35 konu**.
+Toplam **1572 kart**, **5 modül**, **35 konu**.
 
-### Modül A — Genel Hukuk (328 kart)
+### Modül A — Genel Hukuk (356 kart)
 
 | Konu | Kart |
 |---|---|
 | **A1** Türk Ticaret Kanunu | 208 |
-| **A2** Türk Medeni Kanunu | 68 |
-| **A3** Türk Borçlar Kanunu | 52 |
+| **A2** Türk Medeni Kanunu | 82 |
+| **A3** Türk Borçlar Kanunu | 66 |
 
-### Modül B — Kurum ve Uluslararası Çerçeve (86 kart)
-
-| Konu | Kart |
-|---|---|
-| **B1** TÜRKPATENT | 22 |
-| **B2** Vekillik Mevzuatı | 26 |
-| **B3** Uluslararası Anlaşmalar | 38 |
-
-### Modül C — Tasarım Hukuku (127 kart)
+### Modül B — Kurum ve Uluslararası Çerçeve (114 kart)
 
 | Konu | Kart |
 |---|---|
-| **C1** Temel Kavramlar | 20 |
-| **C2** Koruma Şartları | 28 |
-| **C3** Başvuru ve Tescil Süreci | 29 |
-| **C4** Süreler ve Hak Kaybı | 15 |
-| **C5** Hak Sahipliği ve İhlal | 23 |
-| **C6** Lahey Sistemi | 12 |
+| **B1** TÜRKPATENT | 30 |
+| **B2** Vekillik Mevzuatı | 34 |
+| **B3** Uluslararası Anlaşmalar | 50 |
 
-### Modül D — Marka Hukuku (348 kart)
+### Modül C — Tasarım Hukuku (176 kart)
 
 | Konu | Kart |
 |---|---|
-| **D1** Marka Kavramı ve Türleri | 29 |
-| **D2** Başvuru Süreçleri ve Şekli Şartlar | 30 |
-| **D3** Mutlak Ret Nedenleri (m.5) | 43 |
-| **D4** Nispi Ret Nedenleri (m.6) | 48 |
-| **D5** İtiraz ve İnceleme Süreçleri | 24 |
-| **D6** Tescil Sonrası İşlemler | 25 |
-| **D7** Marka Hakkının Kapsamı ve Sınırları | 21 |
-| **D8** Markanın Kullanılması ve İptal | 26 |
-| **D9** Hükümsüzlük ve Sona Erme | 22 |
-| **D10** Marka Hakkına Tecavüz | 25 |
-| **D11** Madrid Protokolü | 24 |
-| **D12** Coğrafi İşaret ve Geleneksel Ürün Adı | 31 |
+| **C1** Temel Kavramlar | 28 |
+| **C2** Koruma Şartları | 37 |
+| **C3** Başvuru ve Tescil Süreci | 39 |
+| **C4** Süreler ve Hak Kaybı | 21 |
+| **C5** Hak Sahipliği ve İhlal | 33 |
+| **C6** Lahey Sistemi | 18 |
 
-### Modül E — Patent Hukuku (305 kart)
+### Modül D — Marka Hukuku (491 kart)
 
 | Konu | Kart |
 |---|---|
-| **E1** Patentlenebilirlik Kriterleri | 47 |
-| **E2** Araştırma Raporu ve Doküman Kategorileri | 22 |
-| **E3** Başvuru, Şekli Şartlar ve Belgeler | 39 |
-| **E4** İnceleme ve Belgelendirme | 21 |
-| **E5** Faydalı Model | 22 |
-| **E6** Ücretler ve Hakların Yeniden Tesisi | 26 |
-| **E7** Uluslararası Başvurular (PCT, EPC) | 26 |
-| **E8** Hak Sahipliği ve Çalışan Buluşları | 33 |
-| **E9** Tecavüz ve Hükümsüzlük | 30 |
-| **E10** Lisans ve Zorunlu Lisans | 25 |
-| **E11** Entegre Devre Topoğrafyaları | 14 |
+| **D1** Marka Kavramı ve Türleri | 41 |
+| **D2** Başvuru Süreçleri ve Şekli Şartlar | 42 |
+| **D3** Mutlak Ret Nedenleri (m.5) | 61 |
+| **D4** Nispi Ret Nedenleri (m.6) | 66 |
+| **D5** İtiraz ve İnceleme Süreçleri | 34 |
+| **D6** Tescil Sonrası İşlemler | 35 |
+| **D7** Marka Hakkının Kapsamı ve Sınırları | 30 |
+| **D8** Markanın Kullanılması ve İptal | 36 |
+| **D9** Hükümsüzlük ve Sona Erme | 32 |
+| **D10** Marka Hakkına Tecavüz | 37 |
+| **D11** Madrid Protokolü | 34 |
+| **D12** Coğrafi İşaret ve Geleneksel Ürün Adı | 43 |
+
+### Modül E — Patent Hukuku (435 kart)
+
+| Konu | Kart |
+|---|---|
+| **E1** Patentlenebilirlik Kriterleri | 67 |
+| **E2** Araştırma Raporu ve Doküman Kategorileri | 32 |
+| **E3** Başvuru, Şekli Şartlar ve Belgeler | 55 |
+| **E4** İnceleme ve Belgelendirme | 31 |
+| **E5** Faydalı Model | 32 |
+| **E6** Ücretler ve Hakların Yeniden Tesisi | 36 |
+| **E7** Uluslararası Başvurular (PCT, EPC) | 36 |
+| **E8** Hak Sahipliği ve Çalışan Buluşları | 45 |
+| **E9** Tecavüz ve Hükümsüzlük | 44 |
+| **E10** Lisans ve Zorunlu Lisans | 37 |
+| **E11** Entegre Devre Topoğrafyaları | 20 |
 
 > **Not:** Kartlar bir çalışma aracıdır; hukuki görüş veya güncel mevzuat metni yerine
 > geçmez. Mevzuat değişebilir — atıfları güncel metinden doğrulayınız.
