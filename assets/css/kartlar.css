@@ -31,8 +31,9 @@ main.container { padding-top: 34px; }
   color: var(--ink-soft);
   margin-bottom: 10px;
 }
-.modul-ad { flex-shrink: 0; }
-.modul-bas::after { content: ''; flex: 1; height: 1px; background: var(--line); order: 2; }
+.modul-ad { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.modul-kod { flex-shrink: 0; }
+.modul-bas::after { content: ''; flex: 1; min-width: 12px; height: 1px; background: var(--line); order: 2; }
 .modul-say {
   order: 3;
   font-size: 10.5px;
@@ -49,6 +50,10 @@ main.container { padding-top: 34px; }
   padding: 2px 7px;
   font-size: 10.5px;
   letter-spacing: .06em;
+}
+@media (max-width: 460px) {
+  .modul-bas { gap: 7px; }
+  .modul-say { font-size: 10px; }
 }
 
 .deste-card.bos {
