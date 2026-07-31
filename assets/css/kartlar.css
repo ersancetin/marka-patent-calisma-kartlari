@@ -148,7 +148,7 @@ main.container { padding-top: 34px; padding-bottom: 150px; }
   transition: border-color .13s ease;
 }
 .modul.acik { border-color: var(--line-strong); }
-.modul.secili { border-color: var(--red); }
+.modul.secili { border-color: var(--red-line); }
 
 .modul-bas {
   width: 100%;
@@ -164,12 +164,12 @@ main.container { padding-top: 34px; padding-bottom: 150px; }
   color: var(--ink);
 }
 @media (hover: hover) {
-  .modul-bas:hover { background: var(--red-soft); }
+  .modul-bas:hover { background: var(--wash); }
 }
 .modul-kod {
   flex-shrink: 0;
-  background: var(--red);
-  color: var(--white);
+  background: var(--red-soft);
+  color: var(--red);
   border-radius: 6px;
   padding: 4px 9px;
   font-size: 11px;
@@ -191,16 +191,14 @@ main.container { padding-top: 34px; padding-bottom: 150px; }
   color: var(--muted);
   white-space: nowrap;
 }
-.modul-rozet {
+/* seçim göstergesi: dolgulu rozet yerine küçük bir onay imi */
+.modul-tik {
   flex-shrink: 0;
-  background: var(--red);
-  color: var(--white);
-  border-radius: 99px;
-  padding: 3px 9px;
-  font-size: 11.5px;
-  font-weight: 700;
-  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  color: var(--red);
 }
+.modul-tik svg { display: block; }
 .modul-ok {
   flex-shrink: 0;
   color: var(--muted);
@@ -355,8 +353,8 @@ main.container { padding-top: 34px; padding-bottom: 150px; }
   gap: 12px;
   transition: border-color .13s ease, background .13s ease;
 }
-.deste-card:hover { border-color: var(--red); }
-.deste-card.selected { border-color: var(--red); background: var(--red-soft); }
+.deste-card:hover { border-color: var(--line-strong); }
+.deste-card.selected { border-color: var(--red-line); background: var(--red-soft); }
 .deste-card:disabled { opacity: .5; cursor: not-allowed; border-color: var(--line); background: var(--white); }
 
 .deste-icon {
@@ -367,7 +365,6 @@ main.container { padding-top: 34px; padding-bottom: 150px; }
   background: var(--red-soft);
   color: var(--red);
 }
-.deste-card.selected .deste-icon { background: var(--red); color: var(--white); }
 .deste-icon svg { display: block; }
 
 .deste-body { flex: 1; min-width: 0; }

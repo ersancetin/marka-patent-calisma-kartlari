@@ -115,6 +115,7 @@
       var bolum = document.createElement('section');
       bolum.className = 'modul';
       bolum.dataset.modul = mo.kod;
+      bolum.dataset.kart = kartSayisi;
 
       var bas = document.createElement('button');
       bas.type = 'button';
@@ -123,7 +124,9 @@
       bas.innerHTML =
         '<span class="modul-kod">' + mo.kod + '</span>' +
         '<span class="modul-ad">' + mo.ad + '</span>' +
-        '<span class="modul-rozet hidden"></span>' +
+        '<span class="modul-tik hidden"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" ' +
+        'stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">' +
+        '<path d="M20 6L9 17l-5-5"/></svg></span>' +
         '<span class="modul-say">' + konular.length + ' konu · ' + kartSayisi + ' kart</span>' +
         '<svg class="modul-ok" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" ' +
         'stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>';
@@ -296,9 +299,12 @@
         .filter(function (d) { return d.modulKod === kod && d.kartlar.length; })
         .map(function (d) { return d.id; });
       var n = idler.filter(function (id) { return secili.indexOf(id) !== -1; }).length;
-      var rozet = bolum.querySelector('.modul-rozet');
-      rozet.textContent = (n === idler.length) ? 'tümü seçili' : n + '/' + idler.length + ' seçili';
-      rozet.classList.toggle('hidden', n === 0);
+      var kartSayisi = bolum.dataset.kart;
+      bolum.querySelector('.modul-tik').classList.toggle('hidden', n === 0);
+      bolum.querySelector('.modul-say').textContent =
+        (n === 0 ? idler.length + ' konu'
+         : n === idler.length ? 'tümü seçili'
+         : n + '/' + idler.length + ' konu seçili') + ' · ' + kartSayisi + ' kart';
       bolum.classList.toggle('secili', n > 0);
       var hepsiBtn = bolum.querySelector('.modul-hepsi');
       if (hepsiBtn) hepsiBtn.textContent = (n === idler.length) ? 'Modül seçimini kaldır' : 'Modülün tümünü seç';
