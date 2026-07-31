@@ -2,7 +2,7 @@
    Çalışma kartları arayüzü — konu seçimi, kart, tur özeti
    ============================================================ */
 
-main.container { padding-top: 34px; padding-bottom: 150px; }
+main.container { padding-top: 34px; padding-bottom: 20px; }
 
 /* ---------- Sayfa başlığı ---------- */
 
@@ -687,4 +687,6 @@ main.container { padding-top: 34px; padding-bottom: 150px; }
 }
 
 /* ---------- Alt bar gizliyken sayfa boşluğu ---------- */
-body.bar-yok main.container { padding-bottom: 46px; }
+/* Yapışkan çubuk açıkken altbilgi çubuğun altında kalmasın —
+   gizlilik bağlantısı yalnızca orada olduğu için erişilebilir kalmalı. */
+body:not(.bar-yok) .site-footer { padding-bottom: 104px; }
